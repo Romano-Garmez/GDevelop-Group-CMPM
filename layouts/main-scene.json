@@ -51,6 +51,19 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Leaderboards::HasPlayerJustClosedLeaderboardView"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
