@@ -72,6 +72,132 @@
         "name": "PlayerSprite",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Switch.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Switch",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Switch2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Switch2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Switch3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Switch3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightBulb.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LightBulb",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightBulb2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/LightBulb2.png\"}",
+        "name": "LightBulb2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Switch4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Switch4.png\"}",
+        "name": "Switch4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightBulb3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LightBulb3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Switch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Switch.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Switch2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Switch2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightBulb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/LightBulb.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightBulb2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/LightBulb2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Button2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fuse.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Fuse.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
