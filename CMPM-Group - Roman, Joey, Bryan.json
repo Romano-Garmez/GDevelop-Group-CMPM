@@ -176,7 +176,7 @@
         "alwaysLoaded": false,
         "file": "assets/Button.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Button.png\",\"extension\":\".png\"}",
         "name": "assets/Button.png",
         "smoothed": false,
         "userAdded": false
@@ -185,7 +185,7 @@
         "alwaysLoaded": false,
         "file": "assets/Button2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Button2.png\",\"extension\":\".png\"}",
         "name": "assets/Button2.png",
         "smoothed": false,
         "userAdded": true
@@ -259,6 +259,51 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/WireFuseHolder.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HoldableWireLR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/HoldableWireLR.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HoldableWireTurn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/HoldableWireTurn.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PowerSource.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/PowerSource.png",
         "smoothed": false,
         "userAdded": false
       }
