@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.338969317284539,
+    "zoomFactor": 2.777396552483554,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -95,6 +95,81 @@
       "x": 986,
       "y": 612,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireLR",
+      "persistentUuid": "65ea3670-efba-419e-ade6-bcb9f8b61057",
+      "width": 0,
+      "x": 970,
+      "y": 653,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireLR",
+      "persistentUuid": "ab500b05-67d8-4b22-964e-50e6dd1afb7e",
+      "width": 0,
+      "x": 1002,
+      "y": 653,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireTurn",
+      "persistentUuid": "8b0e3d21-029c-4f94-8a4b-03f102597a73",
+      "width": 0,
+      "x": 1034,
+      "y": 653,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireUD",
+      "persistentUuid": "a7b1f83e-88da-4f91-8daf-4b4db7186a95",
+      "width": 0,
+      "x": 1034,
+      "y": 685,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireFuseHolder",
+      "persistentUuid": "9c923c5e-9e5e-4c9d-ac67-8c95d10dd2f1",
+      "width": 0,
+      "x": 938,
+      "y": 653,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -245,7 +320,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
           "name": "Switch",
@@ -588,22 +669,244 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewTileMap",
-      "type": "TileMap::TileMap",
+      "name": "WireLR",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "content": {
-        "tilemapJsonFile": "",
-        "tilesetJsonFile": "",
-        "tilemapAtlasImage": "NewTiledSprite",
-        "displayMode": "visible",
-        "layerIndex": 0,
-        "levelIndex": 0,
-        "animationSpeedScale": 1,
-        "animationFps": 4
-      }
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/WireLR.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 12
+                      },
+                      {
+                        "x": 32,
+                        "y": 12
+                      },
+                      {
+                        "x": 32,
+                        "y": 21
+                      },
+                      {
+                        "x": 0,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WireUD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/WireUD.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 0
+                      },
+                      {
+                        "x": 21,
+                        "y": 32
+                      },
+                      {
+                        "x": 11,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WireTurn",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/WireTurn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 11
+                      },
+                      {
+                        "x": 21,
+                        "y": 11
+                      },
+                      {
+                        "x": 21,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WireFuseHolder",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/WireFuseHolder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 11
+                      },
+                      {
+                        "x": 32,
+                        "y": 11
+                      },
+                      {
+                        "x": 32,
+                        "y": 21
+                      },
+                      {
+                        "x": 0,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -611,9 +914,6 @@
     "children": [
       {
         "objectName": "PlayerSprite"
-      },
-      {
-        "objectName": "NewTileMap"
       },
       {
         "objectName": "Switch"
@@ -626,6 +926,18 @@
       },
       {
         "objectName": "Fuse"
+      },
+      {
+        "objectName": "WireFuseHolder"
+      },
+      {
+        "objectName": "WireLR"
+      },
+      {
+        "objectName": "WireUD"
+      },
+      {
+        "objectName": "WireTurn"
       }
     ]
   },
