@@ -342,6 +342,15 @@
         "name": "assets\\Tile.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Tile32.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

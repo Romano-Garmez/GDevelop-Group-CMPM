@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.761936267719765,
+    "zoomFactor": 2.4323477282328394,
     "windowMask": false
   },
   "objectsGroups": [
@@ -421,7 +421,7 @@
       "depth": 0,
       "height": 1000,
       "layer": "alignment grid",
-      "name": "NewTiledSprite",
+      "name": "Alignment_Grid",
       "persistentUuid": "edc59824-f2d1-4127-a1ba-9739666c89f8",
       "width": 1000,
       "x": -16,
@@ -1602,8 +1602,8 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "assets\\Tile.png",
+      "name": "Alignment_Grid",
+      "texture": "assets/Tile32.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -1614,6 +1614,12 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "Alignment_Grid"
+      },
+      {
+        "objectName": "youWinText"
+      },
       {
         "objectName": "PlayerSprite"
       },
@@ -1636,9 +1642,6 @@
         "objectName": "WireLR"
       },
       {
-        "objectName": "NewTiledSprite"
-      },
-      {
         "objectName": "electricitySprite"
       },
       {
@@ -1649,9 +1652,6 @@
       },
       {
         "objectName": "HoldableWireTurn"
-      },
-      {
-        "objectName": "youWinText"
       },
       {
         "objectName": "PowerSource"
