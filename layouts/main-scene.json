@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.993459038490204,
+    "zoomFactor": 0.8416428125373137,
     "windowMask": false
   },
   "objectsGroups": [
@@ -42,6 +42,9 @@
         },
         {
           "name": "HoldableWireTurn"
+        },
+        {
+          "name": "PowerEndpoint"
         }
       ]
     }
@@ -248,15 +251,15 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "HoldableWireLR",
       "persistentUuid": "dc6f2b91-ae54-407c-b597-8bcd37d266a6",
       "width": 0,
-      "x": 377,
-      "y": 455,
+      "x": 343,
+      "y": 462,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,8 +273,8 @@
       "name": "HoldableWireTurn",
       "persistentUuid": "5cb8dd4a-78d9-4a1d-b52f-959e2a3ab046",
       "width": 0,
-      "x": 442,
-      "y": 458,
+      "x": 552,
+      "y": 452,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -333,6 +336,66 @@
       "x": 379,
       "y": 498,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PowerEndpoint",
+      "persistentUuid": "009e74fc-cdbb-4d26-9216-72ccae331831",
+      "width": 0,
+      "x": 464,
+      "y": 464,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "922cb7ba-3cef-435c-bbc0-e860e546af94",
+      "width": 0,
+      "x": 560,
+      "y": 409,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "16907aae-26d9-453e-8cc0-c8ddb6a46678",
+      "width": 0,
+      "x": 403,
+      "y": 430,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "win text",
+      "name": "youWinText",
+      "persistentUuid": "f80f48f6-f468-46b4-82f7-290f49338cd4",
+      "width": 0,
+      "x": 228,
+      "y": 319,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -788,7 +851,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Fuse",
-      "persistentUuid": "87726a62-c87f-4f86-8894-9d36b42fd83f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1404,6 +1466,107 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PowerEndpoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/PowerEndpoint.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "youWinText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "you win!!!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 72,
+      "color": {
+        "b": 0,
+        "g": 255,
+        "r": 12
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "you win!!!",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 72,
+        "color": "12;255;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1443,7 +1606,13 @@
         "objectName": "HoldableWireTurn"
       },
       {
+        "objectName": "youWinText"
+      },
+      {
         "objectName": "PowerSource"
+      },
+      {
+        "objectName": "PowerEndpoint"
       }
     ]
   },
@@ -2129,6 +2298,34 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "electricitySprite",
+                "PowerEndpoint",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"win text\""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2195,6 +2392,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "win text",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -2225,6 +2455,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

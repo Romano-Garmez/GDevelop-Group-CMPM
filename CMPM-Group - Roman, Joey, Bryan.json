@@ -324,6 +324,15 @@
         "name": "assets/electricitySprite.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PowerEndpoint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/PowerEndpoint.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
