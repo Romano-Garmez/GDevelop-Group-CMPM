@@ -18,12 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.4323477282328283,
+    "zoomFactor": 1.993459038490204,
     "windowMask": false
   },
   "objectsGroups": [
     {
-      "name": "Path",
+      "name": "PathObjects",
       "objects": [
         {
           "name": "PowerSource"
@@ -36,6 +36,12 @@
         },
         {
           "name": "WireFuseHolder"
+        },
+        {
+          "name": "HoldableWireLR"
+        },
+        {
+          "name": "HoldableWireTurn"
         }
       ]
     }
@@ -144,8 +150,8 @@
       "name": "WireLR",
       "persistentUuid": "65ea3670-efba-419e-ade6-bcb9f8b61057",
       "width": 0,
-      "x": 414,
-      "y": 415,
+      "x": 416,
+      "y": 384,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -159,8 +165,8 @@
       "name": "WireLR",
       "persistentUuid": "ab500b05-67d8-4b22-964e-50e6dd1afb7e",
       "width": 0,
-      "x": 446,
-      "y": 415,
+      "x": 448,
+      "y": 384,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,8 +180,8 @@
       "name": "WireTurn",
       "persistentUuid": "8b0e3d21-029c-4f94-8a4b-03f102597a73",
       "width": 0,
-      "x": 478,
-      "y": 415,
+      "x": 480,
+      "y": 384,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,8 +195,8 @@
       "name": "WireFuseHolder",
       "persistentUuid": "9c923c5e-9e5e-4c9d-ac67-8c95d10dd2f1",
       "width": 0,
-      "x": 382,
-      "y": 415,
+      "x": 384,
+      "y": 384,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -204,8 +210,8 @@
       "name": "WireLR",
       "persistentUuid": "31ddb423-31a1-4a02-9fb5-100c11b06ba5",
       "width": 0,
-      "x": 350,
-      "y": 415,
+      "x": 352,
+      "y": 384,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,8 +225,8 @@
       "name": "WireTurn",
       "persistentUuid": "c64058f4-f587-4ad7-9608-44af4f544656",
       "width": 0,
-      "x": 318,
-      "y": 415,
+      "x": 320,
+      "y": 384,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -234,8 +240,8 @@
       "name": "WireLR",
       "persistentUuid": "80d38687-a8d8-4914-abaa-b5b5a3bf384d",
       "width": 0,
-      "x": 318,
-      "y": 383,
+      "x": 320,
+      "y": 352,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -265,7 +271,7 @@
       "persistentUuid": "5cb8dd4a-78d9-4a1d-b52f-959e2a3ab046",
       "width": 0,
       "x": 442,
-      "y": 451,
+      "y": 458,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -279,39 +285,9 @@
       "name": "PowerSource",
       "persistentUuid": "0bed8cdc-d4bd-4a04-88ce-c6787b51dfb3",
       "width": 0,
-      "x": 318,
-      "y": 351,
+      "x": 320,
+      "y": 320,
       "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WireLR",
-      "persistentUuid": "959bad5a-3114-47f4-baa6-56fa018e2fd9",
-      "width": 0,
-      "x": 286,
-      "y": 351,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WireLR",
-      "persistentUuid": "0936d18e-720b-4da9-8482-cf317067001b",
-      "width": 0,
-      "x": 254,
-      "y": 351,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -339,9 +315,24 @@
       "name": "electricitySprite",
       "persistentUuid": "2fb8f675-8aa2-433c-9524-fb215190f71f",
       "width": 0,
-      "x": 334,
-      "y": 367,
+      "x": 320,
+      "y": 320,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "eb59f9f5-eaf8-4bf0-9079-3fb50f06b302",
+      "width": 0,
+      "x": 379,
+      "y": 498,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -893,13 +884,7 @@
           "booleanParameters": {}
         }
       ],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -915,8 +900,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -988,8 +973,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1061,8 +1046,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1140,8 +1125,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1293,8 +1278,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1935,7 +1920,7 @@
               },
               "parameters": [
                 "electricitySprite",
-                "Path",
+                "PathObjects",
                 "",
                 "",
                 ""
@@ -1959,6 +1944,62 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DraggableBehavior::Dropped"
+          },
+          "parameters": [
+            "HoldableWireLR",
+            "Draggable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "HoldableWireLR",
+            "=",
+            "int((HoldableWireLR.X())/32)*32",
+            "=",
+            "int((HoldableWireLR.Y())/32)*32"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DraggableBehavior::Dropped"
+          },
+          "parameters": [
+            "HoldableWireTurn",
+            "Draggable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "HoldableWireTurn",
+            "=",
+            "int((HoldableWireTurn.X())/32)*32",
+            "=",
+            "int((HoldableWireTurn.Y())/32)*32"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
