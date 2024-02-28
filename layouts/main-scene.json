@@ -1469,7 +1469,7 @@
             "",
             "\"actionTimeout\"",
             ">=",
-            ".25"
+            ".15"
           ]
         }
       ],
@@ -1495,37 +1495,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Fuse",
-            "WireFuseHolder",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Fuse",
-            "=",
-            "WireFuseHolder.CenterX()",
-            "=",
-            "WireFuseHolder.CenterY()"
-          ]
-        }
-      ]
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1533,48 +1502,119 @@
       "name": "Debug",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "debug",
-            "True"
-          ]
-        }
-      ],
-      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "ObjectVariableAsBoolean"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "WireLR",
-                "connected",
+                "debug",
                 "True"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "WireLR",
+                    "connected",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "WireLR",
+                    "Opacity",
+                    "=",
+                    "127"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "WireLR",
+                    "energized",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "WireLR",
+                    "Effect",
+                    "\"Effect\"",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Snapping",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fuse",
+                "WireFuseHolder",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                "value": "SetCenter"
               },
               "parameters": [
-                "WireLR",
-                "Opacity",
+                "Fuse",
                 "=",
-                "127"
+                "WireFuseHolder.CenterX()",
+                "=",
+                "WireFuseHolder.CenterY()"
               ]
             }
           ]
@@ -1584,30 +1624,59 @@
           "conditions": [
             {
               "type": {
-                "value": "ObjectVariableAsBoolean"
+                "value": "DraggableBehavior::Dropped"
               },
               "parameters": [
-                "WireLR",
-                "energized",
-                "True"
+                "HoldableWireLR",
+                "Draggable"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                "value": "SetCenter"
               },
               "parameters": [
-                "WireLR",
-                "Effect",
-                "\"Effect\"",
-                "yes"
+                "HoldableWireLR",
+                "=",
+                "int((HoldableWireLR.X())/32)*32",
+                "=",
+                "int((HoldableWireLR.Y())/32)*32"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "HoldableWireTurn",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "HoldableWireTurn",
+                "=",
+                "int((HoldableWireTurn.X())/32)*32",
+                "=",
+                "int((HoldableWireTurn.Y())/32)*32"
               ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -1668,7 +1737,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterY() - 32"
+                "electricitySprite.CenterY() - 16"
               ]
             },
             {
@@ -1759,7 +1828,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterX() - 32"
+                "electricitySprite.CenterX() - 16"
               ]
             }
           ]
@@ -1814,7 +1883,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterY() + 32"
+                "electricitySprite.CenterY() + 16"
               ]
             },
             {
@@ -1905,7 +1974,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterX() + 32"
+                "electricitySprite.CenterX() + 16"
               ]
             }
           ]
@@ -1944,62 +2013,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DraggableBehavior::Dropped"
-          },
-          "parameters": [
-            "HoldableWireLR",
-            "Draggable"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "HoldableWireLR",
-            "=",
-            "int((HoldableWireLR.X())/32)*32",
-            "=",
-            "int((HoldableWireLR.Y())/32)*32"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DraggableBehavior::Dropped"
-          },
-          "parameters": [
-            "HoldableWireTurn",
-            "Draggable"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "HoldableWireTurn",
-            "=",
-            "int((HoldableWireTurn.X())/32)*32",
-            "=",
-            "int((HoldableWireTurn.Y())/32)*32"
-          ]
-        }
-      ]
     }
   ],
   "layers": [
