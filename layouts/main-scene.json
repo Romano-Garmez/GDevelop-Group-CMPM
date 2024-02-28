@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.871051280997027,
+    "zoomFactor": 0.761936267719765,
     "windowMask": false
   },
   "objectsGroups": [
@@ -78,8 +78,8 @@
       "name": "PlayerSprite",
       "persistentUuid": "04d8023e-b9a7-435b-b329-6dba81811578",
       "width": 0,
-      "x": 403,
-      "y": 222,
+      "x": 372,
+      "y": 230,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -123,8 +123,8 @@
       "name": "Button",
       "persistentUuid": "a6a35b3d-dddd-4ebc-be98-e7d30fe633b4",
       "width": 0,
-      "x": 468,
-      "y": 266,
+      "x": 461,
+      "y": 309,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -411,6 +411,22 @@
       "x": 540,
       "y": 488,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1000,
+      "layer": "alignment grid",
+      "name": "NewTiledSprite",
+      "persistentUuid": "edc59824-f2d1-4127-a1ba-9739666c89f8",
+      "width": 1000,
+      "x": -16,
+      "y": -16,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1582,6 +1598,17 @@
         "characterSize": 72,
         "color": "12;255;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "assets\\Tile.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1607,6 +1634,9 @@
       },
       {
         "objectName": "WireLR"
+      },
+      {
+        "objectName": "NewTiledSprite"
       },
       {
         "objectName": "electricitySprite"
@@ -2429,6 +2459,39 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "alignment grid",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 0,
       "ambientLightColorG": 8042920,
