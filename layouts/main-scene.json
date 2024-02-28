@@ -135,8 +135,8 @@
       "name": "Fuse",
       "persistentUuid": "6cc00f72-e212-4e54-a884-565e8a25a300",
       "width": 0,
-      "x": 430,
-      "y": 374,
+      "x": 479,
+      "y": 333,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -788,6 +788,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Fuse",
+      "persistentUuid": "87726a62-c87f-4f86-8894-9d36b42fd83f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1025,6 +1026,12 @@
         {
           "folded": true,
           "name": "connected",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "hasFuse",
           "type": "boolean",
           "value": false
         }
@@ -1683,6 +1690,77 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "Element Logic",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "WireFuseHolder",
+                "Fuse",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "WireFuseHolder",
+                "hasFuse",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PathObjects",
+                "Fuse",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "WireFuseHolder",
+                "hasFuse",
+                "False"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "ElectricityCircleMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1992,6 +2070,47 @@
                 "PathObjects",
                 "",
                 "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "electricitySprite",
+                "=",
+                "Variable(elecPrevXPos)",
+                "=",
+                "Variable(elecPrevYPos)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "electricitySprite",
+                "WireFuseHolder",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "WireFuseHolder",
+                "hasFuse",
                 ""
               ]
             }
