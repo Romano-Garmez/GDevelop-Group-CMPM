@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3841198046306902,
+    "zoomFactor": 2.5991525916796614,
     "windowMask": false
   },
   "objectsGroups": [
@@ -251,7 +251,7 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -261,21 +261,6 @@
       "x": 343,
       "y": 462,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireTurn",
-      "persistentUuid": "5cb8dd4a-78d9-4a1d-b52f-959e2a3ab046",
-      "width": 0,
-      "x": 552,
-      "y": 452,
-      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -300,21 +285,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
-      "persistentUuid": "282a4a11-dd8c-478e-af6b-e0756aae0d7b",
-      "width": 0,
-      "x": 250,
-      "y": 439,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "electricitySprite",
       "persistentUuid": "2fb8f675-8aa2-433c-9524-fb215190f71f",
       "width": 0,
@@ -326,15 +296,15 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "HoldableWireLR",
       "persistentUuid": "eb59f9f5-eaf8-4bf0-9079-3fb50f06b302",
       "width": 0,
-      "x": 379,
-      "y": 498,
+      "x": 415,
+      "y": 436,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,8 +333,8 @@
       "name": "HoldableWireTurn",
       "persistentUuid": "922cb7ba-3cef-435c-bbc0-e860e546af94",
       "width": 0,
-      "x": 560,
-      "y": 409,
+      "x": 572,
+      "y": 441,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -396,6 +366,51 @@
       "x": 228,
       "y": 319,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireTurn",
+      "persistentUuid": "dc27d9c3-e996-432e-9833-535e447bdfa3",
+      "width": 0,
+      "x": 480,
+      "y": 448,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireTurn",
+      "persistentUuid": "c31506e5-818d-409a-8142-9f6810775218",
+      "width": 0,
+      "x": 544,
+      "y": 416,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "7e620b38-e235-4d47-ade0-22ccc76cbd3a",
+      "width": 0,
+      "x": 540,
+      "y": 488,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1273,8 +1288,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1838,43 +1853,7 @@
                       },
                       "parameters": [
                         "HoldableWireLR",
-                        "WireTurn",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "HoldableWireLR",
-                        "WireLR",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "HoldableWireLR",
                         "WireFuseHolder",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "HoldableWireLR",
-                        "HoldableWireTurn",
                         "",
                         "",
                         ""
@@ -1943,43 +1922,7 @@
                       },
                       "parameters": [
                         "HoldableWireTurn",
-                        "WireTurn",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "HoldableWireTurn",
-                        "WireLR",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "HoldableWireTurn",
                         "WireFuseHolder",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "HoldableWireTurn",
-                        "HoldableWireLR",
                         "",
                         "",
                         ""
