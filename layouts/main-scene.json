@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8416428125373137,
+    "zoomFactor": 2.1301659159002804,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1821,6 +1821,83 @@
                 "int((HoldableWireLR.Y())/32)*32"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireLR",
+                        "WireTurn",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireLR",
+                        "WireLR",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireLR",
+                        "WireFuseHolder",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireLR",
+                        "HoldableWireTurn",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "HoldableWireLR",
+                    "=",
+                    "HoldableWireLR.CenterX()+Random(128)",
+                    "=",
+                    "HoldableWireLR.CenterY()+ Random(128)"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -1847,6 +1924,83 @@
                 "int((HoldableWireTurn.X())/32)*32",
                 "=",
                 "int((HoldableWireTurn.Y())/32)*32"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireTurn",
+                        "WireTurn",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireTurn",
+                        "WireLR",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireTurn",
+                        "WireFuseHolder",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "HoldableWireTurn",
+                        "HoldableWireLR",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "HoldableWireTurn",
+                    "=",
+                    "HoldableWireTurn.CenterX()+Random(128)",
+                    "=",
+                    "HoldableWireTurn.CenterY()+ Random(128)"
+                  ]
+                }
               ]
             }
           ]
