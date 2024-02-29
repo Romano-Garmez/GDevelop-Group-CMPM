@@ -93,6 +93,10 @@
       "type": "SmoothCamera::SmoothCamera"
     },
     {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
+    },
+    {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }

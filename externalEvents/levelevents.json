@@ -32,7 +32,7 @@
           },
           "parameters": [
             "",
-            "\"Alignment Grid (HIDE BEFORE RUNTIME)\""
+            "\"Debug\""
           ]
         },
         {
@@ -83,34 +83,165 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Collision",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "SetCameraCenterX"
-          },
-          "parameters": [
-            "",
-            "=",
-            "CameraCenterX(\"\", 0)",
-            "\"Alignment Grid (HIDE BEFORE RUNTIME)\"",
-            "0"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "CollisionDetect",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "CollisionDetect",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "SetCameraCenterY"
-          },
-          "parameters": [
-            "",
-            "=",
-            "CameraCenterY(\"\", 0)",
-            "\"Alignment Grid (HIDE BEFORE RUNTIME)\"",
-            "0"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Door",
+                "open",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "Door",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "electricitySprite",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Door",
+                "Opacity",
+                "=",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Door",
+                "open",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "electricitySprite",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Door",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Door",
+                "open",
+                "False"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -241,6 +372,46 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "Fuse",
+                "128",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Fuse",
+                "Draggable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Fuse",
+                "Effect",
+                "\"Draggable\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "Distance"
               },
               "parameters": [
@@ -271,6 +442,46 @@
                 "Effect",
                 "\"Draggable\"",
                 "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "HoldableWireLR",
+                "128",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "HoldableWireLR",
+                "Draggable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "HoldableWireLR",
+                "Effect",
+                "\"Draggable\"",
+                "no"
               ]
             }
           ]
@@ -324,7 +535,7 @@
               },
               "parameters": [
                 "PlayerSprite",
-                "Fuse",
+                "HoldableWireTurn",
                 "128",
                 ""
               ]
@@ -336,7 +547,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "Fuse",
+                "HoldableWireTurn",
                 "Draggable",
                 "no"
               ]
@@ -346,7 +557,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "Fuse",
+                "HoldableWireTurn",
                 "Effect",
                 "\"Draggable\"",
                 "no"
@@ -386,7 +597,7 @@
               },
               "parameters": [
                 "",
-                "\"Alignment Grid (HIDE BEFORE RUNTIME)\""
+                "\"Debug\""
               ]
             }
           ],

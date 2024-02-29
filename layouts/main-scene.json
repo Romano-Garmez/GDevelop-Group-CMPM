@@ -18,37 +18,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9610368693714805,
+    "zoomFactor": 1.9934590384902153,
     "windowMask": false
   },
-  "objectsGroups": [
-    {
-      "name": "PathObjects",
-      "objects": [
-        {
-          "name": "PowerSource"
-        },
-        {
-          "name": "WireLR"
-        },
-        {
-          "name": "WireTurn"
-        },
-        {
-          "name": "WireFuseHolder"
-        },
-        {
-          "name": "HoldableWireLR"
-        },
-        {
-          "name": "HoldableWireTurn"
-        },
-        {
-          "name": "PowerEndpoint"
-        }
-      ]
-    }
-  ],
+  "objectsGroups": [],
   "variables": [
     {
       "folded": true,
@@ -420,7 +393,7 @@
       "customSize": true,
       "depth": 0,
       "height": 1000,
-      "layer": "Alignment Grid (HIDE BEFORE RUNTIME)",
+      "layer": "Debug",
       "name": "Alignment_Grid",
       "persistentUuid": "edc59824-f2d1-4127-a1ba-9739666c89f8",
       "width": 1000,
@@ -485,11 +458,65 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Import all movement and mechanic code"
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
       "target": "LevelEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterX(\"\", 0)",
+            "\"Debug\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterY(\"\", 0)",
+            "\"Debug\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "What should happen when you win"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -565,44 +592,11 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Alignment Grid (HIDE BEFORE RUNTIME)",
+      "name": "Debug",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "UI",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
     },
     {
       "ambientLightColorB": 200,

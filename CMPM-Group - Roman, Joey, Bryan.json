@@ -351,6 +351,42 @@
         "name": "assets/Tile32.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Wall.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WallSideways.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/WallSideways.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Door.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CollisionDetect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CollisionDetect.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1337,20 +1373,7 @@
       "name": "PowerSource",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "energized",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
-          "name": "connected",
-          "type": "boolean",
-          "value": true
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1464,6 +1487,106 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Wall",
+      "texture": "assets/Wall.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "WallSideways",
+      "texture": "assets/WallSideways.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "open",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Door.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 0
+                      },
+                      {
+                        "x": 18,
+                        "y": 32
+                      },
+                      {
+                        "x": 14,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "CollisionDetect",
+      "texture": "assets/CollisionDetect.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1510,10 +1633,49 @@
       },
       {
         "objectName": "PowerEndpoint"
+      },
+      {
+        "objectName": "Wall"
+      },
+      {
+        "objectName": "WallSideways"
+      },
+      {
+        "objectName": "Door"
+      },
+      {
+        "objectName": "CollisionDetect"
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "PathObjects",
+      "objects": [
+        {
+          "name": "PowerSource"
+        },
+        {
+          "name": "WireLR"
+        },
+        {
+          "name": "WireTurn"
+        },
+        {
+          "name": "WireFuseHolder"
+        },
+        {
+          "name": "HoldableWireLR"
+        },
+        {
+          "name": "HoldableWireTurn"
+        },
+        {
+          "name": "PowerEndpoint"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -1543,10 +1705,6 @@
     }
   ],
   "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/sticker"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"

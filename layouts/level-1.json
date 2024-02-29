@@ -18,17 +18,413 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.875,
+    "zoomFactor": 3.085490696827779,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1000,
+      "layer": "Debug",
+      "name": "Alignment_Grid",
+      "persistentUuid": "3a523de1-2fd9-48c5-81d8-994f92df6322",
+      "width": 1000,
+      "x": -16,
+      "y": -16,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "db174b09-e4b5-4ca7-948e-c69376b7318f",
+      "width": 32,
+      "x": 240,
+      "y": 208,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "85f9463d-0c9b-4b70-aea4-dc00a0d2599a",
+      "width": 32,
+      "x": 432,
+      "y": 207,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "WallSideways",
+      "persistentUuid": "2f01ba62-9954-4034-a5d2-011ce15504b4",
+      "width": 160,
+      "x": 272,
+      "y": 176,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "cc1be063-ae51-40a1-87c6-6807edd85833",
+      "width": 32,
+      "x": 240,
+      "y": 208,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "b0634a8e-b377-470b-bfb1-a3cd36a98436",
+      "width": 32,
+      "x": 433,
+      "y": 208,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "6676ac99-0540-4f7f-9c5b-b7d5c921d035",
+      "width": 160,
+      "x": 272,
+      "y": 176,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PowerSource",
+      "persistentUuid": "8cbd125e-e8b3-4d65-af64-06adae654255",
+      "width": 0,
+      "x": 320,
+      "y": 448,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "6001f4eb-03a8-433c-ac71-2d651111d0aa",
+      "width": 0,
+      "x": 336,
+      "y": 335,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "WallSideways",
+      "persistentUuid": "af5bc214-380a-4f52-b1be-2dd57c29a95f",
+      "width": 64,
+      "x": 271,
+      "y": 335,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "WallSideways",
+      "persistentUuid": "8a459fda-665d-4edf-9ec4-79b82c8c5e41",
+      "width": 64,
+      "x": 368,
+      "y": 337,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "2715f7e9-1713-4c4a-903b-069648843fa2",
+      "width": 64,
+      "x": 271,
+      "y": 335,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "0b1895b5-7290-4674-9b2d-cc08a0399b85",
+      "width": 64,
+      "x": 368,
+      "y": 336,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PlayerSprite",
+      "persistentUuid": "c64080c3-7c9f-4686-af65-fa31e00e4743",
+      "width": 0,
+      "x": 419,
+      "y": 477,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "35c441f0-9395-4e6a-9e07-84adcd1c16e9",
+      "width": 0,
+      "x": 466,
+      "y": 428,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "8464617b-75bf-419b-bd0f-6c9c86beed76",
+      "width": 0,
+      "x": 477,
+      "y": 382,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "940dcdef-1683-4922-bbb0-343be25e9ad8",
+      "width": 0,
+      "x": 291,
+      "y": 411,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "77787b99-889d-445b-b31c-31790c3566bc",
+      "width": 0,
+      "x": 383,
+      "y": 414,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "05e50d9b-5309-4558-a0d9-e4edcd1c32cb",
+      "width": 0,
+      "x": 494,
+      "y": 357,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "electricitySprite",
+      "persistentUuid": "ae22611a-c899-444b-81f0-aaa79821f232",
+      "width": 0,
+      "x": 320,
+      "y": 448,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireLR",
+      "persistentUuid": "e528250b-ef3f-4b40-b776-795410c61055",
+      "width": 0,
+      "x": 384,
+      "y": 448,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireLR",
+      "persistentUuid": "caa83f85-3a91-4f60-92e3-c5785990ac70",
+      "width": 0,
+      "x": 352,
+      "y": 448,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [],
   "objectsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterX(\"\", 0)",
+            "\"Debug\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterY(\"\", 0)",
+            "\"Debug\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -56,6 +452,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Debug",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
@@ -103,6 +532,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "TopDownMovement",
