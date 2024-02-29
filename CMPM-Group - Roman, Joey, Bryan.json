@@ -373,14 +373,7 @@
       "name": "PlayerSprite",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "funds",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [
         {
@@ -819,12 +812,31 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Draggable",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;255;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Draggable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
       "animations": [
@@ -1047,34 +1059,8 @@
       "name": "WireLR",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "energized",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "connected",
-          "type": "boolean",
-          "value": false
-        }
-      ],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 5
-          },
-          "stringParameters": {
-            "color": "255;255;0"
-          },
-          "booleanParameters": {}
-        }
-      ],
+      "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1133,20 +1119,7 @@
       "name": "WireTurn",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "energized",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "connected",
-          "type": "boolean",
-          "value": false
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1206,21 +1179,21 @@
       "name": "HoldableWireLR",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
+      "variables": [],
+      "effects": [
         {
-          "folded": true,
-          "name": "energized",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "connected",
-          "type": "boolean",
-          "value": false
+          "effectType": "Outline",
+          "name": "Draggable",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;255;0"
+          },
+          "booleanParameters": {}
         }
       ],
-      "effects": [],
       "behaviors": [
         {
           "name": "Draggable",
@@ -1285,21 +1258,21 @@
       "name": "HoldableWireTurn",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
+      "variables": [],
+      "effects": [
         {
-          "folded": true,
-          "name": "energized",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "connected",
-          "type": "boolean",
-          "value": false
+          "effectType": "Outline",
+          "name": "Draggable",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;255;0"
+          },
+          "booleanParameters": {}
         }
       ],
-      "effects": [],
       "behaviors": [
         {
           "name": "Draggable",
@@ -1570,6 +1543,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
