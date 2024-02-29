@@ -73,7 +73,7 @@
         },
         {
           "type": {
-            "value": "SetSceneVariableAsBoolean"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
             "canDoAction",
@@ -899,7 +899,7 @@
             },
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -940,7 +940,7 @@
             },
             {
               "type": {
-                "value": "SetSceneVariableAsBoolean"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -972,7 +972,7 @@
             },
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -1013,7 +1013,7 @@
             },
             {
               "type": {
-                "value": "SetSceneVariableAsBoolean"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -1045,7 +1045,7 @@
             },
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -1086,7 +1086,7 @@
             },
             {
               "type": {
-                "value": "SetSceneVariableAsBoolean"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -1118,7 +1118,7 @@
             },
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",
@@ -1159,7 +1159,7 @@
             },
             {
               "type": {
-                "value": "SetSceneVariableAsBoolean"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
                 "canDoAction",

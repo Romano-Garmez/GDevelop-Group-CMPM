@@ -1672,6 +1672,9 @@
         },
         {
           "name": "PowerEndpoint"
+        },
+        {
+          "name": "Door"
         }
       ]
     }
@@ -1680,6 +1683,12 @@
     {
       "folded": true,
       "name": "debug",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "folded": true,
+      "name": "canDoAction",
       "type": "boolean",
       "value": true
     }

@@ -22,7 +22,20 @@
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "elecPrevXPos",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "elecPrevYPos",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -325,21 +338,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "electricitySprite",
-      "persistentUuid": "ae22611a-c899-444b-81f0-aaa79821f232",
-      "width": 0,
-      "x": 320,
-      "y": 448,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "WireLR",
       "persistentUuid": "e528250b-ef3f-4b40-b776-795410c61055",
       "width": 0,
@@ -361,6 +359,21 @@
       "x": 352,
       "y": 448,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "electricitySprite",
+      "persistentUuid": "67e966d5-9a94-498e-8db9-58ea36cd99c1",
+      "width": 0,
+      "x": 320,
+      "y": 448,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -421,8 +434,31 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "r"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "electricitySprite",
+            "=",
+            "electricitySprite.X() + 16",
+            "=",
+            "electricitySprite.Y() + 16"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -452,23 +488,7 @@
           "width": 0
         }
       ],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
+      "effects": []
     },
     {
       "ambientLightColorB": 200,
