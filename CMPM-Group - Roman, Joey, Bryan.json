@@ -270,6 +270,16 @@
         "name": "assets\\WallTurn.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Music/Waiting Room in the Middle of Nowhere.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Music\\Waiting Room in the Middle of Nowhere.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
