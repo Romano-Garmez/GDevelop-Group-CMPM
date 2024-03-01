@@ -338,7 +338,7 @@
               "parameters": [
                 "PlayerSprite",
                 "Fuse",
-                "128",
+                "120",
                 ""
               ]
             }
@@ -378,7 +378,7 @@
               "parameters": [
                 "PlayerSprite",
                 "Fuse",
-                "128",
+                "120",
                 ""
               ]
             }
@@ -417,7 +417,7 @@
               "parameters": [
                 "PlayerSprite",
                 "HoldableWireLR",
-                "128",
+                "120",
                 ""
               ]
             }
@@ -457,7 +457,7 @@
               "parameters": [
                 "PlayerSprite",
                 "HoldableWireLR",
-                "128",
+                "120",
                 ""
               ]
             }
@@ -496,7 +496,7 @@
               "parameters": [
                 "PlayerSprite",
                 "HoldableWireTurn",
-                "128",
+                "120",
                 ""
               ]
             }
@@ -536,7 +536,7 @@
               "parameters": [
                 "PlayerSprite",
                 "HoldableWireTurn",
-                "128",
+                "120",
                 ""
               ]
             }
