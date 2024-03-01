@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.0724666481977474,
+    "zoomFactor": 4.443834483973683,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -188,7 +188,7 @@
       "name": "WallSideways",
       "persistentUuid": "af5bc214-380a-4f52-b1be-2dd57c29a95f",
       "width": 64,
-      "x": 271,
+      "x": 272,
       "y": 335,
       "zOrder": 3,
       "numberProperties": [],
@@ -205,7 +205,7 @@
       "persistentUuid": "8a459fda-665d-4edf-9ec4-79b82c8c5e41",
       "width": 64,
       "x": 368,
-      "y": 337,
+      "y": 336,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -520,7 +520,7 @@
       "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
