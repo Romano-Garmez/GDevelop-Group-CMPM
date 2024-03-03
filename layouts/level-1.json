@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 3.523193301936168,
+    "zoomFactor": 7.554518622755403,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -482,11 +482,240 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 217,
+      "layer": "House 1",
+      "name": "Wood_Floor_Center",
+      "persistentUuid": "8df42467-4c29-4eff-a273-ff4d83abb87f",
+      "width": 194,
+      "x": 101,
+      "y": 143,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "layer": "House 1",
+      "name": "Wood_Floor_Left_Side",
+      "persistentUuid": "df139f87-2d96-457d-9b18-15c2779d9c76",
+      "width": 8,
+      "x": 93,
+      "y": 135,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "House 1",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "3c8b336c-cf80-4ffd-bab7-65877f446c83",
+      "width": 8,
+      "x": 295,
+      "y": 207,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "House 1",
+      "name": "NewTiledSprite12",
+      "persistentUuid": "ce0b6c45-dd55-4c2a-a515-1b4185260131",
+      "width": 7,
+      "x": 310,
+      "y": 138,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "House 1",
+      "name": "NewTiledSprite13",
+      "persistentUuid": "2d7370ee-22f6-4bce-92bb-ae9265430afc",
+      "width": 0,
+      "x": 620,
+      "y": 125,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "layer": "House 1",
+      "name": "NewTiledSprite13",
+      "persistentUuid": "61cb5522-8fb7-46cc-abf7-85e60f0c4f9b",
+      "width": 8,
+      "x": 320,
+      "y": 177,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "House 1",
+      "name": "Green_Bottom_Left_Corner",
+      "persistentUuid": "c4d9b4c0-40eb-4f3c-893a-c36f404b6de0",
+      "width": 0,
+      "x": 356,
+      "y": 248,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "layer": "House 1",
+      "name": "Green___White_Open_Top_Left",
+      "persistentUuid": "ee748dcc-00f7-4d2f-b560-429a6bac6ff6",
+      "width": 8,
+      "x": 85,
+      "y": 352,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "layer": "House 1",
+      "name": "NewTiledSprite13",
+      "persistentUuid": "37017d87-7f06-4a9f-945a-c83629b9bd6d",
+      "width": 8,
+      "x": 86,
+      "y": 344,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "Slice 3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite2",
+      "texture": "Slice 11.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite3",
+      "texture": "Slice 12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite4",
+      "texture": "Slice 101.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite5",
+      "texture": "Slice 151.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite6",
+      "texture": "Slice 146.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "NewTiledSprite3"
+      },
+      {
+        "objectName": "NewTiledSprite4"
+      },
+      {
+        "objectName": "NewTiledSprite5"
+      },
+      {
+        "objectName": "NewTiledSprite6"
+      }
+    ]
   },
   "events": [
     {
@@ -580,7 +809,7 @@
       "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -613,7 +842,7 @@
       "isLocked": false,
       "name": "",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [
         {
           "defaultSize": true,
@@ -627,6 +856,39 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "House 1",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [

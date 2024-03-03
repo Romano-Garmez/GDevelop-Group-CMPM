@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.9284316855173778,
+    "zoomFactor": 4.134991137995845,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3917,6 +3917,14 @@
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "House 1",
+        "children": [
+          {
+            "folderName": "Floor"
+          }
+        ]
+      },
+      {
         "folderName": "Players",
         "children": [
           {
@@ -4166,7 +4174,7 @@
       "isLocked": false,
       "name": "",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [
         {
           "defaultSize": true,
@@ -4212,6 +4220,39 @@
       "name": "win text",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "House 1 ",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

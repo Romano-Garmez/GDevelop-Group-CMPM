@@ -1903,6 +1903,501 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
           "name": "White Square Decorated Button_Pressed.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "floor and walls spritesheet black outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor and walls spritesheet black outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "floor and walls spritesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor and walls spritesheet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor and walls spritesheet.png23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "floor and walls spritesheet.png23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "floor and walls spritesheet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor and walls spritesheet2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "00_floor and walls spritesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "00_floor and walls spritesheet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "01_floor and walls spritesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01_floor and walls spritesheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "02_floor and walls spritesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02_floor and walls spritesheet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "03_floor and walls spritesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "03_floor and walls spritesheet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "02_floor and walls spritesheet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02_floor and walls spritesheet2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 76.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 50.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 101.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 151.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 146.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 146.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 46.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 96.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 33.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 75.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 81.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 81.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 100.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 156.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 156.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 155.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 155.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 149.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 149.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 148.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 148.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 147.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 147.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 141.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 141.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3163,67 +3658,204 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Wood_Floor_Center",
+      "texture": "Slice 1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Wood_Floor_Left_Side",
+      "texture": "Slice 10.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite12",
+      "texture": "Slice 156.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite13",
+      "texture": "Slice 155.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Green_Bottom_RIght_Corner",
+      "texture": "Slice 149.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Green_top_Open_",
+      "texture": "Slice 148.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Green_Bottom_Left_Corner",
+      "texture": "Slice 147.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Green___White_Open_Top_Left",
+      "texture": "Slice 141.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Alignment_Grid"
+        "folderName": "Stage 1 mission",
+        "children": [
+          {
+            "objectName": "Alignment_Grid"
+          },
+          {
+            "objectName": "PlayerSprite"
+          },
+          {
+            "objectName": "Switch"
+          },
+          {
+            "objectName": "LightBulb"
+          },
+          {
+            "objectName": "Button"
+          },
+          {
+            "objectName": "Fuse"
+          },
+          {
+            "objectName": "electricitySprite"
+          },
+          {
+            "objectName": "WireFuseHolder"
+          },
+          {
+            "objectName": "WireLR"
+          },
+          {
+            "objectName": "WireTurn"
+          },
+          {
+            "objectName": "HoldableWireLR"
+          },
+          {
+            "objectName": "HoldableWireTurn"
+          },
+          {
+            "objectName": "PowerSource"
+          },
+          {
+            "objectName": "PowerEndpoint"
+          },
+          {
+            "objectName": "Wall"
+          },
+          {
+            "objectName": "WallSideways"
+          },
+          {
+            "objectName": "WallTurn"
+          },
+          {
+            "objectName": "Door"
+          },
+          {
+            "objectName": "CollisionDetect"
+          }
+        ]
       },
       {
-        "objectName": "PlayerSprite"
-      },
-      {
-        "objectName": "Switch"
-      },
-      {
-        "objectName": "LightBulb"
-      },
-      {
-        "objectName": "Button"
-      },
-      {
-        "objectName": "Fuse"
-      },
-      {
-        "objectName": "electricitySprite"
-      },
-      {
-        "objectName": "WireFuseHolder"
-      },
-      {
-        "objectName": "WireLR"
-      },
-      {
-        "objectName": "WireTurn"
-      },
-      {
-        "objectName": "HoldableWireLR"
-      },
-      {
-        "objectName": "HoldableWireTurn"
-      },
-      {
-        "objectName": "PowerSource"
-      },
-      {
-        "objectName": "PowerEndpoint"
-      },
-      {
-        "objectName": "Wall"
-      },
-      {
-        "objectName": "WallSideways"
-      },
-      {
-        "objectName": "WallTurn"
-      },
-      {
-        "objectName": "Door"
-      },
-      {
-        "objectName": "CollisionDetect"
+        "folderName": "House 1",
+        "children": [
+          {
+            "folderName": "walls",
+            "children": [
+              {
+                "folderName": "Green wall",
+                "children": [
+                  {
+                    "objectName": "Green_Bottom_Left_Corner"
+                  },
+                  {
+                    "objectName": "Green_top_Open_"
+                  },
+                  {
+                    "objectName": "Green_Bottom_RIght_Corner"
+                  },
+                  {
+                    "objectName": "NewTiledSprite13"
+                  },
+                  {
+                    "objectName": "NewTiledSprite12"
+                  },
+                  {
+                    "objectName": "Green___White_Open_Top_Left"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "folderName": "Floor",
+            "children": [
+              {
+                "objectName": "Wood_Floor_Left_Side"
+              },
+              {
+                "objectName": "Wood_Floor_Center"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
