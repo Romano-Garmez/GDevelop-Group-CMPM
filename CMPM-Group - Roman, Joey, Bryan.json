@@ -3761,7 +3761,13 @@
             "objectName": "PlayerSprite"
           },
           {
+            "objectName": "WireLR"
+          },
+          {
             "objectName": "Switch"
+          },
+          {
+            "objectName": "Fuse"
           },
           {
             "objectName": "LightBulb"
@@ -3770,16 +3776,10 @@
             "objectName": "Button"
           },
           {
-            "objectName": "Fuse"
-          },
-          {
             "objectName": "electricitySprite"
           },
           {
             "objectName": "WireFuseHolder"
-          },
-          {
-            "objectName": "WireLR"
           },
           {
             "objectName": "WireTurn"
