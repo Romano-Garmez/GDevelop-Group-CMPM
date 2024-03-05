@@ -4143,6 +4143,12 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4153,6 +4159,18 @@
           "parameters": [
             "",
             "\"win text\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/Audio/SFX/Ding.mp3",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -4182,6 +4200,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
