@@ -4454,7 +4454,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "folderName": "Stage 1 mission",
+        "folderName": "Electrical Elements",
         "children": [
           {
             "objectName": "Alignment_Grid"
@@ -4639,6 +4639,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
