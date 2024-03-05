@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321",
-  "name": "Level 1",
+  "mangledName": "House",
+  "name": "House",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8008333653215404,
+    "zoomFactor": 0.3270842288965984,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2336,7 +2336,7 @@
       "isLocked": false,
       "name": "House 1",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -2369,7 +2369,7 @@
       "isLocked": true,
       "name": "",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [
         {
           "defaultSize": true,
