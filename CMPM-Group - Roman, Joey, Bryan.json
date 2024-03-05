@@ -3001,6 +3001,222 @@
         "name": "assets/Floor and Wall/NewTiledSprite11.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Male Character 8_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Male Character 8_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Female Character 4_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Characters/Female Character 4_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3107,6 +3323,966 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "PlayerSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player1Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player1Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Left_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Left_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Left_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player1Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Right_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player1Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Up_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Male Character 8_Walking Up_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player2Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player2Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Left_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Left_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Left_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player2Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Right_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player2Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Up_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 15
+                      },
+                      {
+                        "x": 47,
+                        "y": 56
+                      },
+                      {
+                        "x": 19,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Characters/Female Character 4_Walking Up_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

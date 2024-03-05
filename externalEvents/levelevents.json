@@ -1273,6 +1273,129 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Player Animation",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player1Up\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player1Left\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player1Down\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player1Right\""
+          ]
+        }
+      ]
     }
   ]
 }
