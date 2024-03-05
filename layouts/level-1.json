@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25932130653682456,
+    "zoomFactor": 0.4710784501891415,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2149,7 +2149,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Green",
-      "texture": "NewTiledSprite3",
+      "texture": "assets/Floor and Wall/NewTiledSprite3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2257,7 +2257,7 @@
       "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -2276,34 +2276,6 @@
           "booleanParameters": {}
         }
       ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "",
-      "renderingType": "",
-      "visibility": false,
-      "cameras": [
-        {
-          "defaultSize": true,
-          "defaultViewport": true,
-          "height": 0,
-          "viewportBottom": 1,
-          "viewportLeft": 0,
-          "viewportRight": 1,
-          "viewportTop": 0,
-          "width": 0
-        }
-      ],
-      "effects": []
     },
     {
       "ambientLightColorB": 200,
@@ -2337,6 +2309,34 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
