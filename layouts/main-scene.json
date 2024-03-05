@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2121641972173818,
+    "zoomFactor": 1.1343715797161118,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -394,6 +394,67 @@
       "x": -16,
       "y": -16,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "fd2f6495-647b-4375-ba79-83e778c69699",
+      "width": 0,
+      "x": 62,
+      "y": 117,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1028,
+      "layer": "",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "36a357bb-3af9-42b2-a44f-cc18a30c7062",
+      "width": 1274,
+      "x": -158,
+      "y": -21,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "1baeaa45-2084-4e1a-846b-36a6e0ecb468",
+      "width": 0,
+      "x": 167,
+      "y": 288,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Mouse",
+      "persistentUuid": "5cc3dbca-cf96-4542-a37a-ac6f84250c2b",
+      "width": 0,
+      "x": 155,
+      "y": 286,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1424,11 +1485,138 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite3",
+      "texture": "NewTiledSprite26",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mouse",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cursor_select.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 7.5,
+                    "y": 3
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10,
+                    "y": 16.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 27
+                      },
+                      {
+                        "x": 0,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Click",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cursor_select_tap.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 11,
+                    "y": 4.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 10.5,
+                    "y": 11.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 27
+                      },
+                      {
+                        "x": 0,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Background",
+        "children": [
+          {
+            "objectName": "NewTiledSprite3"
+          }
+        ]
+      },
       {
         "folderName": "House 1",
         "children": [
@@ -1458,6 +1646,9 @@
       },
       {
         "folderName": "Story Background"
+      },
+      {
+        "objectName": "Mouse"
       }
     ]
   },
