@@ -3271,6 +3271,24 @@
         "name": "assets/Floor and Wall/NewTiledSprite26.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LevelTriggerDone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/LevelTriggerDone.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_LevelTriggerDone.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/LevelTriggerDone",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
