@@ -3217,6 +3217,33 @@
         "name": "assets/Characters/Female Character 4_Walking Up_3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Level1Trigger.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Level1Trigger.png\"}",
+        "name": "Level1Trigger",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Level2Trigger.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Level2Trigger.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Level3Trigger.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Level3Trigger.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5805,6 +5832,24 @@
       "name": "canDoAction",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "Level1Complete",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Level2Complete",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Level3Complete",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

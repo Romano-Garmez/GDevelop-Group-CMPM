@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3270842288965984,
+    "zoomFactor": 0.5203582091313863,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,54 +49,6 @@
       "x": -16,
       "y": -16,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "db174b09-e4b5-4ca7-948e-c69376b7318f",
-      "width": 32,
-      "x": 240,
-      "y": 176,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 159,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "85f9463d-0c9b-4b70-aea4-dc00a0d2599a",
-      "width": 32,
-      "x": 432,
-      "y": 177,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 32,
-      "layer": "",
-      "name": "WallSideways",
-      "persistentUuid": "2f01ba62-9954-4034-a5d2-011ce15504b4",
-      "width": 160,
-      "x": 272,
-      "y": 144,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -151,68 +103,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "PowerSource",
-      "persistentUuid": "8cbd125e-e8b3-4d65-af64-06adae654255",
-      "width": 0,
-      "x": 320,
-      "y": 448,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Door",
-      "persistentUuid": "6001f4eb-03a8-433c-ac71-2d651111d0aa",
-      "width": 0,
-      "x": 336,
-      "y": 335,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 32,
-      "layer": "",
-      "name": "WallSideways",
-      "persistentUuid": "af5bc214-380a-4f52-b1be-2dd57c29a95f",
-      "width": 64,
-      "x": 272,
-      "y": 335,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 32,
-      "layer": "",
-      "name": "WallSideways",
-      "persistentUuid": "8a459fda-665d-4edf-9ec4-79b82c8c5e41",
-      "width": 64,
-      "x": 368,
-      "y": 336,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 32,
@@ -254,231 +144,6 @@
       "x": 419,
       "y": 477,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireTurn",
-      "persistentUuid": "35c441f0-9395-4e6a-9e07-84adcd1c16e9",
-      "width": 0,
-      "x": 466,
-      "y": 428,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireTurn",
-      "persistentUuid": "8464617b-75bf-419b-bd0f-6c9c86beed76",
-      "width": 0,
-      "x": 477,
-      "y": 382,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireLR",
-      "persistentUuid": "940dcdef-1683-4922-bbb0-343be25e9ad8",
-      "width": 0,
-      "x": 291,
-      "y": 411,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireTurn",
-      "persistentUuid": "77787b99-889d-445b-b31c-31790c3566bc",
-      "width": 0,
-      "x": 383,
-      "y": 414,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireLR",
-      "persistentUuid": "05e50d9b-5309-4558-a0d9-e4edcd1c32cb",
-      "width": 0,
-      "x": 494,
-      "y": 357,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WireLR",
-      "persistentUuid": "e528250b-ef3f-4b40-b776-795410c61055",
-      "width": 0,
-      "x": 384,
-      "y": 448,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WireLR",
-      "persistentUuid": "caa83f85-3a91-4f60-92e3-c5785990ac70",
-      "width": 0,
-      "x": 352,
-      "y": 448,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "electricitySprite",
-      "persistentUuid": "67e966d5-9a94-498e-8db9-58ea36cd99c1",
-      "width": 0,
-      "x": 320,
-      "y": 448,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WireFuseHolder",
-      "persistentUuid": "25409108-cc82-49cb-81dc-ab5c66bd00f0",
-      "width": 0,
-      "x": 448,
-      "y": 448,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "PowerEndpoint",
-      "persistentUuid": "6524337f-93e4-4a5a-8ed7-a239adc3aeea",
-      "width": 0,
-      "x": 464,
-      "y": 432,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Fuse",
-      "persistentUuid": "dd18328e-ae92-4e15-89f2-bd22739ffb02",
-      "width": 0,
-      "x": 344,
-      "y": 247,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WallTurn",
-      "persistentUuid": "df1770f1-6fa7-4909-9287-404ca0522848",
-      "width": 0,
-      "x": 448,
-      "y": 352,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WallTurn",
-      "persistentUuid": "8444aa77-de98-4c6d-8bd4-4cb1c394c5e0",
-      "width": 0,
-      "x": 256,
-      "y": 160,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WallTurn",
-      "persistentUuid": "b5a5d777-f03b-407b-a330-159792432250",
-      "width": 0,
-      "x": 256,
-      "y": 351,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WallTurn",
-      "persistentUuid": "0e6b9a28-5e9c-4461-b608-bc8766b58735",
-      "width": 0,
-      "x": 448,
-      "y": 161,
-      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2142,6 +1807,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level1Trigger",
+      "persistentUuid": "4e0b1d04-7f35-4aa2-ad03-1f906026b42f",
+      "width": 0,
+      "x": 736,
+      "y": 582,
+      "zOrder": 180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2155,6 +1835,187 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level1Trigger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Level1Trigger",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level1Trigger",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level2Trigger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Level2Trigger.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level3Trigger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Level3Trigger.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2162,6 +2023,15 @@
     "children": [
       {
         "objectName": "Green"
+      },
+      {
+        "objectName": "Level1Trigger"
+      },
+      {
+        "objectName": "Level2Trigger"
+      },
+      {
+        "objectName": "Level3Trigger"
       }
     ]
   },
@@ -2243,21 +2113,25 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "CollisionNP"
           },
           "parameters": [
+            "PlayerSprite",
+            "Level1Trigger",
             "",
-            "r"
+            "",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "HideLayer"
+            "value": "Scene"
           },
           "parameters": [
             "",
+            "\"Level 1\"",
             ""
           ]
         }
@@ -2268,21 +2142,54 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "CollisionNP"
           },
           "parameters": [
+            "PlayerSprite",
+            "Level2Trigger",
             "",
-            "t"
+            "",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "ShowLayer"
+            "value": "Scene"
           },
           "parameters": [
             "",
+            "\"Level 2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Level3Trigger",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 3\"",
             ""
           ]
         }
@@ -2366,10 +2273,10 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [
         {
           "defaultSize": true,
