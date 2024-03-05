@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_322",
-  "name": "Level 2",
+  "mangledName": "TemplateLevel",
+  "name": "TemplateLevel",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.834926186620403,
+    "zoomFactor": 1.4547795768638634,
     "windowMask": false
   },
   "objectsGroups": [],
