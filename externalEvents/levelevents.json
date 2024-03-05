@@ -69,7 +69,7 @@
             "",
             "\"actionTimeout\"",
             ">=",
-            ".15"
+            ".05"
           ]
         }
       ],
@@ -947,7 +947,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterY() - 16"
+                "electricitySprite.CenterY() - 8"
               ]
             },
             {
@@ -1020,7 +1020,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterX() - 16"
+                "electricitySprite.CenterX() - 8"
               ]
             },
             {
@@ -1093,7 +1093,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterY() + 16"
+                "electricitySprite.CenterY() + 8"
               ]
             },
             {
@@ -1166,7 +1166,7 @@
               "parameters": [
                 "electricitySprite",
                 "=",
-                "electricitySprite.CenterX() + 16"
+                "electricitySprite.CenterX() + 8"
               ]
             },
             {

@@ -452,6 +452,51 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "8d1f50a3-6ce1-407c-abf2-c607f3de4c44",
+      "width": 0,
+      "x": 583,
+      "y": 495,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "c1660842-2af3-41b0-a8a3-133e08ad4814",
+      "width": 0,
+      "x": 489,
+      "y": 539,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "8b4fca49-e8c7-43d7-86c8-cfeeb460fc7c",
+      "width": 0,
+      "x": 543,
+      "y": 540,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

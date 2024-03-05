@@ -3600,20 +3600,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 10,
+                        "y": 6
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 10,
+                        "y": 10
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 6,
+                        "y": 10
                       }
                     ]
                   ]
@@ -4125,7 +4125,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Door",
       "type": "Sprite",
@@ -4167,19 +4167,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 14,
+                        "x": 8,
                         "y": 0
                       },
                       {
-                        "x": 18,
+                        "x": 24,
                         "y": 0
                       },
                       {
-                        "x": 18,
+                        "x": 24,
                         "y": 32
                       },
                       {
-                        "x": 14,
+                        "x": 8,
                         "y": 32
                       }
                     ]
