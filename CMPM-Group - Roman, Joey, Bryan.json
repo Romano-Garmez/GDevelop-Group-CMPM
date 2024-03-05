@@ -2803,6 +2803,33 @@
         "name": "NewTiledSprite25",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite.png\"}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite2.png\"}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4067,314 +4094,6 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "Wood_Floor_Center",
-      "texture": "Slice 1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Wood_Floor_Left_Side",
-      "texture": "Slice 10.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite12",
-      "texture": "Slice 156.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite13",
-      "texture": "Slice 155.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_Bottom_RIght_Corner",
-      "texture": "Slice 149.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_top_Open_",
-      "texture": "Slice 148.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_Bottom_Left_Corner",
-      "texture": "Slice 147.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Open_Top_Left",
-      "texture": "Slice 141.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_Right",
-      "texture": "Slice 140.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_Left_Right",
-      "texture": "Slice 139.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_Left",
-      "texture": "Slice 138.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Open_Top",
-      "texture": "Slice 137.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Left_Right",
-      "texture": "Slice 136.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Right",
-      "texture": "Slice 135.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_Down",
-      "texture": "Slice 134.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Left",
-      "texture": "Slice 133.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "White_Green_Left_RIght",
-      "texture": "Slice 132.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green",
-      "texture": "Slice 129.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Top",
-      "texture": "Slice 124.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Top_Right",
-      "texture": "Slice 126.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "Slice 3.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite2",
-      "texture": "Slice 11.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite3",
-      "texture": "Slice 12.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_top_right",
-      "texture": "Slice 125.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_white_Top",
-      "texture": "Slice125.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green_White_Left_Top",
-      "texture": "Slice 123.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "White_Green_Lelft_Top",
-      "texture": "Slice 122.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Green2",
-      "texture": "Slice 129.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
       "name": "Left_corner",
       "texture": "Left_corner",
       "type": "TiledSpriteObject::TiledSprite",
@@ -4536,6 +4255,28 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite8",
+      "texture": "NewTiledSprite25",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -4607,8 +4348,19 @@
         "folderName": "House 1",
         "children": [
           {
+            "folderName": "Floor",
+            "children": [
+              {
+                "objectName": "Floor"
+              }
+            ]
+          },
+          {
             "folderName": "Hand made",
             "children": [
+              {
+                "objectName": "NewTiledSprite"
+              },
               {
                 "objectName": "NewTiledSprite4"
               },
@@ -4616,10 +4368,10 @@
                 "objectName": "NewTiledSprite7"
               },
               {
-                "objectName": "Floor"
+                "objectName": "Top_Corner"
               },
               {
-                "objectName": "Top_Corner"
+                "objectName": "NewTiledSprite8"
               },
               {
                 "objectName": "NewTiledSprite5"
@@ -4657,103 +4409,7 @@
             ]
           },
           {
-            "folderName": "walls",
-            "children": [
-              {
-                "folderName": "Green wall",
-                "children": [
-                  {
-                    "objectName": "Green"
-                  },
-                  {
-                    "objectName": "Green2"
-                  },
-                  {
-                    "objectName": "Green_Bottom_Left_Corner"
-                  },
-                  {
-                    "objectName": "Green_Bottom_RIght_Corner"
-                  },
-                  {
-                    "objectName": "Green_top_Open_"
-                  },
-                  {
-                    "objectName": "Green_Down"
-                  },
-                  {
-                    "objectName": "Green_Right"
-                  },
-                  {
-                    "objectName": "Green_Left"
-                  },
-                  {
-                    "objectName": "Green_Left_Right"
-                  },
-                  {
-                    "objectName": "NewTiledSprite13"
-                  },
-                  {
-                    "objectName": "NewTiledSprite12"
-                  },
-                  {
-                    "objectName": "Green_White_Left_Right"
-                  },
-                  {
-                    "objectName": "White_Green_Left_RIght"
-                  },
-                  {
-                    "objectName": "Green_White_Right"
-                  },
-                  {
-                    "objectName": "Green_White_Left"
-                  },
-                  {
-                    "objectName": "Green_White_Open_Top_Left"
-                  },
-                  {
-                    "objectName": "Green_White_Open_Top"
-                  },
-                  {
-                    "objectName": "Green_White_Top_Right"
-                  },
-                  {
-                    "objectName": "Green_White_Top"
-                  },
-                  {
-                    "objectName": "Green_White_top_right"
-                  },
-                  {
-                    "objectName": "Green_White_Left_Top"
-                  },
-                  {
-                    "objectName": "Green_white_Top"
-                  },
-                  {
-                    "objectName": "White_Green_Lelft_Top"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "folderName": "Floor",
-            "children": [
-              {
-                "objectName": "NewTiledSprite3"
-              },
-              {
-                "objectName": "NewTiledSprite2"
-              },
-              {
-                "objectName": "NewTiledSprite"
-              },
-              {
-                "objectName": "Wood_Floor_Left_Side"
-              },
-              {
-                "objectName": "Wood_Floor_Center"
-              }
-            ]
+            "folderName": "walls"
           }
         ]
       }
