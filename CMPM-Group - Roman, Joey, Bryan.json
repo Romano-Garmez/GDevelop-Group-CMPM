@@ -3244,6 +3244,33 @@
         "name": "assets/Level3Trigger.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cursors/cursor_select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cursors/cursor_select.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cursors/cursor_select_tap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cursors/cursor_select_tap.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/NewTiledSprite26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/NewTiledSprite26.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
