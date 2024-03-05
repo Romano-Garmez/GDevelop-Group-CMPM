@@ -1496,114 +1496,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Mouse",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Hover",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Cursors/cursor_select.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 7.5,
-                    "y": 3
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 10,
-                    "y": 16.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 27
-                      },
-                      {
-                        "x": 0,
-                        "y": 27
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Click",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Cursors/cursor_select_tap.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 11,
-                    "y": 4.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 10.5,
-                    "y": 11.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 27
-                      },
-                      {
-                        "x": 0,
-                        "y": 27
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1646,9 +1538,6 @@
       },
       {
         "folderName": "Story Background"
-      },
-      {
-        "objectName": "Mouse"
       }
     ]
   },
