@@ -2398,6 +2398,60 @@
         "name": "Slice 141.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/Slice 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/Slice 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/Slice 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/Slice 11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/Slice 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/Slice 12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/Slice 101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/Slice 101.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/Slice 146.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/Slice 146.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor and Wall/Slice 151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor and Wall/Slice 151.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
