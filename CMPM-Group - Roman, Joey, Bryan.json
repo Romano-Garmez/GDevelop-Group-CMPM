@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "House",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "CMPM-Group - Roman, Joey, Bryan",
+    "name": "CMPM-Group - Roman, Joey, Bryan - Vertical Slice",
     "description": "",
     "author": "",
     "windowWidth": 800,
@@ -6017,7 +6017,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/main-scene"
+      "referenceTo": "/layouts/dev-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
