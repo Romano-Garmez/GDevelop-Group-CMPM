@@ -43,18 +43,6 @@
             "debug",
             "False"
           ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "assets\\Audio\\Music\\Waiting Room in the Middle of Nowhere.wav",
-            "yes",
-            "10",
-            "1"
-          ]
         }
       ]
     },

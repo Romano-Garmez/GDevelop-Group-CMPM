@@ -6006,6 +6006,12 @@
       "name": "Level3Complete",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "musicStarted",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

@@ -482,21 +482,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Fuse",
-      "persistentUuid": "d2ca9d46-28f6-48de-9432-7bd49aa17b6d",
-      "width": 0,
-      "x": 384,
-      "y": 473,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
