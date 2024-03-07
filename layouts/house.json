@@ -2291,7 +2291,7 @@
             "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
-            "Level1Complete",
+            "Level2Complete",
             "True"
           ]
         }
@@ -2318,7 +2318,7 @@
             "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
-            "Level1Complete",
+            "Level2Complete",
             "False"
           ]
         }
@@ -2335,79 +2335,6 @@
               "parameters": [
                 "PlayerSprite",
                 "Level1Trigger",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 1\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level2Complete",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Level2Trigger",
-            "Animation",
-            "=",
-            "\"assets/LevelTriggerDone\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level2Complete",
-            "False"
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "PlayerSprite",
-                "Level2Trigger",
                 "",
                 "",
                 ""
@@ -2448,7 +2375,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Level3Trigger",
+            "Level2Trigger",
             "Animation",
             "=",
             "\"assets/LevelTriggerDone\""
@@ -2480,7 +2407,7 @@
               },
               "parameters": [
                 "PlayerSprite",
-                "Level3Trigger",
+                "Level2Trigger",
                 "",
                 "",
                 ""
@@ -2495,6 +2422,79 @@
               "parameters": [
                 "",
                 "\"Level 3\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level4Complete",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Level3Trigger",
+            "Animation",
+            "=",
+            "\"assets/LevelTriggerDone\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level4Complete",
+            "False"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSprite",
+                "Level3Trigger",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 4\"",
                 ""
               ]
             }

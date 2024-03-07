@@ -6047,6 +6047,12 @@
     },
     {
       "folded": true,
+      "name": "Level4Complete",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
       "name": "musicStarted",
       "type": "boolean",
       "value": false
@@ -6068,6 +6074,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-4"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
