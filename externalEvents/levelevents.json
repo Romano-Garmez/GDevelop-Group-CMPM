@@ -307,6 +307,18 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Set default values"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -383,6 +395,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "If you're within 120 pixels of something, you can pick it up"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -426,12 +450,11 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "Distance"
               },
               "parameters": [
                 "PlayerSprite",
-                "Fuse",
+                "HoldableWireLR",
                 "120",
                 ""
               ]
@@ -443,9 +466,9 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "Fuse",
+                "HoldableWireLR",
                 "Draggable",
-                "no"
+                "yes"
               ]
             },
             {
@@ -453,10 +476,10 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "Fuse",
+                "HoldableWireLR",
                 "Effect",
                 "\"Draggable\"",
-                "no"
+                "yes"
               ]
             }
           ]
@@ -470,7 +493,7 @@
               },
               "parameters": [
                 "PlayerSprite",
-                "HoldableWireLR",
+                "HoldableWireTurn",
                 "120",
                 ""
               ]
@@ -482,7 +505,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "HoldableWireLR",
+                "HoldableWireTurn",
                 "Draggable",
                 "yes"
               ]
@@ -492,10 +515,100 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "HoldableWireLR",
+                "HoldableWireTurn",
                 "Effect",
                 "\"Draggable\"",
                 "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "If you're more than 120 pixels away, or the object is in a greyed out room, make it undraggable"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "PlayerSprite",
+                    "Fuse",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Fuse",
+                        "NoDraggingParts",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "NoDraggingParts",
+                        "enabled",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Fuse",
+                "Draggable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Fuse",
+                "Effect",
+                "\"Draggable\"",
+                "no"
               ]
             }
           ]
@@ -583,45 +696,6 @@
           "conditions": [
             {
               "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "PlayerSprite",
-                "HoldableWireTurn",
-                "120",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "HoldableWireTurn",
-                "Draggable",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "HoldableWireTurn",
-                "Effect",
-                "\"Draggable\"",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -696,6 +770,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Prevent items from being able to be placed in greyed out rooms"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -790,6 +876,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Make rooms become not greyed out when player enters"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -833,64 +931,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "HoldableWireLR",
-                "CollisionDetect",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "HoldableWireLR",
-                "CollisionDetect",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "HoldableWireTurn",
-                "CollisionDetect",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "HoldableWireTurn",
-                "CollisionDetect",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "inverted": true,
                 "value": "CollisionNP"
               },
@@ -920,6 +960,105 @@
               },
               "parameters": [
                 "NoDraggingParts",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Prevent objects from being able to be placed in walls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "HoldableWireLR",
+                "CollisionDetect",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "HoldableWireLR",
+                "CollisionDetect",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "HoldableWireTurn",
+                "CollisionDetect",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "HoldableWireTurn",
+                "CollisionDetect",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fuse",
+                "CollisionDetect",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Fuse",
+                "CollisionDetect",
                 ""
               ]
             }
