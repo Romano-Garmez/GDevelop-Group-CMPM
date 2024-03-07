@@ -3289,6 +3289,24 @@
         "name": "assets/LevelTriggerDone",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CollisionDetect2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CollisionDetect2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_CollisionDetect2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\CollisionDetect2.png2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5077,7 +5095,20 @@
       "name": "HoldableWireLR",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "PrevX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "PrevY",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [
         {
           "effectType": "Outline",
@@ -5355,17 +5386,6 @@
       "height": 32,
       "name": "Wall",
       "texture": "assets/Wall.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "WallSideways",
-      "texture": "assets/WallSideways.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -5804,6 +5824,24 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NoDraggingParts",
+      "texture": "assets\\CollisionDetect2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [
+        {
+          "folded": true,
+          "name": "enabled",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -5858,9 +5896,6 @@
             "objectName": "Wall"
           },
           {
-            "objectName": "WallSideways"
-          },
-          {
             "objectName": "WallTurn"
           },
           {
@@ -5868,6 +5903,9 @@
           },
           {
             "objectName": "CollisionDetect"
+          },
+          {
+            "objectName": "NoDraggingParts"
           }
         ]
       },

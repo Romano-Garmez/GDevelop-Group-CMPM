@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0793683450708262,
+    "zoomFactor": 2.9191835619195357,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -73,13 +73,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 159,
+      "height": 160,
       "layer": "",
       "name": "Wall",
       "persistentUuid": "85f9463d-0c9b-4b70-aea4-dc00a0d2599a",
       "width": 32,
       "x": 432,
-      "y": 177,
+      "y": 176,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -477,8 +477,72 @@
       "persistentUuid": "0e6b9a28-5e9c-4461-b608-bc8766b58735",
       "width": 0,
       "x": 448,
-      "y": 161,
+      "y": 160,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 158,
+      "layer": "Debug",
+      "name": "NoDraggingParts",
+      "persistentUuid": "e27c38e6-01c5-4696-a229-1e192204fd15",
+      "width": 158,
+      "x": 273,
+      "y": 177,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "776fa30d-a082-4b80-825e-88188984637b",
+      "width": 32,
+      "x": 336,
+      "y": 80,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "35c8c53b-e6d4-409b-be9c-f675cd147d9a",
+      "width": 32,
+      "x": 288,
+      "y": 319,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "9005de1c-ff14-4065-83dc-f36d68bd5a11",
+      "width": 32,
+      "x": 384,
+      "y": 320,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -525,6 +589,7 @@
       "target": "LevelEvents"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -609,10 +674,43 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Debug",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "GreyedOut",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
