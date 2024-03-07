@@ -3307,6 +3307,15 @@
         "name": "assets\\CollisionDetect2.png2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Level4Trigger.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Level4Trigger.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

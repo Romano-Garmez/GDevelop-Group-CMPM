@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5203582091313863,
+    "zoomFactor": 0.39909652806309204,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,86 +49,6 @@
       "x": -16,
       "y": -16,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 161,
-      "layer": "Debug",
-      "name": "CollisionDetect",
-      "persistentUuid": "cc1be063-ae51-40a1-87c6-6807edd85833",
-      "width": 32,
-      "x": 240,
-      "y": 175,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 161,
-      "layer": "Debug",
-      "name": "CollisionDetect",
-      "persistentUuid": "b0634a8e-b377-470b-bfb1-a3cd36a98436",
-      "width": 32,
-      "x": 432,
-      "y": 175,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "Debug",
-      "name": "CollisionDetect",
-      "persistentUuid": "6676ac99-0540-4f7f-9c5b-b7d5c921d035",
-      "width": 224,
-      "x": 240,
-      "y": 144,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "Debug",
-      "name": "CollisionDetect",
-      "persistentUuid": "2715f7e9-1713-4c4a-903b-069648843fa2",
-      "width": 96,
-      "x": 240,
-      "y": 336,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "Debug",
-      "name": "CollisionDetect",
-      "persistentUuid": "0b1895b5-7290-4674-9b2d-cc08a0399b85",
-      "width": 96,
-      "x": 368,
-      "y": 336,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -453,8 +373,8 @@
       "name": "Floor",
       "persistentUuid": "9d70d2ca-bc55-434a-ad8a-26653ac6d247",
       "width": 1101,
-      "x": -149,
-      "y": -296,
+      "x": -137,
+      "y": -365,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1816,8 +1736,8 @@
       "name": "Level1Trigger",
       "persistentUuid": "4e0b1d04-7f35-4aa2-ad03-1f906026b42f",
       "width": 0,
-      "x": 736,
-      "y": 582,
+      "x": 724,
+      "y": 590,
       "zOrder": 180,
       "numberProperties": [],
       "stringProperties": [],
@@ -1849,6 +1769,325 @@
       "x": 175,
       "y": -104,
       "zOrder": 182,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level4Trigger",
+      "persistentUuid": "ed55f1e8-7f4b-4d77-925e-ff422cb228bd",
+      "width": 0,
+      "x": 749,
+      "y": -223,
+      "zOrder": 183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 161,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "e29d84e7-24f1-4645-801e-c093a5b2a909",
+      "width": 199,
+      "x": 415,
+      "y": 196,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 161,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "5c732f4c-ed57-4d0e-88e8-dc767d7b92ac",
+      "width": 179,
+      "x": 107,
+      "y": 196,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "4f8f5b47-2931-44aa-8136-ef2fcc9edac2",
+      "width": 44,
+      "x": 554,
+      "y": 358,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "89515968-417e-42c6-b2b8-a0b8c31a4365",
+      "width": 44,
+      "x": 553,
+      "y": 668,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "1b31bb4c-3ffe-48dc-9b49-5e26f69d85ca",
+      "width": 44,
+      "x": 106,
+      "y": 668,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "5253e4bf-947b-459a-97af-b9f0af268d65",
+      "width": 44,
+      "x": 108,
+      "y": 358,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1218,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "332798e4-ec2d-4c93-a331-2aae5c9e9417",
+      "width": 44,
+      "x": -174,
+      "y": -342,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1218,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "0a601e39-793b-4ce3-bba4-c2d2dc0b4b4e",
+      "width": 44,
+      "x": 942,
+      "y": -343,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 1071,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "5be6ab39-3289-4852-aeeb-6ef7d29f88e2",
+      "width": 44,
+      "x": 383,
+      "y": -854,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 1071,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "d03a2d7a-f7ed-4890-9440-d1e56a4c8f23",
+      "width": 44,
+      "x": 385,
+      "y": 319,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 329,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "ffbbaf03-b5c4-4fb5-b6d2-f90cd70f30a9",
+      "width": 44,
+      "x": 757,
+      "y": 170,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 156,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "20a34535-c4ad-4a7d-9b54-0c7f5ec848dd",
+      "width": 44,
+      "x": 842,
+      "y": 34,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 156,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "e753a8c8-4459-44e9-b5ed-2ccb923799e1",
+      "width": 44,
+      "x": 841,
+      "y": -128,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "c6197bce-5337-4ad4-bec8-ba7e19d6b197",
+      "width": 44,
+      "x": 632,
+      "y": 77,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 95,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "de5521c4-0444-47e3-8ac5-6b48e157c8a6",
+      "width": 44,
+      "x": 640,
+      "y": -96,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "b3670b0e-b2ce-4a96-81c1-fde21f37a551",
+      "width": 44,
+      "x": 571,
+      "y": 89,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 266,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "7daf9787-0d56-4443-97f1-785837198957",
+      "width": 44,
+      "x": 568,
+      "y": -297,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "30a57bd1-2823-4aa6-81a7-660449bcba71",
+      "width": 44,
+      "x": -126,
+      "y": 193,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "d8bd0bd1-53a9-4340-83ce-d1d17de02edb",
+      "width": 44,
+      "x": 55,
+      "y": 188,
+      "zOrder": 184,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2191,6 +2430,114 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level4Trigger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Level4Trigger.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/LevelTriggerDone.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2207,6 +2554,9 @@
       },
       {
         "objectName": "Level3Trigger"
+      },
+      {
+        "objectName": "Level4Trigger"
       }
     ]
   },
@@ -2216,7 +2566,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "",
+      "name": "Basic Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [],
@@ -2291,225 +2641,6 @@
             "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
-            "Level2Complete",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Level1Trigger",
-            "Animation",
-            "=",
-            "\"assets/LevelTriggerDone\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level2Complete",
-            "False"
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "PlayerSprite",
-                "Level1Trigger",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 2\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level3Complete",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Level2Trigger",
-            "Animation",
-            "=",
-            "\"assets/LevelTriggerDone\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level3Complete",
-            "False"
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "PlayerSprite",
-                "Level2Trigger",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 3\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level4Complete",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Level3Trigger",
-            "Animation",
-            "=",
-            "\"assets/LevelTriggerDone\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level4Complete",
-            "False"
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "PlayerSprite",
-                "Level3Trigger",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 4\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
             "musicStarted",
             ""
           ]
@@ -2544,6 +2675,358 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Level Triggers",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Level 1\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level1Complete",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Level1Trigger",
+                "Animation",
+                "=",
+                "\"assets/LevelTriggerDone\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level1Complete",
+                "False"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerSprite",
+                    "Level1Trigger",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 1\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Level 2\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level2Complete",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Level2Trigger",
+                "Animation",
+                "=",
+                "\"assets/LevelTriggerDone\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level2Complete",
+                "False"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerSprite",
+                    "Level2Trigger",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Level 3"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level3Complete",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Level3Trigger",
+                "Animation",
+                "=",
+                "\"assets/LevelTriggerDone\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level3Complete",
+                "False"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerSprite",
+                    "Level3Trigger",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 3\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Level 4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level4Complete",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Level3Trigger",
+                "Animation",
+                "=",
+                "\"assets/LevelTriggerDone\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level4Complete",
+                "False"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerSprite",
+                    "Level4Trigger",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 4\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -2557,10 +3040,10 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
