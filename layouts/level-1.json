@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.9191835619195357,
+    "zoomFactor": 6.688640350502018,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -546,6 +546,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "GreyedOut",
+      "name": "NoDraggingParts",
+      "persistentUuid": "d2daf59d-5c9c-4041-bc8d-72e1b5a57d9b",
+      "width": 160,
+      "x": 272,
+      "y": 176,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -677,7 +693,7 @@
       "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
