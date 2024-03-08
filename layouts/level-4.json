@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 3.934494323824725,
+    "zoomFactor": 2.23891158801105,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -201,22 +201,14 @@
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Door",
-      "persistentUuid": "62769f1a-b48d-4a24-8358-ca7cc761bbcc",
-      "width": 0,
-      "x": 528,
-      "y": 271,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "open",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     },
     {
       "angle": 0,
@@ -546,6 +538,100 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "ScreenSize",
+      "persistentUuid": "d8757d2f-dcce-47eb-80ea-0e548fc63a47",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 140,
+      "layer": "UI",
+      "name": "TextBackground",
+      "persistentUuid": "2937cf07-d5a7-445a-93c2-98a3fd0f3af4",
+      "width": 600,
+      "x": 100,
+      "y": 450,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "UI",
+      "name": "Hint4",
+      "persistentUuid": "23eefb20-d117-4f48-8248-f042fcdc3010",
+      "width": 558,
+      "x": 121,
+      "y": 470,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "814a79f3-66dd-4204-898a-71e8622a0221",
+      "width": 64,
+      "x": 512,
+      "y": 223,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "bed53957-3925-4b69-9618-0ac09d5eb750",
+      "width": 64,
+      "x": 512,
+      "y": 320,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "07ea0252-cb0e-4480-8653-9e59e17b4320",
+      "width": 0,
+      "x": 528,
+      "y": 272,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -707,7 +793,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "GreyedOut",
       "renderingType": "",
       "visibility": true,
@@ -757,6 +843,39 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -791,6 +910,10 @@
     {
       "name": "Sticker",
       "type": "Sticker::Sticker"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

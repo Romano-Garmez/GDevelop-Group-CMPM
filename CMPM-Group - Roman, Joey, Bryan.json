@@ -3316,6 +3316,51 @@
         "name": "assets/Level4Trigger.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewPanelSprite2.png\"}",
+        "name": "NewPanelSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ScreenSize.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ScreenSize",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ScreenSize2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ScreenSize2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ScreenSize.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/ScreenSize.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3333,7 +3378,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "PlayerSprite",
       "type": "Sprite",
@@ -3437,20 +3482,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3485,20 +3530,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3521,20 +3566,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3557,20 +3602,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3605,20 +3650,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3641,20 +3686,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3677,20 +3722,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3725,20 +3770,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3761,20 +3806,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3797,20 +3842,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3845,20 +3890,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3881,20 +3926,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3917,20 +3962,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -3965,20 +4010,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4001,20 +4046,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4037,20 +4082,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4085,20 +4130,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4121,20 +4166,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4157,20 +4202,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4205,20 +4250,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4241,20 +4286,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4277,20 +4322,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4325,20 +4370,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4361,20 +4406,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4397,20 +4442,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
+                        "x": 15,
                         "y": 15
                       },
                       {
-                        "x": 47,
+                        "x": 49,
                         "y": 15
                       },
                       {
-                        "x": 47,
-                        "y": 56
+                        "x": 49,
+                        "y": 49
                       },
                       {
-                        "x": 19,
-                        "y": 56
+                        "x": 15,
+                        "y": 49
                       }
                     ]
                   ]
@@ -4979,7 +5024,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "WireLR",
       "type": "Sprite",
@@ -5014,19 +5059,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 12
+                        "x": 1,
+                        "y": 11
                       },
                       {
-                        "x": 32,
-                        "y": 12
+                        "x": 31,
+                        "y": 11
                       },
                       {
-                        "x": 32,
+                        "x": 31,
                         "y": 21
                       },
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 21
                       }
                     ]
@@ -5039,7 +5084,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "WireTurn",
       "type": "Sprite",
@@ -5074,7 +5119,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 11
                       },
                       {
@@ -5083,11 +5128,11 @@
                       },
                       {
                         "x": 21,
-                        "y": 32
+                        "y": 31
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 1,
+                        "y": 31
                       }
                     ]
                   ]
@@ -5099,7 +5144,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HoldableWireLR",
       "type": "Sprite",
@@ -5166,19 +5211,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 11
                       },
                       {
-                        "x": 32,
+                        "x": 31,
                         "y": 11
                       },
                       {
-                        "x": 32,
+                        "x": 31,
                         "y": 21
                       },
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 21
                       }
                     ]
@@ -5191,7 +5236,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HoldableWireTurn",
       "type": "Sprite",
@@ -5245,7 +5290,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 11
                       },
                       {
@@ -5254,11 +5299,11 @@
                       },
                       {
                         "x": 21,
-                        "y": 32
+                        "y": 31
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 1,
+                        "y": 31
                       }
                     ]
                   ]
@@ -5851,6 +5896,247 @@
       ],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ScreenSize",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ScreenSize",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/ScreenSize.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 800,
+                        "y": 0
+                      },
+                      {
+                        "x": 800,
+                        "y": 600
+                      },
+                      {
+                        "x": 0,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 4,
+      "height": 32,
+      "leftMargin": 4,
+      "name": "TextBackground",
+      "rightMargin": 4,
+      "texture": "NewPanelSprite2",
+      "tiled": false,
+      "topMargin": 4,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Hint1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Hint2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You can route power towards doors to open them.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You can route power towards doors to open them.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Hint3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Sometimes the most direct route isn't the correct route.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Sometimes the most direct route isn't the correct route.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Hint4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You can only place wires in rooms you are located in!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You can only place wires in rooms you are located in!",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5989,6 +6275,29 @@
       },
       {
         "objectName": "Mouse"
+      },
+      {
+        "folderName": "UI",
+        "children": [
+          {
+            "objectName": "TextBackground"
+          },
+          {
+            "objectName": "ScreenSize"
+          },
+          {
+            "objectName": "Hint1"
+          },
+          {
+            "objectName": "Hint2"
+          },
+          {
+            "objectName": "Hint3"
+          },
+          {
+            "objectName": "Hint4"
+          }
+        ]
       }
     ]
   },
