@@ -16,7 +16,6 @@
       "comment": "This section contains all logic that applies to all levels (how to handle snapping, movement, etc)"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
