@@ -3802,6 +3802,15 @@
         "name": "assets\\House 2\\NewTiledSprite29.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TextboxBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TextboxBackground.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3880,9 +3889,9 @@
           "IsCalledManually": false
         },
         {
-          "allowDiagonals": false,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "allowDiagonals": false,
           "acceleration": 400,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -6357,7 +6366,7 @@
       "leftMargin": 4,
       "name": "TextBackground",
       "rightMargin": 4,
-      "texture": "NewPanelSprite2",
+      "texture": "assets\\TextboxBackground.png",
       "tiled": false,
       "topMargin": 4,
       "type": "PanelSpriteObject::PanelSprite",
