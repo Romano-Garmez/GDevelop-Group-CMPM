@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "house_322",
-  "name": "house 2",
+  "mangledName": "House_322",
+  "name": "House 2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -923,14 +923,387 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 600,
+      "layer": "Debug",
+      "name": "Alignment_Grid",
+      "persistentUuid": "b28e9c05-e090-47a0-b152-7e86aa7a1ad0",
+      "width": 800,
+      "x": 0,
+      "y": 0,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PlayerSprite",
+      "persistentUuid": "378c4bb8-cf49-4ead-93b4-7627286f985b",
+      "width": 0,
+      "x": 394,
+      "y": 360,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "46f6398f-72eb-443e-9221-3e51c89c41e7",
+      "width": 341,
+      "x": 23,
+      "y": 502,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "cfe76f42-2978-44d0-a495-7a4bb98ced05",
+      "width": 346,
+      "x": 454,
+      "y": 498,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "98662661-a2c6-46b0-aa9c-01680cbbd470",
+      "width": 559,
+      "x": 237,
+      "y": 92,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "13fe5db7-8fde-45df-afd7-f1827bc6b9df",
+      "width": 118,
+      "x": 50,
+      "y": 94,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "6768ab6a-7851-4272-a89e-5895a816a8b2",
+      "width": 407,
+      "x": -169,
+      "y": 282,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "51d8b199-018d-40a5-a84a-d785cbccb46c",
+      "width": 436,
+      "x": 597,
+      "y": 294,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "95bf92db-34aa-4e5a-8235-c61cc8c0b528",
+      "width": 130,
+      "x": 405,
+      "y": 171,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "a9373b43-9eea-471b-a7d2-bb55c3baf3e5",
+      "width": 130,
+      "x": 403,
+      "y": 422,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "4151275b-207c-436c-82f7-042934d7eaba",
+      "width": 62,
+      "x": 646,
+      "y": 354,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "0c80b824-68e7-4071-8fed-bf2bfabf741d",
+      "width": 62,
+      "x": 645,
+      "y": 238,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "4157b5ce-9537-4349-9dcd-148d8857e1ce",
+      "width": 192,
+      "x": 608,
+      "y": 367,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "8ee03a0c-7d24-4e96-ab61-361cd27c7cbb",
+      "width": 192,
+      "x": 606,
+      "y": 223,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "25b81711-3171-4369-b470-142a19918aab",
+      "width": 72,
+      "x": 485,
+      "y": 223,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "d449d62c-7514-4d86-89aa-554a5c6b6baa",
+      "width": 72,
+      "x": 484,
+      "y": 368,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "dfb13253-d94f-44cd-b167-b2b62f2928d0",
+      "width": 74,
+      "x": 311,
+      "y": 449,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 123,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "a580af0d-b556-4153-a147-2b6a97e07119",
+      "width": 63,
+      "x": 264,
+      "y": 272,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
   "objectsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterX(\"\", 0)",
+            "\"Debug\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterY(\"\", 0)",
+            "\"Debug\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "NewSprite",
+            "Animation"
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Debug",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
