@@ -18,17 +18,236 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.607539360311669,
+    "zoomFactor": 0.5500032386579791,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 325,
+      "layer": "",
+      "name": "NewTiledSprite19",
+      "persistentUuid": "0dfefed7-31f5-4e0c-921d-82a1541df5c2",
+      "width": 1509,
+      "x": -351,
+      "y": 275,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 344,
+      "layer": "",
+      "name": "NewTiledSprite20",
+      "persistentUuid": "95dcf891-80a4-4a25-a380-71aba1a1b63b",
+      "width": 993,
+      "x": -90,
+      "y": 253,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 322,
+      "layer": "",
+      "name": "NewTiledSprite21",
+      "persistentUuid": "734a4669-1ac2-49db-b935-07758b2a5efe",
+      "width": 1499,
+      "x": -349,
+      "y": 276,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 327,
+      "layer": "",
+      "name": "NewTiledSprite22",
+      "persistentUuid": "9efd1e59-46bc-43b6-9345-30444bc709a6",
+      "width": 1507,
+      "x": -352,
+      "y": 274,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 507,
+      "layer": "",
+      "name": "Blue_sky",
+      "persistentUuid": "1cf7cf98-a68c-47f3-8126-f3726ab0b23e",
+      "width": 1524,
+      "x": -363,
+      "y": -18,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "Story_Starter",
+      "persistentUuid": "ffd923ab-7001-4204-9624-1cb85086207c",
+      "width": 683,
+      "x": 68,
+      "y": 26,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Choice player",
+      "name": "NewTiledSprite24",
+      "persistentUuid": "3adce051-2b69-4305-8095-87f305a012e7",
+      "width": 0,
+      "x": 439,
+      "y": 241,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 604,
+      "layer": "Choice player",
+      "name": "NewSprite3",
+      "persistentUuid": "6f6434fd-c72f-44ec-8bc8-352cb28fd280",
+      "width": 443,
+      "x": -4,
+      "y": -1,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 257,
+      "layer": "Choice player",
+      "name": "NewSprite4",
+      "persistentUuid": "a8b432fc-0ed6-4871-b4de-9f3938d908d2",
+      "width": 389,
+      "x": 414,
+      "y": 1,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 43,
+      "layer": "Choice player",
+      "name": "Choose_player",
+      "persistentUuid": "dfd5fc25-c8ee-4e65-a9fa-31c7e7f4a766",
+      "width": 183,
+      "x": 169,
+      "y": 204,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "NewFolder"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Title Scene backgrounf effects",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "NewTiledSprite19",
+                "+",
+                "125*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "NewTiledSprite21",
+                "+",
+                "150*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "NewTiledSprite20",
+                "+",
+                "125*TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -43,7 +262,7 @@
       "isLocked": false,
       "name": "",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [
         {
           "defaultSize": true,
@@ -56,6 +275,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Choice player",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
