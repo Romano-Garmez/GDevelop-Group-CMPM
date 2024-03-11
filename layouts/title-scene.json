@@ -27,86 +27,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 10,
-      "height": 325,
-      "layer": "",
-      "name": "NewTiledSprite19",
-      "persistentUuid": "0dfefed7-31f5-4e0c-921d-82a1541df5c2",
-      "width": 1509,
-      "x": -351,
-      "y": 275,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 344,
-      "layer": "",
-      "name": "NewTiledSprite20",
-      "persistentUuid": "95dcf891-80a4-4a25-a380-71aba1a1b63b",
-      "width": 993,
-      "x": -90,
-      "y": 253,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 322,
-      "layer": "",
-      "name": "NewTiledSprite21",
-      "persistentUuid": "734a4669-1ac2-49db-b935-07758b2a5efe",
-      "width": 1499,
-      "x": -349,
-      "y": 276,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 327,
-      "layer": "",
-      "name": "NewTiledSprite22",
-      "persistentUuid": "9efd1e59-46bc-43b6-9345-30444bc709a6",
-      "width": 1507,
-      "x": -352,
-      "y": 274,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 507,
-      "layer": "",
-      "name": "Blue_sky",
-      "persistentUuid": "1cf7cf98-a68c-47f3-8126-f3726ab0b23e",
-      "width": 1524,
-      "x": -363,
-      "y": -18,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 320,
       "layer": "",
@@ -115,7 +35,7 @@
       "width": 683,
       "x": 68,
       "y": 26,
-      "zOrder": 27,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -185,14 +105,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
       "layer": "",
-      "name": "NewTiledSprite24",
-      "persistentUuid": "609bd636-06d1-4e97-9edb-f9ea7a15de0c",
-      "width": 0,
-      "x": 438,
-      "y": 238,
+      "name": "NewTiledSprite27",
+      "persistentUuid": "dd9585d5-4403-4930-a027-2e8e783fce14",
+      "width": 1097,
+      "x": -159,
+      "y": 279,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -202,13 +123,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 597,
+      "height": 320,
       "layer": "",
-      "name": "NewSprite3",
-      "persistentUuid": "2c45b484-3b96-411e-899c-9b2ffcea5ab6",
-      "width": 443,
-      "x": -4,
-      "y": 1,
+      "name": "NewTiledSprite26",
+      "persistentUuid": "38e51d00-f7bc-4c05-9f18-638854af17a3",
+      "width": 944,
+      "x": -84,
+      "y": 279,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -218,14 +139,46 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 260,
+      "height": 321,
       "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3180f2d7-ab93-46a0-be9f-1513babe9acb",
-      "width": 364,
-      "x": 436,
-      "y": 0,
-      "zOrder": 18,
+      "name": "NewTiledSprite25",
+      "persistentUuid": "6ccfb694-8f41-4171-99dc-48752c8265c4",
+      "width": 927,
+      "x": -43,
+      "y": 279,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "NewTiledSprite23",
+      "persistentUuid": "5a4b42a5-9fe3-445b-b6c7-797da64db776",
+      "width": 940,
+      "x": -86,
+      "y": 279,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 316,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "0fd569d6-5065-4cd9-85ba-a940660e2cb0",
+      "width": 980,
+      "x": -83,
+      "y": -9,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -233,12 +186,7 @@
   ],
   "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "folderName": "NewFolder"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -259,7 +207,7 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "NewTiledSprite19",
+                "NewTiledSprite23",
                 "+",
                 "125*TimeDelta()"
               ]
@@ -269,9 +217,9 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "NewTiledSprite21",
+                "NewTiledSprite25",
                 "+",
-                "150*TimeDelta()"
+                "100*TimeDelta()"
               ]
             },
             {
@@ -279,9 +227,9 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "NewTiledSprite20",
+                "NewTiledSprite26",
                 "+",
-                "125*TimeDelta()"
+                "100*TimeDelta()"
               ]
             }
           ]
