@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7013421310295365,
+    "zoomFactor": 0.5747931490003555,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1775,21 +1775,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Level4Trigger",
-      "persistentUuid": "ed55f1e8-7f4b-4d77-925e-ff422cb228bd",
-      "width": 0,
-      "x": 749,
-      "y": -223,
-      "zOrder": 183,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 161,
@@ -2088,6 +2073,22 @@
       "x": 55,
       "y": 188,
       "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GoToHouse2",
+      "persistentUuid": "ea552e8e-d774-42c8-9587-f4b31443c9c0",
+      "width": 64,
+      "x": 329,
+      "y": 769,
+      "zOrder": 185,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
