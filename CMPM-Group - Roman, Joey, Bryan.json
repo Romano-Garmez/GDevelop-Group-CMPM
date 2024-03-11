@@ -8573,6 +8573,12 @@
       "name": "musicStarted",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "Character",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
