@@ -115,7 +115,7 @@
       "width": 683,
       "x": 68,
       "y": 26,
-      "zOrder": 5,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -179,6 +179,53 @@
       "x": 169,
       "y": 204,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewTiledSprite24",
+      "persistentUuid": "609bd636-06d1-4e97-9edb-f9ea7a15de0c",
+      "width": 0,
+      "x": 438,
+      "y": 238,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 597,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "2c45b484-3b96-411e-899c-9b2ffcea5ab6",
+      "width": 443,
+      "x": -4,
+      "y": 1,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 260,
+      "layer": "",
+      "name": "NewSprite4",
+      "persistentUuid": "3180f2d7-ab93-46a0-be9f-1513babe9acb",
+      "width": 364,
+      "x": 436,
+      "y": 0,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -262,7 +309,7 @@
       "isLocked": false,
       "name": "",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [
         {
           "defaultSize": true,
@@ -306,7 +353,7 @@
       "isLocked": false,
       "name": "Choice player",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
