@@ -4054,6 +4054,78 @@
         "name": "NewSprite10",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Intro/NewSprite9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Intro\\NewSprite9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Intro/NewSprite8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Intro\\NewSprite8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Intro/NewTiledSprite55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Intro\\NewTiledSprite55.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Intro/NewSprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Intro\\NewSprite10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sky sprites/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sky sprites\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sky sprites/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sky sprites\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sky sprites/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sky sprites\\2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sky sprites/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sky sprites\\4.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7136,7 +7208,7 @@
       "assetStoreId": "",
       "height": 360,
       "name": "NewTiledSprite24",
-      "texture": "NewTiledSprite55",
+      "texture": "assets\\Intro\\NewTiledSprite55.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 360,
       "variables": [],
@@ -7164,7 +7236,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite8",
+                  "image": "assets\\Intro\\NewSprite8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7225,7 +7297,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "assets\\Intro\\NewSprite9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7310,7 +7382,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite23",
-      "texture": "4.png",
+      "texture": "assets\\Sky sprites\\4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -7321,7 +7393,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite25",
-      "texture": "2.png",
+      "texture": "assets\\Sky sprites\\2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -7332,7 +7404,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite26",
-      "texture": "3.png",
+      "texture": "assets\\Sky sprites\\3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -7343,7 +7415,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite27",
-      "texture": "1.png",
+      "texture": "assets\\Sky sprites\\1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -7371,7 +7443,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite10",
+                  "image": "assets\\Intro\\NewSprite10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
