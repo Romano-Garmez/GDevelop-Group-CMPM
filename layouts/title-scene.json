@@ -21,15 +21,49 @@
     "zoomFactor": 0.5500032386579791,
     "windowMask": false
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "SkyObjects",
+      "objects": [
+        {
+          "name": "Sky1"
+        },
+        {
+          "name": "Sky5"
+        },
+        {
+          "name": "Sky4"
+        },
+        {
+          "name": "Sky3"
+        },
+        {
+          "name": "Sky2"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Speed",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "SkyOffset",
+      "type": "number",
+      "value": 1
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 320,
-      "layer": "",
+      "layer": "SkyUI",
       "name": "Story_Starter",
       "persistentUuid": "ffd923ab-7001-4204-9624-1cb85086207c",
       "width": 683,
@@ -44,7 +78,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Choice player",
+      "layer": "Choose player",
       "name": "NewTiledSprite24",
       "persistentUuid": "3adce051-2b69-4305-8095-87f305a012e7",
       "width": 0,
@@ -60,7 +94,7 @@
       "customSize": true,
       "depth": 1,
       "height": 604,
-      "layer": "Choice player",
+      "layer": "Choose player",
       "name": "NewSprite3",
       "persistentUuid": "6f6434fd-c72f-44ec-8bc8-352cb28fd280",
       "width": 443,
@@ -76,7 +110,7 @@
       "customSize": true,
       "depth": 1,
       "height": 257,
-      "layer": "Choice player",
+      "layer": "Choose player",
       "name": "NewSprite4",
       "persistentUuid": "a8b432fc-0ed6-4871-b4de-9f3938d908d2",
       "width": 389,
@@ -92,7 +126,7 @@
       "customSize": true,
       "depth": 1,
       "height": 43,
-      "layer": "Choice player",
+      "layer": "Choose player",
       "name": "Choose_player",
       "persistentUuid": "dfd5fc25-c8ee-4e65-a9fa-31c7e7f4a766",
       "width": 183,
@@ -108,8 +142,8 @@
       "customSize": true,
       "depth": 1,
       "height": 320,
-      "layer": "",
-      "name": "NewTiledSprite27",
+      "layer": "Sky",
+      "name": "Sky2",
       "persistentUuid": "dd9585d5-4403-4930-a027-2e8e783fce14",
       "width": 1097,
       "x": -159,
@@ -124,8 +158,8 @@
       "customSize": true,
       "depth": 1,
       "height": 320,
-      "layer": "",
-      "name": "NewTiledSprite26",
+      "layer": "Sky",
+      "name": "Sky3",
       "persistentUuid": "38e51d00-f7bc-4c05-9f18-638854af17a3",
       "width": 944,
       "x": -84,
@@ -140,8 +174,8 @@
       "customSize": true,
       "depth": 1,
       "height": 321,
-      "layer": "",
-      "name": "NewTiledSprite25",
+      "layer": "Sky",
+      "name": "Sky4",
       "persistentUuid": "6ccfb694-8f41-4171-99dc-48752c8265c4",
       "width": 927,
       "x": -43,
@@ -156,8 +190,8 @@
       "customSize": true,
       "depth": 1,
       "height": 320,
-      "layer": "",
-      "name": "NewTiledSprite23",
+      "layer": "Sky",
+      "name": "Sky5",
       "persistentUuid": "5a4b42a5-9fe3-445b-b6c7-797da64db776",
       "width": 940,
       "x": -86,
@@ -172,8 +206,8 @@
       "customSize": true,
       "depth": 1,
       "height": 316,
-      "layer": "",
-      "name": "NewSprite2",
+      "layer": "Sky",
+      "name": "Sky1",
       "persistentUuid": "0fd569d6-5065-4cd9-85ba-a940660e2cb0",
       "width": 980,
       "x": -83,
@@ -182,11 +216,115 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "SkyUI",
+      "name": "StartButton",
+      "persistentUuid": "80bbcfb6-b1c8-49a4-9c44-d5af9a990c2a",
+      "width": 0,
+      "x": 295,
+      "y": 481,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+      "name": "StartButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 6,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "assets/UI/Transparent Button With White Blue Border_Hovered.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "assets/UI/Transparent Button With White Blue Border_Idle.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "GO!",
+          "font": "Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "GO!",
+            "font": "Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "assets/UI/Transparent Button With White Blue Border_Pressed.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        }
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "StartButton"
+      }
+    ]
   },
   "events": [
     {
@@ -194,7 +332,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Title Scene backgrounf effects",
+      "name": "Title Scene background effects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -207,9 +345,9 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "NewTiledSprite23",
+                "Sky5",
                 "+",
-                "125*TimeDelta()"
+                "125*TimeDelta()*(Variable(Speed)/100)"
               ]
             },
             {
@@ -217,9 +355,9 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "NewTiledSprite25",
+                "Sky4",
                 "+",
-                "100*TimeDelta()"
+                "100*TimeDelta()*(Variable(Speed)/100)"
               ]
             },
             {
@@ -227,20 +365,133 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "NewTiledSprite26",
+                "Sky3",
                 "+",
-                "100*TimeDelta()"
+                "100*TimeDelta()*(Variable(Speed)/100)"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "StartButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpeedTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"OffsetTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"SkyUI\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpeedTimer\"",
+                ">=",
+                ".1"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Speed",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Speed",
+                "-",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "sce",
+            "\"OffsetTimer\"",
+            ">=",
+            ".001"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "SkyObjects",
+            "-",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"OffsetTimer\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -255,21 +506,10 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "",
+      "name": "Choose player",
       "renderingType": "",
       "visibility": true,
-      "cameras": [
-        {
-          "defaultSize": true,
-          "defaultViewport": true,
-          "height": 0,
-          "viewportBottom": 1,
-          "viewportLeft": 0,
-          "viewportRight": 1,
-          "viewportTop": 0,
-          "width": 0
-        }
-      ],
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
@@ -299,10 +539,87 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Choice player",
+      "name": "Sky",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "SkyUI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

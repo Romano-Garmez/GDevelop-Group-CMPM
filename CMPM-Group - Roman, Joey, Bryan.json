@@ -4144,6 +4144,33 @@
         "name": "assets/Level6Trigger.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/UI/Transparent Button With White Blue Border_Idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/Transparent Button With White Blue Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/UI/Transparent Button With White Blue Border_Hovered.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/Transparent Button With White Blue Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/UI/Transparent Button With White Blue Border_Pressed.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7366,7 +7393,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "PIck your charater",
+      "string": "PIck your character",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -7389,7 +7416,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "PIck your charater",
+        "text": "PIck your character",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,
@@ -7399,7 +7426,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite23",
+      "name": "Sky5",
       "texture": "assets\\Sky sprites\\4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -7410,7 +7437,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite25",
+      "name": "Sky4",
       "texture": "assets\\Sky sprites\\2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -7421,7 +7448,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite26",
+      "name": "Sky3",
       "texture": "assets\\Sky sprites\\3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -7432,7 +7459,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite27",
+      "name": "Sky2",
       "texture": "assets\\Sky sprites\\1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -7443,7 +7470,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "Sky1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8412,19 +8439,19 @@
         "folderName": "Sky 2.0",
         "children": [
           {
-            "objectName": "NewSprite2"
+            "objectName": "Sky1"
           },
           {
-            "objectName": "NewTiledSprite27"
+            "objectName": "Sky2"
           },
           {
-            "objectName": "NewTiledSprite26"
+            "objectName": "Sky3"
           },
           {
-            "objectName": "NewTiledSprite25"
+            "objectName": "Sky4"
           },
           {
-            "objectName": "NewTiledSprite23"
+            "objectName": "Sky5"
           }
         ]
       },
