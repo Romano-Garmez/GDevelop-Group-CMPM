@@ -6918,7 +6918,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can route power to doors to open them.\n",
+      "string": "You can route power to doors to open them. You're only able to drag stuff if you're inside the room!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6941,7 +6941,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can route power to doors to open them.\n",
+        "text": "You can route power to doors to open them. You're only able to drag stuff if you're inside the room!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -6959,7 +6959,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Remember, you can move parts once you've placed them!\n",
+      "string": "You can route power to doors to open them!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6982,7 +6982,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Remember, you can move parts once you've placed them!\n",
+        "text": "You can route power to doors to open them!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -8587,21 +8587,21 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Name of game\n\n\nDesigners\nBryan Galvan, Romango, kanganya\n\nProgramming\nBryan Galvan, Romango, kanganya\n\nWriters\nkanganya\n\nArt/Graphics\nBryan Galvan, kanganya\n\nAudio\nRomango\n\nSpecial thanks\n\n\n\n",
+      "string": "Name of game\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -8610,11 +8610,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Name of game\n\n\nDesigners\nBryan Galvan, Romango, kanganya\n\nProgramming\nBryan Galvan, Romango, kanganya\n\nWriters\nkanganya\n\nArt/Graphics\nBryan Galvan, kanganya\n\nAudio\nRomango\n\nSpecial thanks\n\n\n\n",
+        "text": "Name of game\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
