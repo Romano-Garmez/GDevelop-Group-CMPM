@@ -1,5 +1,5 @@
 {
-  "firstLayout": "House",
+  "firstLayout": "Title Scene",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -12,20 +12,20 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.CMPMGROUP.RBJ",
     "pixelsRounding": false,
     "projectUuid": "5652f031-4af5-4a02-b8e0-578e499bf9c0",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "CMPM-Group - Roman, Joey, Bryan - Vertical Slice",
+    "name": "CMPM-Group - Roman, Joey, Bryan",
     "description": "",
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/Users/romangarms/Downloads",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -43,7 +43,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -4189,6 +4189,119 @@
         "name": "assets/goToHouse1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Intro/NewSprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Intro/NewSprite10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/levelcompleted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/UI/levelcompleted.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/SlidingDoor.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\SlidingDoor.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Click.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Buzz.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Buzz.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Ding.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Ding.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"18.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "19.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite58.png\"}",
+        "name": "NewTiledSprite56",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5805,7 +5918,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "WireLR",
+      "name": "Wire",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6764,7 +6877,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.",
+      "string": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6787,7 +6900,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.",
+        "text": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -6805,7 +6918,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can route power towards doors to open them.",
+      "string": "You can route power to doors to open them.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6828,7 +6941,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can route power towards doors to open them.",
+        "text": "You can route power to doors to open them.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -6846,7 +6959,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Sometimes the most direct route isn't the correct route.",
+      "string": "Remember, you can move parts once you've placed them!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6869,7 +6982,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Sometimes the most direct route isn't the correct route.",
+        "text": "Remember, you can move parts once you've placed them!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -6887,7 +7000,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can only place wires in rooms you are located in!",
+      "string": "You can only place wires in rooms you are located in!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6910,7 +7023,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can only place wires in rooms you are located in!",
+        "text": "You can only place wires in rooms you are located in!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -7360,7 +7473,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Intro\\NewSprite9.png",
+                  "image": "assets/Intro/NewSprite10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7715,7 +7828,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "assets/LevelTriggerDone",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7823,7 +7936,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "assets/LevelTriggerDone",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7931,7 +8044,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "assets/LevelTriggerDone",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -8039,7 +8152,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "assets/LevelTriggerDone",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -8147,7 +8260,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "assets/LevelTriggerDone",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -8315,14 +8428,285 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LevelCompleted",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/UI/levelcompleted.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 117,
+                        "y": 35
+                      },
+                      {
+                        "x": 683,
+                        "y": 35
+                      },
+                      {
+                        "x": 683,
+                        "y": 429
+                      },
+                      {
+                        "x": 117,
+                        "y": 429
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Hint5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Sometimes you need to move wires you already placed to complete the level.\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Sometimes you need to move wires you already placed to complete the level.\n",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Hint6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Sometimes the most obvious path isn't the correct one.\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Sometimes the most obvious path isn't the correct one.\n",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Credits_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Name of game\n\n\nDesigners\nBryan Galvan, Romango, kanganya\n\nProgramming\nBryan Galvan, Romango, kanganya\n\nWriters\nkanganya\n\nArt/Graphics\nBryan Galvan, kanganya\n\nAudio\nRomango\n\nSpecial thanks\n\n\n\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Name of game\n\n\nDesigners\nBryan Galvan, Romango, kanganya\n\nProgramming\nBryan Galvan, Romango, kanganya\n\nWriters\nkanganya\n\nArt/Graphics\nBryan Galvan, kanganya\n\nAudio\nRomango\n\nSpecial thanks\n\n\n\n",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Sky_Background",
+      "texture": "18.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Distant_city",
+      "texture": "19.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Middle_city",
+      "texture": "20.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Roof_city",
+      "texture": "21.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "starry_sky",
+      "texture": "NewTiledSprite56",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "Ending Screen background",
+        "children": [
+          {
+            "objectName": "starry_sky"
+          },
+          {
+            "objectName": "Roof_city"
+          },
+          {
+            "objectName": "Middle_city"
+          },
+          {
+            "objectName": "Distant_city"
+          },
+          {
+            "objectName": "Sky_Background"
+          }
+        ]
+      },
+      {
         "folderName": "Text",
         "children": [
+          {
+            "folderName": "Ending Credits Text",
+            "children": [
+              {
+                "objectName": "Credits_Text"
+              }
+            ]
+          },
           {
             "objectName": "Choose_player"
           },
@@ -8359,7 +8743,7 @@
             "objectName": "WireFuseHolder"
           },
           {
-            "objectName": "WireLR"
+            "objectName": "Wire"
           },
           {
             "objectName": "WireTurn"
@@ -8611,6 +8995,9 @@
         "folderName": "UI",
         "children": [
           {
+            "objectName": "LevelCompleted"
+          },
+          {
             "objectName": "TextBackground"
           },
           {
@@ -8627,6 +9014,12 @@
           },
           {
             "objectName": "Hint4"
+          },
+          {
+            "objectName": "Hint5"
+          },
+          {
+            "objectName": "Hint6"
           }
         ]
       }
@@ -8640,7 +9033,7 @@
           "name": "PowerSource"
         },
         {
-          "name": "WireLR"
+          "name": "Wire"
         },
         {
           "name": "WireTurn"
@@ -8720,9 +9113,9 @@
     },
     {
       "folded": true,
-      "name": "Character",
-      "type": "number",
-      "value": 1
+      "name": "AudioMuted",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -8769,6 +9162,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/title-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ending-screen"
     }
   ],
   "externalEvents": [
@@ -8782,6 +9179,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"

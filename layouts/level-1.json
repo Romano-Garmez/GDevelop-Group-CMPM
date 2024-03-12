@@ -103,7 +103,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "e528250b-ef3f-4b40-b776-795410c61055",
       "width": 0,
       "x": 384,
@@ -118,7 +118,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "caa83f85-3a91-4f60-92e3-c5785990ac70",
       "width": 0,
       "x": 352,
@@ -193,7 +193,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "7de6ceb6-6676-482e-a1f0-0c17966d9390",
       "width": 0,
       "x": 447,
@@ -238,7 +238,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "fbc28174-a238-4451-8e33-ea75b7295a3d",
       "width": 0,
       "x": 512,
@@ -283,7 +283,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "5d0dee41-76d3-40ed-8503-aab880f73b85",
       "width": 0,
       "x": 576,
@@ -313,7 +313,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "90717f88-1ecf-4676-978d-d2542d3f6ec5",
       "width": 0,
       "x": 607,
@@ -342,13 +342,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
+      "height": 116,
       "layer": "UI",
       "name": "Hint1",
       "persistentUuid": "653affdd-2aad-414d-9a09-09a415c0b809",
       "width": 570,
       "x": 117,
-      "y": 461,
+      "y": 470,
       "zOrder": 10000,
       "numberProperties": [],
       "stringProperties": [],
@@ -479,7 +479,7 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "Level2Complete",
+            "Level1Complete",
             "True"
           ]
         },
@@ -490,6 +490,18 @@
           "parameters": [
             "",
             "\"House\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\SFX\\Ding.mp3",
+            "",
+            "50",
             ""
           ]
         }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5941753637125075,
+    "zoomFactor": 0.3990965280630923,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2082,13 +2082,28 @@
       "customSize": true,
       "depth": 0,
       "height": 64,
-      "layer": "",
+      "layer": "UI",
       "name": "GoToHouse2",
       "persistentUuid": "ea552e8e-d774-42c8-9587-f4b31443c9c0",
       "width": 64,
-      "x": 329,
-      "y": 769,
-      "zOrder": 185,
+      "x": 400,
+      "y": 700,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "LevelCompleted",
+      "persistentUuid": "92448faf-6111-4a09-9f2b-42b94f59dd88",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 186,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2338,6 +2353,39 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
