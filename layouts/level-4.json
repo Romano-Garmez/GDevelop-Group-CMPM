@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.23891158801105,
+    "zoomFactor": 1.044158960274146,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -103,7 +103,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "e528250b-ef3f-4b40-b776-795410c61055",
       "width": 0,
       "x": 384,
@@ -118,7 +118,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "caa83f85-3a91-4f60-92e3-c5785990ac70",
       "width": 0,
       "x": 352,
@@ -178,7 +178,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "7018d92a-b054-42c2-8902-df71fd651c94",
       "width": 0,
       "x": 607,
@@ -327,7 +327,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "d0a9f6fd-c359-436a-9e91-dfeb671d3c48",
       "width": 0,
       "x": 416,
@@ -387,7 +387,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "b25da096-3622-4a44-ac4e-350158717253",
       "width": 0,
       "x": 480,
@@ -402,7 +402,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "a0727458-0a1b-43b1-b77a-4cd3cbf25d42",
       "width": 0,
       "x": 448,
@@ -740,6 +740,18 @@
             "\"House 2\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\SFX\\Ding.mp3",
+            "",
+            "50",
+            ""
+          ]
         }
       ]
     },
@@ -760,7 +772,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Debug",
       "renderingType": "",
       "visibility": true,
@@ -854,7 +866,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "UI",
       "renderingType": "",
       "visibility": true,

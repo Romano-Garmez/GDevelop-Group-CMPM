@@ -205,12 +205,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 316,
+      "height": 293,
       "layer": "Sky",
       "name": "Sky1",
       "persistentUuid": "0fd569d6-5065-4cd9-85ba-a940660e2cb0",
-      "width": 980,
-      "x": -83,
+      "width": 1002,
+      "x": -105,
       "y": -9,
       "zOrder": -5,
       "numberProperties": [],
@@ -872,7 +872,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "Character",
+            "AudioMuted",
             "=",
             "1"
           ]
@@ -908,7 +908,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "Character",
+            "AudioMuted",
             "=",
             "2"
           ]
@@ -921,6 +921,28 @@
             "",
             "\"House\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"House\""
           ]
         }
       ]

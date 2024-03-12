@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3614167210466177,
+    "zoomFactor": 0.6349225559240163,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -88,7 +88,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "caa83f85-3a91-4f60-92e3-c5785990ac70",
       "width": 0,
       "x": 352,
@@ -277,6 +277,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 140,
+      "layer": "UI",
+      "name": "TextBackground",
+      "persistentUuid": "4d01405f-ec91-45bf-a28b-2433f68649fe",
+      "width": 600,
+      "x": 100,
+      "y": 750,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 102,
+      "layer": "UI",
+      "name": "Hint5",
+      "persistentUuid": "058f5a84-99e0-4460-833e-9c7e528d4d64",
+      "width": 577,
+      "x": 109,
+      "y": 764,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -384,6 +416,18 @@
             "\"House 2\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\SFX\\Ding.mp3",
+            "",
+            "50",
+            ""
+          ]
         }
       ]
     },
@@ -454,6 +498,39 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [

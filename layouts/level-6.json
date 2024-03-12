@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3614167210466177,
+    "zoomFactor": 0.6563323540851634,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -88,7 +88,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "WireLR",
+      "name": "Wire",
       "persistentUuid": "caa83f85-3a91-4f60-92e3-c5785990ac70",
       "width": 0,
       "x": 352,
@@ -122,7 +122,7 @@
       "persistentUuid": "6524337f-93e4-4a5a-8ed7-a239adc3aeea",
       "width": 0,
       "x": 592,
-      "y": 432,
+      "y": 464,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,6 +139,439 @@
       "x": 386,
       "y": 495,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "44a403e4-41e8-4f12-a80b-616817017565",
+      "width": 0,
+      "x": 384,
+      "y": 448,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "028fcf36-0a0e-4115-84cc-3e16a8568436",
+      "width": 0,
+      "x": 416,
+      "y": 448,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "f8854fe8-3075-495d-8574-d236d955e0f7",
+      "width": 0,
+      "x": 512,
+      "y": 448,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireTurn",
+      "persistentUuid": "bf0cf527-ef6e-41bd-b6b9-ccd6201702a6",
+      "width": 0,
+      "x": 544,
+      "y": 448,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WireTurn",
+      "persistentUuid": "5fe6d6f6-0019-4b46-9d71-4cd498de611a",
+      "width": 0,
+      "x": 544,
+      "y": 512,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "3aad3af5-b8f2-4137-922c-98dda2ceab09",
+      "width": 0,
+      "x": 576,
+      "y": 512,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "5821ae24-bd30-400d-9f90-cfb3ef80a014",
+      "width": 32,
+      "x": 560,
+      "y": 432,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "eff68534-1a85-4df3-a3a2-fb89cba616b0",
+      "width": 0,
+      "x": 442,
+      "y": 539,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "cd6f5cf6-5f93-4321-bdbc-c10e501c2fe3",
+      "width": 0,
+      "x": 443,
+      "y": 309,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireTurn",
+      "persistentUuid": "f9e93a17-2f88-4f43-8449-3eba3df65091",
+      "width": 0,
+      "x": 390,
+      "y": 319,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "f95564af-af82-42e5-bbb0-27dfefa406c4",
+      "width": 0,
+      "x": 544,
+      "y": 480,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "9b21065a-b2e6-4abd-ad31-6c96bd73f3ee",
+      "width": 0,
+      "x": 400,
+      "y": 368,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "65834bb6-b3ff-463c-ae3d-bae37f652d6b",
+      "width": 31,
+      "x": 369,
+      "y": 368,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "9f541180-25c1-473e-adfe-79f27c215338",
+      "width": 32,
+      "x": 432,
+      "y": 368,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "5c0dd4fb-c006-4206-8982-0d40cc70500e",
+      "width": 32,
+      "x": 463,
+      "y": 272,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "6d1dd48b-011f-476b-81fa-7fe518d0970e",
+      "width": 32,
+      "x": 336,
+      "y": 272,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "f753f7e1-377e-48b0-a0ed-8bcc12c220be",
+      "width": 95,
+      "x": 369,
+      "y": 240,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "e7534144-769d-445a-a82e-a1c9a7ed0979",
+      "width": 16,
+      "x": 416,
+      "y": 440,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HoldableWireLR",
+      "persistentUuid": "50816c0f-4eda-46ad-925b-42c258318b43",
+      "width": 0,
+      "x": 389,
+      "y": 544,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 97,
+      "layer": "",
+      "name": "NoDraggingParts",
+      "persistentUuid": "6c8350c1-6081-4c75-af59-90d7123dbdc9",
+      "width": 96,
+      "x": 367,
+      "y": 271,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "00cc2a07-b7b1-42e1-9a51-29305d0bb365",
+      "width": 0,
+      "x": 369,
+      "y": 368,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "cbec8105-ce0f-488c-b7fd-57bfc044b7c5",
+      "width": 0,
+      "x": 431,
+      "y": 368,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "b09051ae-2f4b-4fb0-8071-c74cb1c34b06",
+      "width": 32,
+      "x": 464,
+      "y": 272,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "ec18bd89-a926-48e6-9e75-f04b13664306",
+      "width": 32,
+      "x": 337,
+      "y": 271,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "Debug",
+      "name": "CollisionDetect",
+      "persistentUuid": "2cbe87c3-8744-4775-9050-cf83166525c1",
+      "width": 32,
+      "x": 400,
+      "y": 207,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "2b446dfd-21c3-4dcd-8077-158d76aea7c3",
+      "width": 0,
+      "x": 511,
+      "y": 448,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 150,
+      "layer": "UI",
+      "name": "TextBackground",
+      "persistentUuid": "3b8ba921-0711-4ccc-9b06-14657b87aaf7",
+      "width": 600,
+      "x": 100,
+      "y": 740,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 111,
+      "layer": "UI",
+      "name": "Hint6",
+      "persistentUuid": "4f302f0f-313c-4b5b-869a-1fbda673615a",
+      "width": 575,
+      "x": 113,
+      "y": 763,
+      "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -213,6 +646,61 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "electricitySprite",
+            "PowerEndpoint",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level6Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"House 2\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\SFX\\Ding.mp3",
+            "",
+            "50",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -226,7 +714,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Debug",
       "renderingType": "",
       "visibility": true,
@@ -276,6 +764,39 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
