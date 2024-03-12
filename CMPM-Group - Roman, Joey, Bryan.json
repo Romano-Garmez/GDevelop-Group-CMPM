@@ -4257,6 +4257,51 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"18.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "19.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite58.png\"}",
+        "name": "NewTiledSprite56",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8525,14 +8570,143 @@
         "characterSize": 30,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Credits_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Name of game\n\n\nDesigners\nBryan Galvan, Romango, kanganya\n\nProgramming\nBryan Galvan, Romango, kanganya\n\nWriters\nkanganya\n\nArt/Graphics\nBryan Galvan, kanganya\n\nAudio\nRomango\n\nSpecial thanks\n\n\n\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Name of game\n\n\nDesigners\nBryan Galvan, Romango, kanganya\n\nProgramming\nBryan Galvan, Romango, kanganya\n\nWriters\nkanganya\n\nArt/Graphics\nBryan Galvan, kanganya\n\nAudio\nRomango\n\nSpecial thanks\n\n\n\n",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Sky_Background",
+      "texture": "18.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Distant_city",
+      "texture": "19.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Middle_city",
+      "texture": "20.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Roof_city",
+      "texture": "21.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "starry_sky",
+      "texture": "NewTiledSprite56",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "Ending Screen background",
+        "children": [
+          {
+            "objectName": "starry_sky"
+          },
+          {
+            "objectName": "Roof_city"
+          },
+          {
+            "objectName": "Middle_city"
+          },
+          {
+            "objectName": "Distant_city"
+          },
+          {
+            "objectName": "Sky_Background"
+          }
+        ]
+      },
+      {
         "folderName": "Text",
         "children": [
+          {
+            "folderName": "Ending Credits Text",
+            "children": [
+              {
+                "objectName": "Credits_Text"
+              }
+            ]
+          },
           {
             "objectName": "Choose_player"
           },
@@ -8988,6 +9162,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/title-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ending-screen"
     }
   ],
   "externalEvents": [

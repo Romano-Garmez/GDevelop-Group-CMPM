@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6075393603116811,
+    "zoomFactor": 0.5877212072094159,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,44 +30,12 @@
       "depth": 1,
       "height": 326,
       "layer": "",
-      "name": "Background_sky",
-      "persistentUuid": "92b1ec3d-1838-4057-a1c3-84c959b4c50d",
-      "width": 1269,
-      "x": -288,
+      "name": "Sky_Background",
+      "persistentUuid": "f5b9e7ea-80df-4823-9395-d52c86ef5294",
+      "width": 1055,
+      "x": -201,
       "y": 274,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 325,
-      "layer": "",
-      "name": "Distant_city",
-      "persistentUuid": "44a062e4-8d24-4434-b65a-e75c3dc87599",
-      "width": 1044,
-      "x": -144,
-      "y": 274,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 279,
-      "layer": "",
-      "name": "Middle_city",
-      "persistentUuid": "db45f861-e913-4f21-ac99-bfff91bae96d",
-      "width": 1004,
-      "x": -102,
-      "y": 321,
-      "zOrder": 9,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,12 +46,44 @@
       "depth": 1,
       "height": 324,
       "layer": "",
-      "name": "Close_city",
-      "persistentUuid": "e5cf9041-c344-498b-b431-0c45b1ac58be",
-      "width": 961,
-      "x": -59,
+      "name": "Distant_city",
+      "persistentUuid": "3c731315-fd39-4cc9-b527-7aa3c0366103",
+      "width": 1020,
+      "x": -168,
+      "y": 278,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 324,
+      "layer": "",
+      "name": "Middle_city",
+      "persistentUuid": "a26f74a9-1428-4e34-9685-0bc8d4610af7",
+      "width": 987,
+      "x": -133,
+      "y": 275,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 324,
+      "layer": "",
+      "name": "Roof_city",
+      "persistentUuid": "d175655a-b700-448b-b924-6ee3b95fe53f",
+      "width": 950,
+      "x": -96,
       "y": 276,
-      "zOrder": 10,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,14 +92,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 325,
+      "height": 286,
       "layer": "",
-      "name": "Star_sky",
-      "persistentUuid": "35428b59-f443-45bc-93ae-bdd77c918710",
-      "width": 1268,
-      "x": -287,
-      "y": -25,
-      "zOrder": 11,
+      "name": "starry_sky",
+      "persistentUuid": "f34aec0e-3b2e-4922-bfe0-83a1f7be2785",
+      "width": 1055,
+      "x": -201,
+      "y": -10,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -108,14 +108,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 707,
+      "height": 529,
       "layer": "",
-      "name": "End_credit",
-      "persistentUuid": "2dc01cce-05b8-4b65-9afb-d9bb8289ac23",
-      "width": 470,
-      "x": 149,
-      "y": 587,
-      "zOrder": 12,
+      "name": "Credits_Text",
+      "persistentUuid": "315cb802-beba-4bfb-874f-e68983afcb70",
+      "width": 396,
+      "x": 207,
+      "y": 603,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -127,12 +127,16 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Ending Screen background ",
+      "name": "Ending Background",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -145,9 +149,9 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "Background_sky",
+                "Sky_Background",
                 "+",
-                "105*TimeDelta()"
+                "110*TimeDelta()"
               ]
             },
             {
@@ -167,7 +171,7 @@
               "parameters": [
                 "Middle_city",
                 "+",
-                "100*TimeDelta()"
+                "104*TimeDelta()"
               ]
             },
             {
@@ -175,7 +179,7 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "Close_city",
+                "Roof_city",
                 "+",
                 "100*TimeDelta()"
               ]
@@ -185,19 +189,9 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "Roof_building",
+                "starry_sky",
                 "+",
-                "100*TimeDelta()"
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledSpriteObject::XOffset"
-              },
-              "parameters": [
-                "Star_sky",
-                "+",
-                "100*TimeDelta()"
+                "110*TimeDelta()"
               ]
             }
           ]
@@ -210,7 +204,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Credit",
+      "name": "Moving Credit Text",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -230,21 +224,14 @@
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "End_credit",
+                "Credits_Text",
                 "Tween",
-                "\"Credit_Moving\"",
-                "-700",
+                "\"Credit Moving\"",
+                "-530",
                 "\"linear\"",
-                "7",
+                "9",
                 ""
               ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         }
