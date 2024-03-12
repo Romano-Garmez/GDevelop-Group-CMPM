@@ -4207,6 +4207,56 @@
         "name": "assets/UI/levelcompleted.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/SlidingDoor.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\SlidingDoor.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Click.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Buzz.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Buzz.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/SFX/Ding.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SFX\\Ding.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -321,6 +321,33 @@
                 "True"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\SlidingDoor.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -360,6 +387,33 @@
                 "Door",
                 "open",
                 "False"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\SlidingDoor.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1231,6 +1285,33 @@
                 "WireFuseHolder.CenterY()"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Click.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -1296,6 +1377,31 @@
                     "HoldableWireLR.CenterX()+Random(128)",
                     "=",
                     "HoldableWireLR.CenterY()+ Random(128)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Click.mp3",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -1365,6 +1471,31 @@
                     "HoldableWireTurn.CenterX()+Random(128)",
                     "=",
                     "HoldableWireTurn.CenterY()+ Random(128)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Click.mp3",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -1524,6 +1655,18 @@
                 "",
                 "\"actionTimeout\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\SFX\\Buzz.mp3",
+                "no",
+                "5",
+                ""
+              ]
             }
           ]
         },
@@ -1596,6 +1739,18 @@
               "parameters": [
                 "",
                 "\"actionTimeout\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\SFX\\Buzz.mp3",
+                "no",
+                "5",
+                ""
               ]
             }
           ]
@@ -1670,6 +1825,18 @@
                 "",
                 "\"actionTimeout\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\SFX\\Buzz.mp3",
+                "no",
+                "5",
+                ""
+              ]
             }
           ]
         },
@@ -1742,6 +1909,18 @@
               "parameters": [
                 "",
                 "\"actionTimeout\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\SFX\\Buzz.mp3",
+                "no",
+                "5",
+                ""
               ]
             }
           ]

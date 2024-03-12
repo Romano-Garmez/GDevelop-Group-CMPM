@@ -492,6 +492,18 @@
             "\"House\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\SFX\\Ding.mp3",
+            "",
+            "50",
+            ""
+          ]
         }
       ]
     }

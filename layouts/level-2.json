@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7747098920453463,
+    "zoomFactor": 1.4073241422570686,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -716,6 +716,18 @@
             "\"House\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\SFX\\Ding.mp3",
+            "",
+            "50",
+            ""
+          ]
         }
       ]
     },
@@ -830,7 +842,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "UI",
       "renderingType": "",
       "visibility": true,
