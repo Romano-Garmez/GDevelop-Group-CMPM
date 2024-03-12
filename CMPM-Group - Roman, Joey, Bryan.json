@@ -5873,7 +5873,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "WireLR",
+      "name": "Wire",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6873,7 +6873,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can route power towards doors to open them.",
+      "string": "You can route power to doors to open them.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6896,7 +6896,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can route power towards doors to open them.",
+        "text": "You can route power to doors to open them.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -6914,7 +6914,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Sometimes the most direct route isn't the correct route.",
+      "string": "Remember, you can move parts once you've placed them!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6937,7 +6937,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Sometimes the most direct route isn't the correct route.",
+        "text": "Remember, you can move parts once you've placed them!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -6955,7 +6955,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can only place wires in rooms you are located in!",
+      "string": "You can only place wires in rooms you are located in!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6978,7 +6978,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can only place wires in rooms you are located in!",
+        "text": "You can only place wires in rooms you are located in!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -8496,7 +8496,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can only place wires in rooms you are located in!",
+      "string": "Sometimes the most obvious path isn't the correct one.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -8519,7 +8519,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can only place wires in rooms you are located in!",
+        "text": "Sometimes the most obvious path isn't the correct one.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -8569,7 +8569,7 @@
             "objectName": "WireFuseHolder"
           },
           {
-            "objectName": "WireLR"
+            "objectName": "Wire"
           },
           {
             "objectName": "WireTurn"
@@ -8859,7 +8859,7 @@
           "name": "PowerSource"
         },
         {
-          "name": "WireLR"
+          "name": "Wire"
         },
         {
           "name": "WireTurn"
