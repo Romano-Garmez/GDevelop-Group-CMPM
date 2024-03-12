@@ -4198,6 +4198,15 @@
         "name": "assets/Intro/NewSprite10.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/levelcompleted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/UI/levelcompleted.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8324,6 +8333,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LevelCompleted",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/UI/levelcompleted.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 117,
+                        "y": 35
+                      },
+                      {
+                        "x": 683,
+                        "y": 35
+                      },
+                      {
+                        "x": 683,
+                        "y": 429
+                      },
+                      {
+                        "x": 117,
+                        "y": 429
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8619,6 +8688,9 @@
       {
         "folderName": "UI",
         "children": [
+          {
+            "objectName": "LevelCompleted"
+          },
           {
             "objectName": "TextBackground"
           },

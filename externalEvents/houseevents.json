@@ -545,14 +545,22 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "PlayerSprite",
                 "GoToHouse2",
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -600,6 +608,85 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "GoToHouse2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenCenter"
+          },
+          "parameters": [
+            "",
+            "GoToHouse2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenCentered"
+          },
+          "parameters": [
+            "",
+            "LevelCompleted",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level1Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level2Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level3Complete",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"UI\""
+          ]
+        }
+      ]
     }
   ]
 }
