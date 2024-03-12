@@ -7237,10 +7237,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing ",
-      "font": "",
+      "string": "You recently graduated in electrical engineering with a passion for fixing things. With a toolbox full of knowledge and a heart full of ambition, you decide to pursue your dream of starting a small business. \n\nYou set up shop in your own neighborhood, offering to fix electrical appliances and fixtures in people's homes. \n\nAre you ready to enter your first challenge? \n",
+      "font": "CarterOne-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 20,
+      "characterSize": 22,
       "color": {
         "b": 0,
         "g": 0,
@@ -7260,10 +7260,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing ",
-        "font": "",
+        "text": "You recently graduated in electrical engineering with a passion for fixing things. With a toolbox full of knowledge and a heart full of ambition, you decide to pursue your dream of starting a small business. \n\nYou set up shop in your own neighborhood, offering to fix electrical appliances and fixtures in people's homes. \n\nAre you ready to enter your first challenge? \n",
+        "font": "CarterOne-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 20,
+        "characterSize": 22,
         "color": "0;0;0"
       }
     },
