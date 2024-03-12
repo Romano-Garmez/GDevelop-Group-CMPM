@@ -97,6 +97,56 @@
             "\"GreyedOut\"",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "TextBackground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "Hint1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "Hint2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "Hint3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "Hint4",
+            ""
+          ]
         }
       ]
     },

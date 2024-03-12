@@ -4189,6 +4189,15 @@
         "name": "assets/goToHouse1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Intro/NewSprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Intro/NewSprite10.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6764,7 +6773,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.",
+      "string": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6787,7 +6796,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.",
+        "text": "Drag wires into place to complete the circuit! Use WASD to move the electricity towards the receptacle.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -7360,7 +7369,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Intro\\NewSprite9.png",
+                  "image": "assets/Intro/NewSprite10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8782,6 +8791,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
