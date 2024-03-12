@@ -675,7 +675,6 @@
       "target": "LevelEvents"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [

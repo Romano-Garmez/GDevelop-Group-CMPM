@@ -479,7 +479,7 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "Level2Complete",
+            "Level1Complete",
             "True"
           ]
         },
