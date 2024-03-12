@@ -147,6 +147,26 @@
             "Hint4",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "Hint5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToScreenBottom"
+          },
+          "parameters": [
+            "",
+            "Hint6",
+            ""
+          ]
         }
       ]
     },
