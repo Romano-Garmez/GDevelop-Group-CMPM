@@ -43,6 +43,15 @@
             "debug",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "AudioMuted",
+            "True"
+          ]
         }
       ]
     },
@@ -166,6 +175,42 @@
             "",
             "Hint6",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"audioMute\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"audioMute\"",
+            ">=",
+            ".5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "AudioMuted",
+            "False"
           ]
         }
       ]
@@ -394,6 +439,15 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "AudioMuted",
+                    "False"
+                  ]
+                },
                 {
                   "type": {
                     "value": "BuiltinCommonInstructions::Once"
@@ -2102,7 +2156,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "Character",
+                "AudioMuted",
                 "=",
                 "1"
               ]
@@ -2264,7 +2318,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "Character",
+                "AudioMuted",
                 "=",
                 "2"
               ]

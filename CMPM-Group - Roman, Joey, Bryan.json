@@ -1,5 +1,5 @@
 {
-  "firstLayout": "House",
+  "firstLayout": "Title Scene",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -12,20 +12,20 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.CMPMGROUP.RBJ",
     "pixelsRounding": false,
     "projectUuid": "5652f031-4af5-4a02-b8e0-578e499bf9c0",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "CMPM-Group - Roman, Joey, Bryan - Vertical Slice",
+    "name": "CMPM-Group - Roman, Joey, Bryan",
     "description": "",
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/Users/romangarms/Downloads",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -43,7 +43,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -8939,9 +8939,9 @@
     },
     {
       "folded": true,
-      "name": "Character",
-      "type": "number",
-      "value": 1
+      "name": "AudioMuted",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

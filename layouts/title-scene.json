@@ -872,7 +872,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "Character",
+            "AudioMuted",
             "=",
             "1"
           ]
@@ -908,7 +908,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "Character",
+            "AudioMuted",
             "=",
             "2"
           ]
@@ -921,6 +921,28 @@
             "",
             "\"House\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"House\""
           ]
         }
       ]
