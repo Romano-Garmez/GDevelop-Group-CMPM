@@ -4446,6 +4446,132 @@
         "name": "Slice 31 - Washing Machine 2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 29 - Wall Painting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 29 - Wall Painting.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 387 - Art Easel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 387 - Art Easel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 149 - Bunkbed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 149 - Bunkbed2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 302 - Wooden Stool2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 302 - Wooden Stool2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 2 - Wooden Table3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 2 - Wooden Table3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 301 - Long Bedside Cabinet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 301 - Long Bedside Cabinet2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 15 - Mini House Plant3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 15 - Mini House Plant3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 14 - Mini House Plant2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 14 - Mini House Plant2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 159 - Monitor1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 159 - Monitor1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 159 - Monitor2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Slice 159 - Monitor2.png\",\"extension\":\".png\"}",
+        "name": "Slice 159 - Monitor2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 151 - Fireplace2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 151 - Fireplace2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 307 - Cabinet with Glass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 307 - Cabinet with Glass.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 360 - White Basic Lamp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 360 - White Basic Lamp2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 25 - Sink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 25 - Sink.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8033,16 +8159,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/Level3Trigger",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Level3Trigger.png",
+                  "image": "Slice 159 - Monitor2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
