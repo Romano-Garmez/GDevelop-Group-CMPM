@@ -1261,13 +1261,28 @@
       "customSize": true,
       "depth": 0,
       "height": 64,
-      "layer": "",
-      "name": "GoToHouse1",
-      "persistentUuid": "3bebaf78-ae22-4deb-a9ff-d14ef587d470",
+      "layer": "UIHouse2",
+      "name": "GoToEnd",
+      "persistentUuid": "8abd4d30-cf5c-4dc3-9184-9e703fb0f628",
       "width": 64,
-      "x": 378,
-      "y": 435,
+      "x": 400,
+      "y": 500,
       "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UIHouse2",
+      "name": "LevelCompleted",
+      "persistentUuid": "b72d3b60-b7a2-4413-bb44-ed9b6df512d1",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1339,6 +1354,49 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level4Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level5Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level6Complete",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"UIHouse1\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     }
@@ -1403,6 +1461,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UIHouse2",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

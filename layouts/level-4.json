@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.044158960274146,
+    "zoomFactor": 3.017619395192279,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -448,11 +448,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 160,
+      "height": 191,
       "layer": "GreyedOut",
       "name": "NoDraggingParts",
       "persistentUuid": "586c79c1-c985-4c19-9f9c-2a1ab3f2344a",
-      "width": 175,
+      "width": 176,
       "x": 368,
       "y": 208,
       "zOrder": 26,
@@ -756,6 +756,28 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"actionTimeout\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     }
@@ -804,7 +826,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "GreyedOut",
       "renderingType": "",
       "visibility": true,

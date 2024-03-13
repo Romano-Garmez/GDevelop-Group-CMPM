@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8278377307394527,
+    "zoomFactor": 1.153388966102334,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -329,21 +329,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireTurn",
-      "persistentUuid": "35778f68-8adb-4d31-871a-ebf1c675f846",
-      "width": 0,
-      "x": 570,
-      "y": 235,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 180,
       "customSize": false,
       "height": 0,
@@ -351,23 +336,8 @@
       "name": "HoldableWireTurn",
       "persistentUuid": "60d0ce62-571f-44c3-9716-07d00d89df1e",
       "width": 0,
-      "x": 522,
-      "y": 273,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "HoldableWireTurn",
-      "persistentUuid": "97c20d34-6daf-4cbd-8984-36b003964bca",
-      "width": 0,
-      "x": 559,
-      "y": 275,
+      "x": 569,
+      "y": 268,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -493,8 +463,8 @@
       "name": "TextBackground",
       "persistentUuid": "6ddc9009-d17c-4641-9a48-3a8076a954ea",
       "width": 600,
-      "x": 123,
-      "y": 572,
+      "x": 122,
+      "y": 450,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -504,13 +474,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 104,
+      "height": 118,
       "layer": "UI",
       "name": "Hint3",
       "persistentUuid": "8dd12d4c-dbc5-449b-8c5e-c296762a3287",
       "width": 561,
-      "x": 142,
-      "y": 590,
+      "x": 141,
+      "y": 454,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -654,8 +624,25 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"actionTimeout\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

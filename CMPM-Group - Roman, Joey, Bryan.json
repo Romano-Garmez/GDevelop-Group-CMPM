@@ -3231,7 +3231,7 @@
         "alwaysLoaded": false,
         "file": "assets/Level2Trigger.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Level2Trigger.png\",\"extension\":\".png\"}",
+        "metadata": "",
         "name": "assets/Level2Trigger.png",
         "smoothed": false,
         "userAdded": true
@@ -4305,199 +4305,55 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Stove Oven.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Stove Oven.png\",\"extension\":\".png\"}",
-        "name": "Stove Oven.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../Downloads/level-completed-template-pixilart.png",
+        "file": "assets/goToEnd.png",
         "kind": "image",
         "metadata": "",
-        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart.png",
+        "name": "assets\\goToEnd.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart.png",
+        "file": "assets/assets_goToEnd.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_level-completed-template-pixilart.png\"}",
-        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\goToEnd",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/City Sky/21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\City Sky\\21.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart2.png",
+        "file": "assets/City Sky/20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_level-completed-template-pixilart2.png\"}",
-        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart2",
+        "metadata": "",
+        "name": "assets\\City Sky\\20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/City Sky/19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\City Sky\\19.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "pixilart-drawing (1).png",
+        "file": "assets/City Sky/18.png",
         "kind": "image",
         "metadata": "",
-        "name": "pixilart-drawing (1).png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 76 - Purple Couch.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 76 - Purple Couch.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 2 - Wooden Table.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 2 - Wooden Table.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 265 - Red Couch .png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 265 - Red Couch .png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 360 - White Basic Lamp.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 360 - White Basic Lamp.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 15 - Mini House Plant 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 15 - Mini House Plant 2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 45 - Shower.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 45 - Shower.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 149 - Bunkbed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 149 - Bunkbed.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 18 - Tall Mirror.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 18 - Tall Mirror.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 151 - Fireplace.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 151 - Fireplace.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 126 - Bathtub.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 126 - Bathtub.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 30 - Washing Machine.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Slice 30 - Washing Machine.png\",\"extension\":\".png\"}",
-        "name": "Slice 30 - Washing Machine.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 159 - Monitor .png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Slice 159 - Monitor .png\",\"extension\":\".png\"}",
-        "name": "Slice 159 - Monitor .png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 301 - Long Bedside Cabinet.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 301 - Long Bedside Cabinet.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 302 - Wooden Stool.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 302 - Wooden Stool.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Slice 14 - Mini House Plant.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slice 14 - Mini House Plant.png",
+        "name": "assets\\City Sky\\18.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -6579,19 +6435,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
+                        "x": 0,
                         "y": 0
                       },
                       {
-                        "x": 24,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 24,
+                        "x": 32,
                         "y": 32
                       },
                       {
-                        "x": 8,
+                        "x": 0,
                         "y": 32
                       }
                     ]
@@ -7116,7 +6972,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can route power to doors to open them. You're only able to drag stuff if you're inside the room!\n",
+      "string": "You may have to pick up items you used before to make a path to the end!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -7139,7 +6995,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can route power to doors to open them. You're only able to drag stuff if you're inside the room!\n",
+        "text": "You may have to pick up items you used before to make a path to the end!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -7157,7 +7013,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can route power to doors to open them!\n",
+      "string": "You can route power to doors to open them! You can only access items inside of rooms you are in. Walk with the arrow keys.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -7180,7 +7036,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can route power to doors to open them!\n",
+        "text": "You can route power to doors to open them! You can only access items inside of rooms you are in. Walk with the arrow keys.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -7198,7 +7054,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can only place wires in rooms you are located in!\n",
+      "string": "You can only pick up wires in rooms you are located in!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -7221,7 +7077,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can only place wires in rooms you are located in!\n",
+        "text": "You can only pick up wires in rooms you are located in!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -7713,7 +7569,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Choose_player",
       "smoothed": true,
@@ -7722,7 +7578,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "PIck your character",
+      "string": "Choose your character!",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -7732,7 +7588,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -7745,7 +7601,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "PIck your character",
+        "text": "Choose your character!",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,
@@ -7878,7 +7734,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 30 - Washing Machine.png",
+                  "image": "Level1Trigger",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7978,17 +7834,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "assets/Level2Trigger",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Stove Oven.png",
+                  "image": "assets/Level2Trigger.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8087,17 +7942,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "assets/Level3Trigger",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 159 - Monitor .png",
+                  "image": "assets/Level3Trigger.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8533,8 +8387,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -8572,7 +8426,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "GoToHouse1",
+      "name": "GoToEnd",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8580,21 +8434,22 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\goToEnd",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/goToHouse1.png",
+                  "image": "assets\\goToEnd.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -8741,7 +8596,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Sometimes the most obvious path isn't the correct one.\n",
+      "string": "Try to put it all together!",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -8764,7 +8619,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Sometimes the most obvious path isn't the correct one.\n",
+        "text": "Try to put it all together!",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
@@ -8821,7 +8676,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Sky_Background",
-      "texture": "18.png",
+      "texture": "assets\\City Sky\\18.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8832,7 +8687,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Distant_city",
-      "texture": "19.png",
+      "texture": "assets\\City Sky\\19.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8843,7 +8698,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Middle_city",
-      "texture": "20.png",
+      "texture": "assets\\City Sky\\20.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8854,7 +8709,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Roof_city",
-      "texture": "21.png",
+      "texture": "assets\\City Sky\\21.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -9004,7 +8859,7 @@
         "folderName": "House 2",
         "children": [
           {
-            "objectName": "GoToHouse1"
+            "objectName": "GoToEnd"
           },
           {
             "folderName": "Fences",
@@ -9018,10 +8873,12 @@
             ]
           },
           {
-            "folderName": "Door"
-          },
-          {
-            "objectName": "NewSprite"
+            "folderName": "Door",
+            "children": [
+              {
+                "objectName": "NewSprite"
+              }
+            ]
           },
           {
             "folderName": "Floor",
@@ -9314,6 +9171,18 @@
     {
       "folded": true,
       "name": "AudioMuted",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "HouseComplete1",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "HouseComplete2",
       "type": "boolean",
       "value": false
     }
