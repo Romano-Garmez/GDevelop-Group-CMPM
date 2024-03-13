@@ -886,6 +886,17 @@
             "\"House\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player1Down\""
+          ]
         }
       ]
     },
@@ -921,6 +932,17 @@
             "",
             "\"House\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player2Down\""
           ]
         }
       ]

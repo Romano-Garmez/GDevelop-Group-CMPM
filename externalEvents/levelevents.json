@@ -371,18 +371,18 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "AudioMuted",
                     "False"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -410,7 +410,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Draggable",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1271,7 +1270,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Debug",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1309,7 +1307,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Snapping",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1580,7 +1577,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Element Logic",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1726,17 +1722,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1811,17 +1846,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1896,17 +1970,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1981,17 +2094,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
