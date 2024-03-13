@@ -9276,6 +9276,12 @@
       "name": "HouseComplete2",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "character",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [

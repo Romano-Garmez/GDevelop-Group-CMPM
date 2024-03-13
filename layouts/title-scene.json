@@ -872,7 +872,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "AudioMuted",
+            "character",
             "=",
             "1"
           ]
@@ -885,6 +885,17 @@
             "",
             "\"House\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player1Down\""
           ]
         }
       ]
@@ -908,7 +919,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "AudioMuted",
+            "character",
             "=",
             "2"
           ]
@@ -921,6 +932,17 @@
             "",
             "\"House\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PlayerSprite",
+            "Animation",
+            "=",
+            "\"Player2Down\""
           ]
         }
       ]
