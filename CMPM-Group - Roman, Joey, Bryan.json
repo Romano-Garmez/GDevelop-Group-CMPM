@@ -4797,6 +4797,402 @@
         "name": "Slice 15 - Mini House Plant4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 76 - Purple Couch2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 76 - Purple Couch2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 2 - Wooden Table4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 2 - Wooden Table4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 360 - White Basic Lamp3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 360 - White Basic Lamp3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 14 - Mini House Plant3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 14 - Mini House Plant3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 15 - Mini House Plant4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 15 - Mini House Plant4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 302 - Wooden Stool3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 302 - Wooden Stool3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 159 - Monitor3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 159 - Monitor3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 34 - Black Washing Machine 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 34 - Black Washing Machine 2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 151 - Fireplace3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 151 - Fireplace3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 18 - Tall Mirror3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 18 - Tall Mirror3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 263 - Fancy Double Bed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 263 - Fancy Double Bed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 307 - Cabinet with Glass2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 307 - Cabinet with Glass2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 45 - Shower3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 45 - Shower3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 32 - Black Washing Machine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 32 - Black Washing Machine.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 37 - Fancy Double Sink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 37 - Fancy Double Sink.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 115 - Chest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 115 - Chest.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 301 - Long Bedside Cabinet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 301 - Long Bedside Cabinet3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Stove Oven3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Stove Oven3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 18 - Tall Mirror2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 18 - Tall Mirror2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 30 - Washing Machine2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 30 - Washing Machine2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 45 - Shower2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 45 - Shower2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 265 - Red Couch1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 265 - Red Couch1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 2 - Wooden Table2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 2 - Wooden Table2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 31 - Washing Machine 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 31 - Washing Machine 2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 29 - Wall Painting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 29 - Wall Painting.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 387 - Art Easel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 387 - Art Easel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 149 - Bunkbed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 149 - Bunkbed2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 302 - Wooden Stool2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 302 - Wooden Stool2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 301 - Long Bedside Cabinet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 301 - Long Bedside Cabinet2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 15 - Mini House Plant3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 15 - Mini House Plant3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 14 - Mini House Plant2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 14 - Mini House Plant2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 159 - Monitor1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 159 - Monitor1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 151 - Fireplace2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 151 - Fireplace2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 307 - Cabinet with Glass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 307 - Cabinet with Glass.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 360 - White Basic Lamp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 360 - White Basic Lamp2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 25 - Sink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 25 - Sink.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/level-completed-template-pixilart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\level-completed-template-pixilart.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/level-completed-template-pixilart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\level-completed-template-pixilart2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Stove Oven2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Stove Oven2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 30 - Washing Machine3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 30 - Washing Machine3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 159 - Monitor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 159 - Monitor2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 360 - White Basic Lamp4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 360 - White Basic Lamp4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 23 - Microwave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 23 - Microwave.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 34 - Black Washing Machine3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 34 - Black Washing Machine3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8175,7 +8571,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Stove Oven2.png",
+                  "image": "assets\\furniture\\Stove Oven2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8285,7 +8681,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 30 - Washing Machine3.png",
+                  "image": "assets\\furniture\\Slice 30 - Washing Machine3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8394,7 +8790,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 159 - Monitor2.png",
+                  "image": "assets\\furniture\\Slice 159 - Monitor2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8503,7 +8899,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 360 - White Basic Lamp4.png",
+                  "image": "assets\\furniture\\Slice 360 - White Basic Lamp4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8612,7 +9008,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 23 - Microwave.png",
+                  "image": "assets\\furniture\\Slice 23 - Microwave.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8721,7 +9117,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 34 - Black Washing Machine3.png",
+                  "image": "assets\\furniture\\Slice 34 - Black Washing Machine3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9088,7 +9484,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Name of game\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
+      "string": "Spark and Fix\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -9111,7 +9507,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Name of game\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
+        "text": "Spark and Fix\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,

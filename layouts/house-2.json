@@ -1741,7 +1741,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 76 - Purple Couch2.png",
+                  "image": "assets\\furniture\\Slice 76 - Purple Couch2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1801,7 +1801,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 263 - Fancy Double Bed.png",
+                  "image": "assets\\furniture\\Slice 263 - Fancy Double Bed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1861,7 +1861,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 2 - Wooden Table4.png",
+                  "image": "assets\\furniture\\Slice 2 - Wooden Table4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1921,7 +1921,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 360 - White Basic Lamp3.png",
+                  "image": "assets\\furniture\\Slice 360 - White Basic Lamp3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1981,7 +1981,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 34 - Black Washing Machine 2.png",
+                  "image": "assets\\furniture\\Slice 34 - Black Washing Machine 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2041,7 +2041,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 151 - Fireplace3.png",
+                  "image": "assets\\furniture\\Slice 151 - Fireplace3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2101,7 +2101,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 18 - Tall Mirror3.png",
+                  "image": "assets\\furniture\\Slice 18 - Tall Mirror3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2183,7 +2183,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 307 - Cabinet with Glass2.png",
+                  "image": "assets\\furniture\\Slice 307 - Cabinet with Glass2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2321,7 +2321,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level-completed-template-pixilart2.png",
+                  "image": "assets\\furniture\\level-completed-template-pixilart2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2422,7 +2422,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 32 - Black Washing Machine.png",
+                  "image": "assets\\furniture\\Slice 32 - Black Washing Machine.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2482,7 +2482,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 37 - Fancy Double Sink.png",
+                  "image": "assets\\furniture\\Slice 37 - Fancy Double Sink.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2553,7 +2553,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 115 - Chest.png",
+                  "image": "assets\\furniture\\Slice 115 - Chest.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2613,7 +2613,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 301 - Long Bedside Cabinet3.png",
+                  "image": "assets\\furniture\\Slice 301 - Long Bedside Cabinet3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2673,7 +2673,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 14 - Mini House Plant3.png",
+                  "image": "assets\\furniture\\Slice 14 - Mini House Plant3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2733,7 +2733,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 302 - Wooden Stool3.png",
+                  "image": "assets\\furniture\\Slice 302 - Wooden Stool3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2793,7 +2793,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 159 - Monitor3.png",
+                  "image": "assets\\furniture\\Slice 159 - Monitor3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2853,7 +2853,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Stove Oven3.png",
+                  "image": "assets\\furniture\\Stove Oven3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2954,7 +2954,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 45 - Shower3.png",
+                  "image": "assets\\furniture\\Slice 45 - Shower3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3014,7 +3014,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 15 - Mini House Plant4.png",
+                  "image": "assets\\furniture\\Slice 15 - Mini House Plant4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
