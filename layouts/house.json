@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8278377307394538,
+    "zoomFactor": 0.8008333653215429,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -77,8 +77,8 @@
       "name": "Floor",
       "persistentUuid": "bc5f478e-0836-4812-8a79-adbcfd2916b2",
       "width": 1085,
-      "x": -144,
-      "y": 359,
+      "x": -139,
+      "y": 358,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -373,8 +373,8 @@
       "name": "Floor",
       "persistentUuid": "9d70d2ca-bc55-434a-ad8a-26653ac6d247",
       "width": 1101,
-      "x": -137,
-      "y": -365,
+      "x": -134,
+      "y": -364,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1096,22 +1096,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 171,
-      "layer": "House 1",
-      "name": "Green_White_Left3",
-      "persistentUuid": "60151cb1-8b8c-4697-aafb-63ae8ce6d244",
-      "width": 37,
-      "x": 907,
-      "y": 126,
-      "zOrder": 127,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "House 1",
@@ -1197,7 +1181,7 @@
       "persistentUuid": "86f780e9-8bbe-4bc2-9cf5-3df17bed7796",
       "width": 174,
       "x": 880,
-      "y": 208,
+      "y": 207,
       "zOrder": 134,
       "numberProperties": [],
       "stringProperties": [],
@@ -1736,8 +1720,8 @@
       "name": "Level1Trigger",
       "persistentUuid": "4e0b1d04-7f35-4aa2-ad03-1f906026b42f",
       "width": 0,
-      "x": 737,
-      "y": 357,
+      "x": 729,
+      "y": 328,
       "zOrder": 180,
       "numberProperties": [],
       "stringProperties": [],
@@ -1751,8 +1735,8 @@
       "name": "Level2Trigger",
       "persistentUuid": "7e9b4421-5d94-4b10-812f-d39a41a2e8ee",
       "width": 0,
-      "x": -52,
-      "y": 548,
+      "x": 42,
+      "y": 219,
       "zOrder": 181,
       "numberProperties": [],
       "stringProperties": [],
@@ -2117,8 +2101,8 @@
       "name": "NewSprite2",
       "persistentUuid": "3ccd45cf-3440-4d24-8ff4-5ac742a58e67",
       "width": 396,
-      "x": 571,
-      "y": 155,
+      "x": 563,
+      "y": 121,
       "zOrder": 189,
       "numberProperties": [],
       "stringProperties": [],
@@ -2132,9 +2116,152 @@
       "name": "Level_1_",
       "persistentUuid": "72788505-0f7e-45ff-9d1f-101cc1c12bc2",
       "width": 0,
-      "x": 727,
-      "y": 335,
+      "x": 720,
+      "y": 301,
       "zOrder": 190,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 62,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "e215ffe1-ccf5-4f5d-824b-0da86efee130",
+      "width": 124,
+      "x": 432,
+      "y": 344,
+      "zOrder": 191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 56,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "c4195233-a084-4cab-8b5e-95d6e34c199f",
+      "width": 112,
+      "x": 435,
+      "y": 408,
+      "zOrder": 192,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 93,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "7c5869d3-3730-4878-a50f-35b112444ecb",
+      "width": 47,
+      "x": 903,
+      "y": 82,
+      "zOrder": 193,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 100,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "fb304144-ede9-44fe-9c53-9a025d883e94",
+      "width": 50,
+      "x": 845,
+      "y": 67,
+      "zOrder": 194,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 100,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "a5039edc-9cbc-4822-92e2-b54dd36bf668",
+      "width": 50,
+      "x": 445,
+      "y": 31,
+      "zOrder": 194,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 56,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "bdcee153-b21d-4c88-81d8-064c7525c503",
+      "width": 112,
+      "x": -63,
+      "y": 350,
+      "zOrder": 192,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level_2_",
+      "persistentUuid": "336f6f25-6bf7-4bce-8f64-f8c6ce407374",
+      "width": 0,
+      "x": 32,
+      "y": 193,
+      "zOrder": 195,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 297,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "a0aabeb1-456d-4d13-8e84-2ea6b35c2f95",
+      "width": 396,
+      "x": -124,
+      "y": 13,
+      "zOrder": 189,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 60,
+      "layer": "",
+      "name": "NewSprite10",
+      "persistentUuid": "e26a1014-a599-48cb-a119-7d89df1f663a",
+      "width": 60,
+      "x": -129,
+      "y": 222,
+      "zOrder": 196,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2289,6 +2416,459 @@
         "characterSize": 20,
         "color": "245;166;35"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Level_2_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "LEVEL 2!",
+      "font": "mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "LEVEL 2!",
+        "font": "mononoki-Regular.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "245;166;35"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Level_3_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "LEVEL 3!",
+      "font": "mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "LEVEL 3!",
+        "font": "mononoki-Regular.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "245;166;35"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 265 - Red Couch1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 2 - Wooden Table2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 45 - Shower2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 18 - Tall Mirror2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 30 - Washing Machine2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite19",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite10",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 31 - Washing Machine 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2301,7 +2881,34 @@
         "objectName": "NewSprite2"
       },
       {
+        "objectName": "NewSprite8"
+      },
+      {
+        "objectName": "NewSprite9"
+      },
+      {
+        "objectName": "NewSprite7"
+      },
+      {
         "objectName": "Level_1_"
+      },
+      {
+        "objectName": "Level_2_"
+      },
+      {
+        "objectName": "Level_3_"
+      },
+      {
+        "objectName": "NewSprite5"
+      },
+      {
+        "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "NewTiledSprite19"
+      },
+      {
+        "objectName": "NewSprite10"
       }
     ]
   },

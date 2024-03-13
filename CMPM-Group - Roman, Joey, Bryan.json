@@ -4383,6 +4383,69 @@
         "name": "level-completed-template-pixilart",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 265 - Red Couch1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 265 - Red Couch1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 2 - Wooden Table2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 2 - Wooden Table2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 45 - Shower2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 45 - Shower2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 18 - Tall Mirror2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 18 - Tall Mirror2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 30 - Washing Machine2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 30 - Washing Machine2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 30 - Washing Machine3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Slice 30 - Washing Machine3.png\",\"extension\":\".png\"}",
+        "name": "Slice 30 - Washing Machine3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 31 - Washing Machine 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 31 - Washing Machine 2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7861,16 +7924,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/Level2Trigger",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Level2Trigger.png",
+                  "image": "Slice 30 - Washing Machine3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
