@@ -794,7 +794,7 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "HouseComplete1",
+            "HouseComplete2",
             "True"
           ]
         }
