@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7249916191870309,
+    "zoomFactor": 0.8278377307394538,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1098,13 +1098,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 149,
+      "height": 171,
       "layer": "House 1",
       "name": "Green_White_Left3",
       "persistentUuid": "60151cb1-8b8c-4697-aafb-63ae8ce6d244",
-      "width": 32,
-      "x": 567,
-      "y": 359,
+      "width": 37,
+      "x": 907,
+      "y": 126,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -1736,8 +1736,8 @@
       "name": "Level1Trigger",
       "persistentUuid": "4e0b1d04-7f35-4aa2-ad03-1f906026b42f",
       "width": 0,
-      "x": 724,
-      "y": 590,
+      "x": 737,
+      "y": 357,
       "zOrder": 180,
       "numberProperties": [],
       "stringProperties": [],
@@ -2107,6 +2107,37 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 297,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "3ccd45cf-3440-4d24-8ff4-5ac742a58e67",
+      "width": 396,
+      "x": 571,
+      "y": 155,
+      "zOrder": 189,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level_1_",
+      "persistentUuid": "72788505-0f7e-45ff-9d1f-101cc1c12bc2",
+      "width": 0,
+      "x": 727,
+      "y": 335,
+      "zOrder": 190,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2120,6 +2151,144 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "level-completed-template-pixilart",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level-completed-template-pixilart",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 330,
+                        "y": 239
+                      },
+                      {
+                        "x": 470,
+                        "y": 239
+                      },
+                      {
+                        "x": 470,
+                        "y": 361
+                      },
+                      {
+                        "x": 330,
+                        "y": 361
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level-completed-template-pixilart.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 330,
+                        "y": 239
+                      },
+                      {
+                        "x": 470,
+                        "y": 239
+                      },
+                      {
+                        "x": 470,
+                        "y": 361
+                      },
+                      {
+                        "x": 330,
+                        "y": 361
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Level_1_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "LEVEL 1!",
+      "font": "mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "LEVEL 1!",
+        "font": "mononoki-Regular.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "245;166;35"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2127,6 +2296,12 @@
     "children": [
       {
         "objectName": "Green"
+      },
+      {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "Level_1_"
       }
     ]
   },

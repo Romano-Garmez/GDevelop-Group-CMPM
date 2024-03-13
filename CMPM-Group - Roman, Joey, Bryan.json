@@ -4356,6 +4356,33 @@
         "name": "assets\\City Sky\\18.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stove Oven2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Stove Oven2.png\",\"extension\":\".png\"}",
+        "name": "Stove Oven2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level-completed-template-pixilart.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"level-completed-template-pixilart.png\",\"extension\":\".png\"}",
+        "name": "level-completed-template-pixilart.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/level-completed-template-pixilart.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "level-completed-template-pixilart",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7734,7 +7761,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Level1Trigger",
+                  "image": "Stove Oven2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
