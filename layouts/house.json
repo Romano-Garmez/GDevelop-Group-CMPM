@@ -2082,12 +2082,12 @@
       "customSize": true,
       "depth": 0,
       "height": 64,
-      "layer": "UI",
+      "layer": "UIHouse1",
       "name": "GoToHouse2",
       "persistentUuid": "ea552e8e-d774-42c8-9587-f4b31443c9c0",
       "width": 64,
       "x": 400,
-      "y": 700,
+      "y": 500,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -2097,7 +2097,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "UI",
+      "layer": "UIHouse1",
       "name": "LevelCompleted",
       "persistentUuid": "92448faf-6111-4a09-9f2b-42b94f59dd88",
       "width": 0,
@@ -2255,6 +2255,49 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level1Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level2Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level3Complete",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"UIHouse1\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     }
@@ -2365,9 +2408,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "UI",
+      "name": "UIHouse1",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
