@@ -186,6 +186,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Collision",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -410,6 +411,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Draggable",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1270,6 +1272,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Debug",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1297,13 +1300,6 @@
                 "\"Debug\""
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
           ]
         }
       ],
@@ -1314,6 +1310,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Snapping",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1584,6 +1581,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Element Logic",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
