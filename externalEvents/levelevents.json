@@ -186,7 +186,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Collision",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2174,7 +2173,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "AudioMuted",
+                "character",
                 "=",
                 "1"
               ]
@@ -2336,7 +2335,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "AudioMuted",
+                "character",
                 "=",
                 "2"
               ]
