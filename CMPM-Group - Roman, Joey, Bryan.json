@@ -7569,7 +7569,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Choose_player",
       "smoothed": true,
@@ -7578,7 +7578,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "PIck your character",
+      "string": "Choose your character!",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -7588,7 +7588,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -7601,7 +7601,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "PIck your character",
+        "text": "Choose your character!",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,
@@ -8387,8 +8387,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -8448,8 +8448,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -9171,6 +9171,18 @@
     {
       "folded": true,
       "name": "AudioMuted",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "HouseComplete1",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "HouseComplete2",
       "type": "boolean",
       "value": false
     }
