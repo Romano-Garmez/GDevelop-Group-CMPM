@@ -3231,7 +3231,7 @@
         "alwaysLoaded": false,
         "file": "assets/Level2Trigger.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Level2Trigger.png\",\"extension\":\".png\"}",
         "name": "assets/Level2Trigger.png",
         "smoothed": false,
         "userAdded": true
@@ -4300,6 +4300,204 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite58.png\"}",
         "name": "NewTiledSprite56",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stove Oven.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Stove Oven.png\",\"extension\":\".png\"}",
+        "name": "Stove Oven.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/level-completed-template-pixilart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_level-completed-template-pixilart.png\"}",
+        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_level-completed-template-pixilart2.png\"}",
+        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._Downloads_level-completed-template-pixilart4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\level-completed-template-pixilart4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixilart-drawing (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixilart-drawing (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 76 - Purple Couch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 76 - Purple Couch.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 2 - Wooden Table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 2 - Wooden Table.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 265 - Red Couch .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 265 - Red Couch .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 360 - White Basic Lamp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 360 - White Basic Lamp.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 15 - Mini House Plant 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 15 - Mini House Plant 2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 45 - Shower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 45 - Shower.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 149 - Bunkbed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 149 - Bunkbed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 18 - Tall Mirror.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 18 - Tall Mirror.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 151 - Fireplace.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 151 - Fireplace.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 126 - Bathtub.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 126 - Bathtub.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 30 - Washing Machine.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Slice 30 - Washing Machine.png\",\"extension\":\".png\"}",
+        "name": "Slice 30 - Washing Machine.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 159 - Monitor .png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Slice 159 - Monitor .png\",\"extension\":\".png\"}",
+        "name": "Slice 159 - Monitor .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 301 - Long Bedside Cabinet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 301 - Long Bedside Cabinet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 302 - Wooden Stool.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 302 - Wooden Stool.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 14 - Mini House Plant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 14 - Mini House Plant.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -7680,7 +7878,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Level1Trigger",
+                  "image": "Slice 30 - Washing Machine.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7780,16 +7978,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/Level2Trigger",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Level2Trigger.png",
+                  "image": "Stove Oven.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7888,16 +8087,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/Level3Trigger",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Level3Trigger.png",
+                  "image": "Slice 159 - Monitor .png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
