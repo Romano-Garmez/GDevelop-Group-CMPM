@@ -6435,19 +6435,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
+                        "x": 0,
                         "y": 0
                       },
                       {
-                        "x": 24,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 24,
+                        "x": 32,
                         "y": 32
                       },
                       {
-                        "x": 8,
+                        "x": 0,
                         "y": 32
                       }
                     ]
@@ -6972,7 +6972,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You can route power to doors to open them. You're only able to drag stuff if you're inside the room!\n",
+      "string": "You may have to pick up items you used before to make a path to the end!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -6995,7 +6995,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You can route power to doors to open them. You're only able to drag stuff if you're inside the room!\n",
+        "text": "You may have to pick up items you used before to make a path to the end!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,

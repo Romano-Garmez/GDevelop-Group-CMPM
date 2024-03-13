@@ -1083,21 +1083,41 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Prevent objects from being able to be placed in walls"
+          "comment": "Prevent objects from being able to be placed in walls or doors\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "HoldableWireLR",
-                "CollisionDetect",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireLR",
+                    "CollisionDetect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireLR",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1111,6 +1131,16 @@
                 "CollisionDetect",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "HoldableWireLR",
+                "Door",
+                ""
+              ]
             }
           ]
         },
@@ -1119,14 +1149,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "HoldableWireTurn",
-                "CollisionDetect",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireTurn",
+                    "CollisionDetect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireTurn",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1140,6 +1190,16 @@
                 "CollisionDetect",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "HoldableWireTurn",
+                "Door",
+                ""
+              ]
             }
           ]
         },
@@ -1148,14 +1208,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Fuse",
-                "CollisionDetect",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Fuse",
+                    "CollisionDetect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Fuse",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1167,6 +1247,16 @@
               "parameters": [
                 "Fuse",
                 "CollisionDetect",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Fuse",
+                "Door",
                 ""
               ]
             }
