@@ -17,6 +17,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -102,6 +103,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level 2",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -445,6 +447,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level 6",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -559,6 +562,15 @@
                 "",
                 "Left"
               ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "HouseComplete1",
+                "True"
+              ]
             }
           ],
           "actions": [
@@ -579,14 +591,31 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "PlayerSprite",
-                "GoToHouse1",
+                "GoToEnd",
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "HouseComplete2",
+                "True"
               ]
             }
           ],
@@ -597,7 +626,7 @@
               },
               "parameters": [
                 "",
-                "\"House\"",
+                "\"Ending Screen\"",
                 ""
               ]
             }
@@ -605,85 +634,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "GoToHouse2",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenCenter"
-          },
-          "parameters": [
-            "",
-            "GoToHouse2",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenCentered"
-          },
-          "parameters": [
-            "",
-            "LevelCompleted",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level1Complete",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level2Complete",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Level3Complete",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"UI\""
-          ]
-        }
-      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -759,6 +709,92 @@
           },
           "parameters": [
             "Level1Complete",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level1Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level2Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level3Complete",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "HouseComplete1",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level4Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level5Complete",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Level6Complete",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "HouseComplete2",
             "True"
           ]
         }

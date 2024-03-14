@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5877212072094159,
+    "zoomFactor": 0.5500032386579746,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -108,12 +108,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 529,
+      "height": 660,
       "layer": "",
       "name": "Credits_Text",
       "persistentUuid": "315cb802-beba-4bfb-874f-e68983afcb70",
-      "width": 396,
-      "x": 207,
+      "width": 270,
+      "x": 301,
       "y": 603,
       "zOrder": 5,
       "numberProperties": [],
@@ -229,7 +229,7 @@
                 "\"Credit Moving\"",
                 "-530",
                 "\"linear\"",
-                "9",
+                "30",
                 ""
               ]
             }

@@ -109,76 +109,6 @@
         },
         {
           "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "TextBackground",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "Hint1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "Hint2",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "Hint3",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "Hint4",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "Hint5",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AlignObject::ToScreenBottom"
-          },
-          "parameters": [
-            "",
-            "Hint6",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
@@ -441,18 +371,18 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "AudioMuted",
                     "False"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -594,7 +524,7 @@
               "parameters": [
                 "PlayerSprite",
                 "Fuse",
-                "120",
+                "192",
                 ""
               ]
             }
@@ -633,7 +563,7 @@
               "parameters": [
                 "PlayerSprite",
                 "HoldableWireLR",
-                "120",
+                "192",
                 ""
               ]
             }
@@ -672,7 +602,7 @@
               "parameters": [
                 "PlayerSprite",
                 "HoldableWireTurn",
-                "120",
+                "192",
                 ""
               ]
             }
@@ -730,7 +660,7 @@
                   "parameters": [
                     "PlayerSprite",
                     "Fuse",
-                    "120",
+                    "192",
                     ""
                   ]
                 },
@@ -808,7 +738,7 @@
                   "parameters": [
                     "PlayerSprite",
                     "HoldableWireLR",
-                    "120",
+                    "192",
                     ""
                   ]
                 },
@@ -886,7 +816,7 @@
                   "parameters": [
                     "PlayerSprite",
                     "HoldableWireTurn",
-                    "120",
+                    "192",
                     ""
                   ]
                 },
@@ -1153,21 +1083,41 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Prevent objects from being able to be placed in walls"
+          "comment": "Prevent objects from being able to be placed in walls or doors\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "HoldableWireLR",
-                "CollisionDetect",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireLR",
+                    "CollisionDetect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireLR",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1181,6 +1131,16 @@
                 "CollisionDetect",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "HoldableWireLR",
+                "Door",
+                ""
+              ]
             }
           ]
         },
@@ -1189,14 +1149,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "HoldableWireTurn",
-                "CollisionDetect",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireTurn",
+                    "CollisionDetect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HoldableWireTurn",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1210,6 +1190,16 @@
                 "CollisionDetect",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "HoldableWireTurn",
+                "Door",
+                ""
+              ]
             }
           ]
         },
@@ -1218,14 +1208,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Fuse",
-                "CollisionDetect",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Fuse",
+                    "CollisionDetect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Fuse",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1237,6 +1247,16 @@
               "parameters": [
                 "Fuse",
                 "CollisionDetect",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Fuse",
+                "Door",
                 ""
               ]
             }
@@ -1276,13 +1296,6 @@
                 "",
                 "\"Debug\""
               ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         }
@@ -1709,17 +1722,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1794,17 +1846,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1879,17 +1970,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1964,17 +2094,56 @@
                 "",
                 "\"actionTimeout\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Audio\\SFX\\Buzz.mp3",
-                "no",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "CurrentSceneName()",
+                        "=",
+                        "\"House 2\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\SFX\\Buzz.mp3",
+                    "no",
+                    "5",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -2156,7 +2325,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "AudioMuted",
+                "character",
                 "=",
                 "1"
               ]
@@ -2318,7 +2487,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "AudioMuted",
+                "character",
                 "=",
                 "2"
               ]
