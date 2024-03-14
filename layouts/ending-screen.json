@@ -234,6 +234,32 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::SceneTweenHasFinished"
+              },
+              "parameters": [
+                "",
+                "\"Credits_Text\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
