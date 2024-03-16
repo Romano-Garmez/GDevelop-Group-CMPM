@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0441589602740338,
+    "zoomFactor": 1.2324857526178186,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1236,8 +1236,8 @@
       "name": "Level5Trigger",
       "persistentUuid": "02455526-d078-4a8a-9a1a-ece46b9efb4e",
       "width": 33,
-      "x": 254,
-      "y": 329,
+      "x": 251,
+      "y": 333,
       "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
@@ -1632,8 +1632,8 @@
       "name": "Level_5_",
       "persistentUuid": "266f9c96-aade-4a85-a286-b8534711a68c",
       "width": 0,
-      "x": 228,
-      "y": 306,
+      "x": 230,
+      "y": 313,
       "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
@@ -1648,8 +1648,8 @@
       "name": "NewSprite13",
       "persistentUuid": "7b20761e-8e1f-4f57-8b93-6dd662c7e7a0",
       "width": 354,
-      "x": 90,
-      "y": 147,
+      "x": 100,
+      "y": 153,
       "zOrder": 87,
       "numberProperties": [],
       "stringProperties": [],
@@ -1715,6 +1715,54 @@
       "x": 527,
       "y": 380,
       "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 2,
+      "height": 64,
+      "layer": "",
+      "name": "NewSprite25",
+      "persistentUuid": "0a3f5721-4638-4c33-b31f-f06c8902f8c5",
+      "width": 76,
+      "x": 52,
+      "y": 416,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 46,
+      "layer": "",
+      "name": "NewSprite24",
+      "persistentUuid": "d2dc2723-a48f-4146-a958-688872e2c7f8",
+      "width": 28,
+      "x": 72,
+      "y": 360,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 33,
+      "layer": "",
+      "name": "NewSprite26",
+      "persistentUuid": "5852b60f-5b8e-4920-b079-4463d8158e6c",
+      "width": 15,
+      "x": 430,
+      "y": 114,
+      "zOrder": 108,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3053,6 +3101,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite25",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 275 - White Piano .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 27
+                      },
+                      {
+                        "x": 0,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite26",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slice 415 - PC .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3072,6 +3240,9 @@
       },
       {
         "objectName": "NewSprite24"
+      },
+      {
+        "objectName": "NewSprite26"
       },
       {
         "objectName": "NewSprite20"
@@ -3132,6 +3303,9 @@
       },
       {
         "objectName": "NewSprite22"
+      },
+      {
+        "objectName": "NewSprite25"
       }
     ]
   },

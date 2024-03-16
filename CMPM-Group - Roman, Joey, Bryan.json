@@ -5193,6 +5193,42 @@
         "name": "assets\\furniture\\Slice 34 - Black Washing Machine3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 275 - White Piano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 275 - White Piano .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 415 - PC .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 415 - PC .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 415 - PC1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 415 - PC1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 276 - Opened White Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 276 - Opened White Piano.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
