@@ -5256,6 +5256,15 @@
         "name": "assets\\furniture\\Slice 275 - White Piano .png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 415 - PC .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 415 - PC .png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
