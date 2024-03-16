@@ -5229,6 +5229,33 @@
         "name": "Slice 276 - Opened White Piano.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 415 - PC1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 415 - PC1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 276 - Opened White Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 276 - Opened White Piano.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 275 - White Piano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\furniture\\Slice 275 - White Piano .png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

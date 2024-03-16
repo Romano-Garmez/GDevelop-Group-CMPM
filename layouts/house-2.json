@@ -2190,17 +2190,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite11",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite19",
@@ -2569,17 +2558,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite16",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3122,7 +3100,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 275 - White Piano .png",
+                  "image": "assets\\furniture\\Slice 275 - White Piano .png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3260,9 +3238,6 @@
         "objectName": "NewSprite10"
       },
       {
-        "objectName": "NewSprite11"
-      },
-      {
         "objectName": "NewSprite5"
       },
       {
@@ -3291,9 +3266,6 @@
       },
       {
         "objectName": "NewSprite15"
-      },
-      {
-        "objectName": "NewSprite16"
       },
       {
         "objectName": "NewSprite17"
