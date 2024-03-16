@@ -52,6 +52,15 @@
             "AudioMuted",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"audioMute\""
+          ]
         }
       ]
     },
@@ -105,15 +114,6 @@
             "CameraCenterY(\"\", 0)",
             "\"GreyedOut\"",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"audioMute\""
           ]
         }
       ]
@@ -2297,7 +2297,7 @@
                   "parameters": [
                     "Mouse",
                     "=",
-                    "100"
+                    "1000"
                   ]
                 }
               ]

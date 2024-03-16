@@ -2065,7 +2065,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "UIHouse1",
+      "layer": "UI",
       "name": "LevelCompleted",
       "persistentUuid": "230d4996-073e-49e7-a4e0-636ae6b97d41",
       "width": 0,
@@ -2081,7 +2081,7 @@
       "customSize": true,
       "depth": 1,
       "height": 64,
-      "layer": "UIHouse1",
+      "layer": "UI",
       "name": "GoToHouse2",
       "persistentUuid": "a0428975-fd2e-4a88-b8ed-b62b3fec9f18",
       "width": 64,
@@ -4211,6 +4211,45 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Mouse",
+            "\"Mouse\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterX(\"\", 0)",
+            "\"Mouse\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterY(\"\", 0)",
+            "\"Mouse\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -4290,7 +4329,7 @@
           },
           "parameters": [
             "",
-            "\"UIHouse1\""
+            "\"UI\""
           ]
         }
       ]
@@ -4407,9 +4446,42 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "UIHouse1",
+      "name": "UI",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Mouse",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -55,6 +55,12 @@
       "name": "SkyOffset",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "characterSelectEnabled",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -772,6 +778,15 @@
                 "",
                 "\"SkyUI\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "characterSelectEnabled",
+                "True"
+              ]
             }
           ]
         },
@@ -864,6 +879,15 @@
             "Character_1",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "characterSelectEnabled",
+            "True"
+          ]
         }
       ],
       "actions": [
@@ -910,6 +934,15 @@
           "parameters": [
             "Character_2",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "characterSelectEnabled",
+            "True"
           ]
         }
       ],
@@ -968,6 +1001,74 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Mouse",
+            "MouseX()",
+            "MouseY()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Mouse",
+            "=",
+            "MouseX()",
+            "=",
+            "MouseY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Mouse",
+            "=",
+            "1000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
