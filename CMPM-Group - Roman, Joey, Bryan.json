@@ -9651,7 +9651,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Resume_Button",
       "smoothed": true,
@@ -9670,7 +9670,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -9692,7 +9692,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Volume_Button",
       "smoothed": true,
@@ -9711,7 +9711,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -9733,7 +9733,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Restart_Button",
       "smoothed": true,
@@ -9752,7 +9752,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -9774,7 +9774,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "HouseLvl1_Button",
       "smoothed": true,
@@ -9793,7 +9793,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -9815,7 +9815,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "HouseLvl2_Button",
       "smoothed": true,
@@ -9834,7 +9834,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -9848,334 +9848,6 @@
         "smoothed": true,
         "underlined": false,
         "text": "House 2",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "House_1_Level_Title",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "House 1\n",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "House 1\n",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "level_1",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level 1",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level 1",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "level_2",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level 2",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level 2",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "level_3",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level 3",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level 3",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "House_2_Level_Select2",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "House 2",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "House 2",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "level_4",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level 4",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level 4",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "level_5",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level 5",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level 5",
-        "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 53,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "level_6",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level 6",
-      "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 53,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level 6",
         "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "textAlignment": "left",
         "characterSize": 53,
@@ -10311,6 +9983,78 @@
         ]
       },
       {
+        "folderName": "House 1",
+        "children": [
+          {
+            "objectName": "GoToHouse2"
+          },
+          {
+            "folderName": "Floor",
+            "children": [
+              {
+                "objectName": "Floor"
+              }
+            ]
+          },
+          {
+            "folderName": "Hand made",
+            "children": [
+              {
+                "objectName": "NewTiledSprite"
+              },
+              {
+                "objectName": "NewTiledSprite4"
+              },
+              {
+                "objectName": "NewTiledSprite7"
+              },
+              {
+                "objectName": "Top_Corner"
+              },
+              {
+                "objectName": "NewTiledSprite8"
+              },
+              {
+                "objectName": "NewTiledSprite5"
+              },
+              {
+                "objectName": "NewTiledSprite6"
+              },
+              {
+                "objectName": "Top_Corner_RIght"
+              },
+              {
+                "objectName": "Green_White_Left3"
+              },
+              {
+                "objectName": "Green_White_Top2"
+              },
+              {
+                "objectName": "Green_White_Right2"
+              },
+              {
+                "objectName": "Wall_top"
+              },
+              {
+                "objectName": "Wall_Left"
+              },
+              {
+                "objectName": "Wall_Right"
+              },
+              {
+                "objectName": "Left_corner"
+              },
+              {
+                "objectName": "Right_corner"
+              }
+            ]
+          },
+          {
+            "folderName": "walls"
+          }
+        ]
+      },
+      {
         "folderName": "House 2",
         "children": [
           {
@@ -10390,78 +10134,6 @@
         ]
       },
       {
-        "folderName": "House 1",
-        "children": [
-          {
-            "objectName": "GoToHouse2"
-          },
-          {
-            "folderName": "Floor",
-            "children": [
-              {
-                "objectName": "Floor"
-              }
-            ]
-          },
-          {
-            "folderName": "Hand made",
-            "children": [
-              {
-                "objectName": "NewTiledSprite"
-              },
-              {
-                "objectName": "NewTiledSprite4"
-              },
-              {
-                "objectName": "NewTiledSprite7"
-              },
-              {
-                "objectName": "Top_Corner"
-              },
-              {
-                "objectName": "NewTiledSprite8"
-              },
-              {
-                "objectName": "NewTiledSprite5"
-              },
-              {
-                "objectName": "NewTiledSprite6"
-              },
-              {
-                "objectName": "Top_Corner_RIght"
-              },
-              {
-                "objectName": "Green_White_Left3"
-              },
-              {
-                "objectName": "Green_White_Top2"
-              },
-              {
-                "objectName": "Green_White_Right2"
-              },
-              {
-                "objectName": "Wall_top"
-              },
-              {
-                "objectName": "Wall_Left"
-              },
-              {
-                "objectName": "Wall_Right"
-              },
-              {
-                "objectName": "Left_corner"
-              },
-              {
-                "objectName": "Right_corner"
-              }
-            ]
-          },
-          {
-            "folderName": "walls"
-          }
-        ]
-      },
-      {
         "folderName": "Choose player Background",
         "children": [
           {
@@ -10518,20 +10190,16 @@
             "folderName": "Restart Level",
             "children": [
               {
-                "folderName": "House 1",
+                "folderName": "Restart",
                 "children": [
                   {
-                    "objectName": "level_3"
-                  },
-                  {
-                    "objectName": "level_2"
-                  },
-                  {
-                    "objectName": "level_1"
-                  },
-                  {
-                    "objectName": "House_1_Level_Title"
-                  },
+                    "objectName": "Restart_Button"
+                  }
+                ]
+              },
+              {
+                "folderName": "House 1",
+                "children": [
                   {
                     "objectName": "HouseLvl1_Button"
                   }
@@ -10541,24 +10209,9 @@
                 "folderName": "House 2",
                 "children": [
                   {
-                    "objectName": "level_6"
-                  },
-                  {
-                    "objectName": "level_5"
-                  },
-                  {
-                    "objectName": "level_4"
-                  },
-                  {
-                    "objectName": "House_2_Level_Select2"
-                  },
-                  {
                     "objectName": "HouseLvl2_Button"
                   }
                 ]
-              },
-              {
-                "objectName": "Restart_Button"
               }
             ]
           },
