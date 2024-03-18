@@ -163,6 +163,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "layer": "Volume Setting",
+      "name": "Resume_Button",
+      "persistentUuid": "09e5f04b-5f7a-4557-b119-d8ed4b6d618b",
+      "width": 192,
+      "x": 32,
+      "y": 135,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
