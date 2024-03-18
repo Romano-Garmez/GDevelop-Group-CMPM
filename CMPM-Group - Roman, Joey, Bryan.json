@@ -5270,6 +5270,60 @@
         "name": "assets/CollisionDetect2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 276 - Opened White Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 276 - Opened White Piano.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 424 - White Chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 424 - White Chair.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 3 - Chair Facing East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 3 - Chair Facing East.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 275 - White Piano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 275 - White Piano .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 415 - PC .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 415 - PC .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 252 - Chair East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 252 - Chair East.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
