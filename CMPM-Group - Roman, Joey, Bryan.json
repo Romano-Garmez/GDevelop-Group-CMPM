@@ -5273,30 +5273,111 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/continue.png",
+        "file": "Slice 276 - Opened White Piano.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "continue",
+        "metadata": "",
+        "name": "Slice 276 - Opened White Piano.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_goToHouse2.png",
+        "file": "Slice 424 - White Chair.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets/goToHouse2",
+        "metadata": "",
+        "name": "Slice 424 - White Chair.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_goToEnd2.png",
+        "file": "Slice 3 - Chair Facing East.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\goToEnd2",
+        "metadata": "",
+        "name": "Slice 3 - Chair Facing East.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 275 - White Piano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 275 - White Piano .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 415 - PC .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 415 - PC .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slice 252 - Chair East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slice 252 - Chair East.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 3 - Chair Facing East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 3 - Chair Facing East.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 275 - White Piano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 275 - White Piano .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 415 - PC .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 415 - PC .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 252 - Chair East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 252 - Chair East.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 424 - White Chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 424 - White Chair.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 276 - Opened White Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 276 - Opened White Piano.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9320,17 +9401,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "assets/goToHouse2",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/goToHouse2",
+                  "image": "assets/goToHouse2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9350,16 +9430,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 32
                       }
                     ]
                   ]
@@ -9391,7 +9471,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\goToEnd2",
+                  "image": "assets\\goToEnd.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9411,16 +9491,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 32
                       }
                     ]
                   ]

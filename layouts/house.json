@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4264656583453129,
+    "zoomFactor": 0.5203582091313879,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2540,15 +2540,111 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 67,
-      "layer": "UIHouse1",
+      "depth": 4,
+      "height": 63,
+      "layer": "",
       "name": "NewSprite23",
-      "persistentUuid": "a86cf6c4-05ce-4ccb-aeec-a48f721006fc",
-      "width": 74,
-      "x": 363,
-      "y": 463,
+      "persistentUuid": "f1905e20-4597-4afb-b95c-61ece8f703cf",
+      "width": 46,
+      "x": -119,
+      "y": -168,
       "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 98,
+      "layer": "",
+      "name": "NewSprite24",
+      "persistentUuid": "87c56033-2607-4d35-a8d7-e6803156130e",
+      "width": 116,
+      "x": 157,
+      "y": 344,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 54,
+      "layer": "",
+      "name": "NewSprite16",
+      "persistentUuid": "f7bda80b-1392-4ab6-bd9c-a7cc675a4b2a",
+      "width": 31,
+      "x": 281,
+      "y": 332,
+      "zOrder": 214,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 5,
+      "height": 73,
+      "layer": "",
+      "name": "NewSprite21",
+      "persistentUuid": "0d326029-e5fb-4fc2-8dd2-7d3bd4f45fed",
+      "width": 53,
+      "x": -34,
+      "y": 308,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 6,
+      "height": 85,
+      "layer": "",
+      "name": "NewSprite21",
+      "persistentUuid": "63e705ec-b214-4f5f-a4d1-652f69cd9996",
+      "width": 62,
+      "x": -122,
+      "y": -242,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 51,
+      "layer": "",
+      "name": "NewSprite26",
+      "persistentUuid": "fdfe1261-2e6c-4c28-aa93-b8ef52489731",
+      "width": 23,
+      "x": 732,
+      "y": -203,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 65,
+      "layer": "",
+      "name": "NewSprite27",
+      "persistentUuid": "bc74712d-d568-4907-a36f-6d832e911e7a",
+      "width": 53,
+      "x": -124,
+      "y": 337,
+      "zOrder": 218,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3876,6 +3972,246 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite23",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/furniture/Slice 3 - Chair Facing East.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite24",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/furniture/Slice 275 - White Piano .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 27
+                      },
+                      {
+                        "x": 0,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite26",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/furniture/Slice 415 - PC .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite27",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/furniture/Slice 252 - Chair East.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3952,6 +4288,18 @@
       },
       {
         "objectName": "NewSprite22"
+      },
+      {
+        "objectName": "NewSprite23"
+      },
+      {
+        "objectName": "NewSprite24"
+      },
+      {
+        "objectName": "NewSprite26"
+      },
+      {
+        "objectName": "NewSprite27"
       }
     ]
   },
@@ -4141,7 +4489,7 @@
       "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
