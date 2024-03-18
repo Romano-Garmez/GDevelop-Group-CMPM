@@ -5222,6 +5222,45 @@
         "name": "assets/Summer1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square Blue Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/4358a20ce4a1e83f8643b287f37cefadefc1941d23cfdc50a3836ecd0dd209f1_Square Blue Slider Border.png",
+          "name": "Square Blue Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square Blue Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/71e7d4c8549a750e6e7b6bc6508a352176cb64a57129e96bdd8f2c5bbc187820_Square Blue Slider Fill Bar.png",
+          "name": "Square Blue Slider Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square Blue Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/984a68a8bbb562d3f01a8a1993720778df07d37bb3314ed6f1aaf3d4f0edede3_Square Blue Slider Thumb.png",
+          "name": "Square Blue Slider Thumb.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -10452,6 +10491,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/alignobject"
