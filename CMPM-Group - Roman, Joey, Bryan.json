@@ -5213,6 +5213,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Summer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Summer1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9609,7 +9618,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Summer1.png",
+                  "image": "assets/Summer1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

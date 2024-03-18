@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Menu_32screen",
-  "name": "Menu screen",
+  "mangledName": "Menu_32Screen",
+  "name": "Menu Screen",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -162,7 +162,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonReleased"
+            "value": "MouseButtonPressed"
           },
           "parameters": [
             "",
@@ -232,77 +232,58 @@
                 "\"Restart Levels\""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "HouseLvl1_Button",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PushScene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"House\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "HouseLvl2_Button",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PushScene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"House 2\""
-                      ]
-                    }
-                  ]
-                }
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "HouseLvl2_Button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"House 2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "HouseLvl1_Button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"House\""
               ]
             }
           ]
