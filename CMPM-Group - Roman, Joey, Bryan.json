@@ -9669,7 +9669,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Spark and Fix\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
+      "string": "Spark and Fix\n\n\nDesigning:\nBryan Galvan,\nRoman Garms, \nJoey Huang\n\nProgramming:\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriting:\nJoey Huang\n\nArt/Graphics:\nBryan Galvan, \nJoey Huang\n\nAudio Designing:\nRoman Garms\n\nSound Effects:\nfreesound.org\n\nMusic:\nWaiting Room in the Middle of Nowhere - 1isle\nRoman Garms and Kae Clapper\n\nFurniture Assets:\nhttps://sierrassets.itch.io/pixel-art-furniture-pack\n\nCharacter Sprites:\nGDevelop Asset Store",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -9692,7 +9692,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Spark and Fix\n\n\nDesigners\nBryan Galvan,\n Roman Garms, \nJoey Huang\n\nProgramming\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriters\nJoey Huang\n\nArt/Graphics\nBryan Galvan, \nJoey Huang\n\nAudio\nRoman Garms\n\nSound Effects\nfreesound.org\n\nMusic\n1isle - Roman Garms and Kae Clapper",
+        "text": "Spark and Fix\n\n\nDesigning:\nBryan Galvan,\nRoman Garms, \nJoey Huang\n\nProgramming:\nBryan Galvan, \nRoman Garms, \nJoey Huang\n\nWriting:\nJoey Huang\n\nArt/Graphics:\nBryan Galvan, \nJoey Huang\n\nAudio Designing:\nRoman Garms\n\nSound Effects:\nfreesound.org\n\nMusic:\nWaiting Room in the Middle of Nowhere - 1isle\nRoman Garms and Kae Clapper\n\nFurniture Assets:\nhttps://sierrassets.itch.io/pixel-art-furniture-pack\n\nCharacter Sprites:\nGDevelop Asset Store",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,
