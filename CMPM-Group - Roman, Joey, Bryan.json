@@ -5324,6 +5324,60 @@
         "name": "Slice 252 - Chair East.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 3 - Chair Facing East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 3 - Chair Facing East.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 275 - White Piano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 275 - White Piano .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 415 - PC .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 415 - PC .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 252 - Chair East.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 252 - Chair East.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 424 - White Chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 424 - White Chair.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/furniture/Slice 276 - Opened White Piano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/furniture/Slice 276 - Opened White Piano.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

@@ -3993,7 +3993,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 3 - Chair Facing East.png",
+                  "image": "assets/furniture/Slice 3 - Chair Facing East.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4053,7 +4053,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 275 - White Piano .png",
+                  "image": "assets/furniture/Slice 275 - White Piano .png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4096,17 +4096,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite25",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "NewSprite26",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -4124,7 +4113,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 415 - PC .png",
+                  "image": "assets/furniture/Slice 415 - PC .png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4184,7 +4173,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 252 - Chair East.png",
+                  "image": "assets/furniture/Slice 252 - Chair East.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4275,9 +4264,6 @@
       },
       {
         "objectName": "NewSprite14"
-      },
-      {
-        "objectName": "NewSprite25"
       },
       {
         "objectName": "NewSprite15"

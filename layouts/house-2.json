@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4547795768637106,
+    "zoomFactor": 0.8278377307393645,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2238,17 +2238,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite11",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite19",
@@ -2617,17 +2606,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite16",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3153,17 +3131,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite25",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "NewSprite26",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3181,7 +3148,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 276 - Opened White Piano.png",
+                  "image": "assets/furniture/Slice 276 - Opened White Piano.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3241,7 +3208,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Slice 424 - White Chair.png",
+                  "image": "assets/furniture/Slice 424 - White Chair.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3319,9 +3286,6 @@
         "objectName": "NewSprite10"
       },
       {
-        "objectName": "NewSprite11"
-      },
-      {
         "objectName": "NewSprite5"
       },
       {
@@ -3355,9 +3319,6 @@
         "objectName": "NewSprite15"
       },
       {
-        "objectName": "NewSprite16"
-      },
-      {
         "objectName": "NewSprite17"
       },
       {
@@ -3365,9 +3326,6 @@
       },
       {
         "objectName": "NewSprite22"
-      },
-      {
-        "objectName": "NewSprite25"
       }
     ]
   },
