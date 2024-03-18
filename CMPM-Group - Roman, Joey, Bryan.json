@@ -5270,6 +5270,33 @@
         "name": "assets/CollisionDetect2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/continue.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "continue",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_goToHouse2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/goToHouse2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_goToEnd2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\goToEnd2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9293,16 +9320,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/goToHouse2",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/goToHouse2.png",
+                  "image": "assets/goToHouse2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9322,16 +9350,16 @@
                         "y": 0
                       },
                       {
-                        "x": 32,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 32
+                        "y": 64
                       }
                     ]
                   ]
@@ -9363,7 +9391,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\goToEnd.png",
+                  "image": "assets\\goToEnd2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9383,16 +9411,16 @@
                         "y": 0
                       },
                       {
-                        "x": 32,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 32
+                        "y": 64
                       }
                     ]
                   ]

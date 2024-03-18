@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5747931490003558,
+    "zoomFactor": 0.4264656583453129,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2536,6 +2536,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 67,
+      "layer": "UIHouse1",
+      "name": "NewSprite23",
+      "persistentUuid": "a86cf6c4-05ce-4ccb-aeec-a48f721006fc",
+      "width": 74,
+      "x": 363,
+      "y": 463,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -4125,7 +4141,7 @@
       "isLocked": false,
       "name": "Debug",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
