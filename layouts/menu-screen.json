@@ -5,7 +5,7 @@
   "name": "Menu Screen",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8464571843450974,
+    "zoomFactor": 0.5320619346001257,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -96,8 +96,8 @@
       "name": "HouseLvl1_Button",
       "persistentUuid": "043ded89-05a3-474d-b79d-a3c17cdd268d",
       "width": 0,
-      "x": 290,
-      "y": 160,
+      "x": 323,
+      "y": 157,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,8 +111,8 @@
       "name": "HouseLvl2_Button",
       "persistentUuid": "86615c45-e1f0-4171-8e94-fa424d671140",
       "width": 0,
-      "x": 290,
-      "y": 252,
+      "x": 323,
+      "y": 253,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -122,7 +122,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Volume Setting ",
+      "layer": "Volume Setting",
       "name": "Volume_Slider",
       "persistentUuid": "d37844b1-c74f-4765-9c27-259e1d0eb3e2",
       "width": 0,
@@ -137,13 +137,29 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Volume Setting ",
+      "layer": "Volume Setting",
       "name": "Volume_Label",
       "persistentUuid": "44395801-9210-426d-9415-70c2b9989768",
       "width": 0,
       "x": 329,
       "y": 224,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 640,
+      "layer": "Background",
+      "name": "Greyed_Out",
+      "persistentUuid": "98895cdf-3fce-4a49-b1a8-f9ab13a3ddfc",
+      "width": 960,
+      "x": 0,
+      "y": -32,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -162,7 +178,8 @@
         "BarLeftPadding": 3,
         "BarRightPadding": 3,
         "BarBottomPadding": 4,
-        "LabelMargin": 4
+        "LabelMargin": 4,
+        "InitialValue": 100
       },
       "childrenContent": {
         "Background": {
@@ -248,9 +265,9 @@
       "textAlignment": "left",
       "characterSize": 45,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -270,8 +287,68 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 45,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Greyed_Out",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/CollisionDetect2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -282,6 +359,9 @@
       },
       {
         "objectName": "Volume_Label"
+      },
+      {
+        "objectName": "Greyed_Out"
       }
     ]
   },
@@ -314,7 +394,7 @@
           },
           "parameters": [
             "",
-            "\"Volume Setting \""
+            "\"Volume Setting\""
           ]
         }
       ]
@@ -343,6 +423,77 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Pause Menu",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"cantEsc\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"cantEsc\"",
+                ">=",
+                ".25"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -429,7 +580,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "HouseLvl2_Button",
+                "HouseLvl1_Button",
                 "",
                 "",
                 ""
@@ -439,11 +590,39 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"House 2\""
+                "\"House\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level2Complete",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level1Complete",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level3Complete",
+                "False"
               ]
             }
           ]
@@ -456,7 +635,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "HouseLvl1_Button",
+                "HouseLvl2_Button",
                 "",
                 "",
                 ""
@@ -466,11 +645,39 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"House\""
+                "\"House 2\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level4Complete",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level5Complete",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Level6Complete",
+                "False"
               ]
             }
           ]
@@ -506,7 +713,7 @@
               },
               "parameters": [
                 "",
-                "\"Volume Setting \""
+                "\"Volume Setting\""
               ]
             }
           ]
@@ -608,7 +815,7 @@
       "isLocked": false,
       "name": "Background",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -683,7 +890,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Volume Setting ",
+      "name": "Volume Setting",
       "renderingType": "",
       "visibility": false,
       "cameras": [],

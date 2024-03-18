@@ -5261,6 +5261,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/984a68a8bbb562d3f01a8a1993720778df07d37bb3314ed6f1aaf3d4f0edede3_Square Blue Slider Thumb.png",
           "name": "Square Blue Slider Thumb.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CollisionDetect2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CollisionDetect2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9713,9 +9722,9 @@
       "textAlignment": "left",
       "characterSize": 53,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -9735,7 +9744,7 @@
         "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "textAlignment": "left",
         "characterSize": 53,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -9754,9 +9763,9 @@
       "textAlignment": "left",
       "characterSize": 53,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -9776,7 +9785,7 @@
         "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "textAlignment": "left",
         "characterSize": 53,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -9795,9 +9804,9 @@
       "textAlignment": "left",
       "characterSize": 53,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -9817,7 +9826,7 @@
         "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "textAlignment": "left",
         "characterSize": 53,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -9836,9 +9845,9 @@
       "textAlignment": "left",
       "characterSize": 53,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -9858,7 +9867,7 @@
         "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "textAlignment": "left",
         "characterSize": 53,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -9877,9 +9886,9 @@
       "textAlignment": "left",
       "characterSize": 53,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -9899,7 +9908,7 @@
         "font": "8c4544654743d56682bd6d16e092a9a29da45d2a6b35e810d9d3b73217492df9_OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "textAlignment": "left",
         "characterSize": 53,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     }
   ],
@@ -10227,55 +10236,25 @@
         "folderName": "Menu Stuff",
         "children": [
           {
-            "folderName": "Resume",
-            "children": [
-              {
-                "objectName": "Resume_Button"
-              }
-            ]
+            "objectName": "Menu"
+          },
+          {
+            "objectName": "Resume_Button"
+          },
+          {
+            "objectName": "Restart_Button"
+          },
+          {
+            "objectName": "Volume_Button"
           },
           {
             "folderName": "Restart Level",
             "children": [
               {
-                "folderName": "Restart",
-                "children": [
-                  {
-                    "objectName": "Restart_Button"
-                  }
-                ]
+                "objectName": "HouseLvl2_Button"
               },
               {
-                "folderName": "House 1",
-                "children": [
-                  {
-                    "objectName": "HouseLvl1_Button"
-                  }
-                ]
-              },
-              {
-                "folderName": "House 2",
-                "children": [
-                  {
-                    "objectName": "HouseLvl2_Button"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "folderName": "Volume Settings",
-            "children": [
-              {
-                "objectName": "Volume_Button"
-              }
-            ]
-          },
-          {
-            "folderName": "Background",
-            "children": [
-              {
-                "objectName": "Menu"
+                "objectName": "HouseLvl1_Button"
               }
             ]
           }
